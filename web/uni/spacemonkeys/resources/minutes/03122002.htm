@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>the SpaceMonkeys' minutes of the second meeting</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link rel=stylesheet type="text/css" href="style/spacemonkey.css">
+<meta name="description" content="Website of the SpaceMonkeys - a 2nd year Sotware Engineering group at Warwick Uni."><meta name="keywords" content="spacemonkey, software, warwick,uni, computer science, java"></head>
+<body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
+<a href="http://event-horizon.kicks-ass.net/uni/spacemonkeys/"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
+<p>
+<div class="maintext">
+
+<div class="anchors">
+<a href="#details">Details</a> |
+<a href="#agenda">Agenda</a> |
+<a href="#minutes">Minutes</a>
+</div>
+
+<hr>
+
+<h1><a name="details"><img src="details.png" width="114" height="26" alt="Details"></a></h1>
+
+<!--
+
+   Don't forget to update the anchor names in the links below and in the
+   corresponding minute sections further down!!!
+
+//-->
+
+
+<u>Meeting 2</u>
+<p>
+Date: Tuesday, 3. December 2002
+<p>
+Location: 26 North Villiers Street, Leamington
+<p>
+Minutes taken by: Ben
+<p>
+Present SpaceMonkey(s): Gideon, Tom, Ben, Mike & James
+<p>
+Absent SpaceMonkey(s): Alex (apologies sent?)
+<p>
+Next meeting scheduled for: Unknown
+<p>
+Meeting started at: 1pm
+<hr>
+
+<h1><a name="agenda"><img src="agenda.png" width="125" height="35" alt="Agenda"></a></h1>
+
+<!--
+
+   Don't forget to update the anchor names in the links below and in the
+   corresponding minute sections further down!!!
+
+//-->
+
+
+<ul>
+<li><a href="#Aims">Aims</a></li>
+<li><a href="#PasV">Passenger View</a></li>
+<li><a href="#NetRep">Network Representation</a></li>
+<li><a href="#StatM">Station Manager</a></li>
+<li><a href="#NetOp">Network Operator</a></li>
+<li><a href="#Other">Other Business</a></li>
+</ul>
+
+<hr>
+
+<h1><a name="minutes"><img src="minutes.png" width="133" height="26" alt="Minutes"></a></h1>
+
+<div class="box">
+<u><a name="Aims">Aims</a></u>
+<p>To be able to start design after this meeting.
+<br>Decide requirements, view by view, working out externals before internals.
+
+</div>
+
+<p>
+
+<div class="box">
+<u><a name="PasV">Passenger View</a></u>
+<p>The written specification was read out.  The user enters a time and stations to connect to, and trains from that time should be displayed.
+<br>It was suggested that the output should show the 2 trains that go before that time, and the two trains that arrive after that time,
+<br>It was suggested that the output should load trains that arrive 5 hours either side of the time. These should only be displayed 4 or 5 at a time in a scroll bar.
+<br>It was suggested that the train times shown should give basic information about the train (eg depart and arrival time), and when the time is clicked by the mouse, the entire details of that train should be shown.
+<br>It was suggested that there should be a dummy booking system allowing the user to reserve a seat on the train selected, producing a default amount of 100 spaces and a default price determined by the distance travelled.
+<br>These suggestions were agreed upon.
+<p>The user interface was discussed.
+<br>It was suggested that the user should have a pull down menu to select the stations from.  This would stop users entering meaningless information, but would be very large and complex if there were many stations entered.
+<br>It was suggested this could be implemented with form completion, so that when the user enters a letter, it would show stations starting with that letter.
+<br>It was suggested that the user could select stations from a map representation of the network.
+<br>It was decided that the suggestions would be implemented together.  There would be a small representation of the map on the screen, and if the mouse pointer rested over it, it would enlarge so that stations could be selected.
+<p>It was suggested that the 'via' option should be repeated so that the user may select several stations to go 'via'.
+<br>It was pointed out that this may use up unnessesary space on the interface.
+<br>It was decided that the via option should bring up another via option when completed.  But no more than 3 vias should be allowed, otherwise the document becomes too complex.
+<p>It was suggested that there should be help for the user,
+<br>It was suggested that a message should be received by them if they try to enter 'stupid' data (ie asking to go by the same station more than once)
+<br>These suggestions were agreed upon.
+
+</div>
+
+<p>
+
+<div class="box">
+<u><a name="NetRep">Network Representation</a></u>
+<p>The creation of the graphical network representation was discussed.
+<br>It was noted that the track data may not be as shown in the examples, so we could not produce a graph from this.
+<br>It was suggested that an algorithm could produce the network, however it was noted that the network produced would not have the stations in a correct position geographically to one another.
+<br>It was suggested that after the data is entered for the first time, the network operator should be able to move the stations to their 'correct' positions.
+<br>It was decided that the programme should draw the nodes and lines between them, and the network operator would be able to drag these nodes around, and the lines would follow.
+<br>It was decided that an algorithm to do this needed to be found.
+
+</div>
+
+<p>
+
+<div class="box">
+<u><a name="StatM">Station Manager</a></u>
+<p>The written specification was read out.  The user enters a time and station and the programme outputs the next train to arrive at that station.
+<br>It was suggested that the manager should input a range of times, so that he could see the trains arriving in that period
+<br>It was suggested that this document should be produced as html, so that it could be printed and distributed to the employees at that station.
+<br>These suggestions were agreed upon.
+<p>It was suggested that if a booking system was implemented, that the driver should be able to see how many seats should be occupied on a particular train.
+<br>This was agreed upon, and it was also decided that he should be able to access the passenger view.
+
+</div>
+
+<p>
+
+<div class="box">
+<u><a name="NetOp">Network Operator</a></u>
+<p>The written specification was read out.  The network operator should be able to see what trains are on the network (graphically) at a specified time.
+<br>It was decided that we should assume that he has reasonabl intelligence and is geographically aware, which should be specified in the documentation.
+<br>As previously discussed, he should be able to change the representation of the map if the track data is new.
+<br>It was suggested that the graph produced should show arrows in the direction of the trains movement to represent the train.  The markers should also display a number next to them which would represent the time to the next station.
+<br>It was suggested that the marker should be able to be clicked to produce information about that train.
+<br>These were agreed upon.
+<p>It was suggested that the trains should be moving in real time from when the system is initiallised.  Alternatively, it was suggested that the view should be stationary, with an update button to see the system at a later point.
+<br>It was decided that the moving implementation would be used.  This was suggested that it should have play, pause, fast forward and rewind buttons.  These were also agreed upon.
+<br>It was decided that play should always show the system in real time from the initial time entered. (ie if it is paused for 10 minutes, pressing play would move the screen 10 minutes from that point).
+The fast forward and rewind buttons would allow the driver to skip to other times easily.
+<br>It was decided that the program should initially load in the network operator view, and he should be able to see the passenger and station manager views.
+
+</div>
+
+<p>
+
+<div class="box">
+<u><a name="Other">Other Business</a></u>
+<p>The programme we should use to draw UML was discussed.  Rhapsody was suggested but it was noted that this came with a license and would need to be paid for.
+It was decided that we should use ArgolUML which is freeware.
+<br>It was decided that we should have the specification written as soon as possible.  This would allow us to draw up a plan for work to do over the holidays.
+<br>It was decided that everyone needed to practise java and UML over the holidays so we would be sharp for the next term.
+<br>It was also decided that testing would take at least a week, so we should aim to finish the coding with at least this amount of time to spare.
+<br>It was decided that those who had not set-up their accounts on event-horizon should do so directly after the meeting.
+<p>The meeting ended at 2:20pm.
+
+</div>
+
+<p>
+
+<hr>
+
+<div class="anchors">
+<a href="#details">Details</a> |
+<a href="#agenda">Agenda</a> |
+<a href="#minutes">Minutes</a>
+</div>
+
+<hr>
+
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="style/w3c-html.png" width="88" height="31" alt="W3C HTML 4.01" border=0></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="style/w3c-css.png" width="88" height="31" alt="W3C CSS" border=0></a>
+ (c) 2002 SpaceMonkeys
+</div>
+</div>
+</body>
+</html>

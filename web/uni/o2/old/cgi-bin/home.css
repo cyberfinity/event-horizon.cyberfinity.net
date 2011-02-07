@@ -1,0 +1,20 @@
+/* General purpose style sheet for oblock site */
+/* (C) 2001 James Nash */
+
+body {background-color: #f29a3e; background-image:url(home_back.gif); background-repeat: repeat-x; border-width: 0px; border-style: none; color: #240893;}
+
+table {border-width: 0px; border-style: none;}
+td {vertical-align: top; color: #240893;}
+
+
+img {border-width: 0px;}
+
+a:link {color: #240893; text-decoration: underline;}
+a:visited {color: #240893; text-decoration: underline;}
+
+
+.highlite {color: #f29a3e;}
+.centre {text-align: center;}
+
+.heading {font-size: 30px}
+.footnote {font-size: 9px}

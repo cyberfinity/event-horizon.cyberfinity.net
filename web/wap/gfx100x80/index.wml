@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="welcome" title="100x80 Gfx">
+<p align="center">
+100x80 pixel graphics<br/>
+<br/>
+<a href="doyle.jpg">Doyle!</a><br/>
+<br/>
+<a href="eve-hoz_t68.png">Event-Horizon logo</a><br/>
+</p>
+</card>
+</wml>

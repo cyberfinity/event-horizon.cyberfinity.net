@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Ganesha project specification</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="Project specification for Ganesha." />
+<meta name="keywords" content="project, document, spec, specification, progress report, presentation, report, rdf, xml, ganesha, w3c, semantic web, dublin core, dc, meta data, resource description framework" />
+<meta name="robots" content="follow, index" />
+<link rel="shortcut icon" href="/uni/ganesha/ganesha.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/uni/ganesha/icon16.png" type="image/png" />
+<link rel="stylesheet" href="/uni/ganesha/style.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="/uni/ganesha/style-mob.css" type="text/css" media="handheld" />
+<script src="/uni/ganesha/fix.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div class="mob">
+<h1>Ganesha project specification</h1>
+</div>
+
+<hr class="hide" />
+
+<div class="nav">
+<img src="/uni/ganesha/banner.png" width="545" height="80" alt="Ganesha - the RDF/XML editor" id="banner" /><br />
+<a href="/uni/ganesha/"><img src="/uni/ganesha/home.gif" width="95" height="26" alt="[Home]" id="home" /></a><br />
+<a href="/uni/ganesha/news/"><img src="/uni/ganesha/news.gif" width="95" height="40" alt="[News]" id="news" /></a><br />
+<a href="/uni/ganesha/screenshots/"><img src="/uni/ganesha/shots.gif" width="95" height="40" alt="[Screenshots]" id="shots" /></a><br />
+<a href="/uni/ganesha/docs/"><img src="/uni/ganesha/docs_hi.png" width="95" height="40" alt="[Docs]" id="docs" /></a><br />
+<a href="/uni/ganesha/download/"><img src="/uni/ganesha/get_it.gif" width="95" height="40" alt="[Download]" id="get" /></a>
+</div>
+
+<hr class="hide" />
+
+<div class="side" id="logo">
+<img src="/uni/ganesha/ganesha_logo.png" width="90" height="130" alt="[Ganesha logo]" />
+</div>
+
+<div class="side" id="subsections">
+<p>Subsections:</p>
+<ul>
+<li><a href="./">Document index</a></li>
+<li><a href="javadoc/">Public Javadocs</a></li>
+<li class="selected">Project Specification</li>
+<li><a href="progress.htm">Progress Report</a></li>
+<li><a href="presentation.htm">Presentation</a></li>
+<li><a href="report/">Project Report</a></li>
+</ul>
+</div>
+
+<hr class="hide" />
+
+<div class="box">
+<h2>Problem</h2>
+<p>
+As more and more information is published on the Internet (especially on the World Wide Web) it is becoming increasingly important to be able to find specific and relevant data reliably and effectively. Furthermore it would be desirable to have tools that not only aid us in finding information but also help with analysing or evaluating that data.
+</p>
+<p>
+To achieve this it must be possible for computers to interpret information on the Internet so that they can help us work with it. Current search engines already do a fairly good job of 'understanding' web pages written in <acronym title="Hypertext Markup Language">HTML</acronym> or similar formats in order to index them but there is much room for improvement and when faced with non-textual data such as images, sounds or video the search engines are generally at a loss.
+</p>
+<p>
+Fortunately the World Wide Web Consortium (<acronym title="World Wide Web">W3C</acronym>) has created the Resource Description Framework (<acronym title="Resource Description Framework">RDF</acronym>), which provides a standard way of publishing descriptive meta data (ie: data about data) for virtually anything. <acronym>RDF</acronym> is a key technology in the <acronym>W3C</acronym>'s efforts to establish the so called Semantic Web - <q cite="http://www.scientificamerican.com/article.cfm?articleID=00048144-10D2-1C70-84A9809EC588EF21&catID=2">an extension of the current web in which information is given well-defined meaning, better enabling computers and people to work in cooperation.</q> (<cite>Tim Berners-Lee, James Hendler, Ora Lassila, <a href="http://www.scientificamerican.com/article.cfm?articleID=00048144-10D2-1C70-84A9809EC588EF21&catID=2">The Semantic Web</a>, Scientific American, May 2001</cite>).
+</p>
+<p>
+Although <acronym>RDF</acronym> has existed for several years now it is not yet widely used. I believe that this is partly due to the fact that <acronym>RDF</acronym> (especially when encoded in <acronym title="Extensible Markup Language">XML</acronym>) can appear quite complex and daunting. Average computer users do not want to be concerned with the gritty details of <acronym>RDF</acronym> and <acronym>XML</acronym>. Professional web designers and companies running large sites can afford to create custom tools to generate <acronym>RDF</acronym> data or to teach their staff the necessary know-how, but there appears to be no easy to use solution for individuals or maintainers of small to medium sized websites.
+</p>
+</div>
+
+<div class="box">
+<h2>Objectives</h2>
+<p>
+I intend to make <acronym>RDF</acronym> accessible to the average computer user just as <acronym title="what you see is what you get">WYSIWYG</acronym> <acronym>HTML</acronym> editors have made web page creation easy and popular. Therefore it is the aim of my project to create a simple <acronym title="graphical user interface">GUI</acronym>-based <acronym>RDF</acronym> editor program. The program will be named Ganesha, the Hindu god of knowledge and destroyer of obstacles! :)
+</p>
+<p>
+<acronym>XML</acronym> seems to be the most convenient encoding method of <acronym>RDF</acronym> for this purpose so Ganesha shall be limited to creating <acronym>XML</acronym>/<acronym>RDF</acronym>. It will have the ability to create stand-alone <acronym>RDF</acronym> files as well as embedding <acronym>RDF</acronym> into existing <acronym>XML</acronym> documents.
+</p>
+<p>
+Once the project has been completed I intend to release the source code under an open-source license so that Ganesha may be further developed and improved by any interested participants.
+</p>
+</div>
+
+<div class="box">
+<h2>Methods</h2>
+<p>
+The first step will be to complete my background reading and to set up a project website so that any interested observers may watch the project's progress. I will be using <acronym title="Extensible Hypertext Markup Language">XHTML</acronym> for this, so that I can test Ganesha's ability to augment the <acronym>XHTML</acronym> pages with <acronym>RDF</acronym> meta data when I reach the testing phase.
+</p>
+<p>
+Then I will begin with the design of the program - whether or not to follow a formal software development model, the features the program will have, the layout of user interface, choosing a suitable <acronym title="application programming interface">API</acronym> for working with the <acronym>XML</acronym> files and structuring the programs code into classes, methods etc..
+</p>
+<p>
+After that the actual coding may begin and upon its completion there will be a testing phase to eliminate any bugs in the software. I intend to use the Java 2 programming language to write Ganesha because of its platform independance and availability on the <acronym title="Department of Computer Science">DCS</acronym> machines.
+</p>
+<p>
+Once the software is complete the presentation shall be prepared and then final report will be written and submitted.
+</p>
+</div>
+
+<div class="box">
+<h2>Timetable</h2>
+<p>
+<a href="timetable.png" title="Click to enlarge!"><img src="mini-timetable.png" width="200" height="79" alt="[Gannt chart of the project timetable]; Weeks 3 - 4: Make Project Website, Weeks 3 - 6: Complete background reading, Weeks 5 - 8: Plan feratures and GUI layout, Week 9 - End of Christmas holidays: Choose development method & design software, Christmas holidays - Week 15: Coding, Week 14 - 18: Testing and bug fixing, Weel 18 - 20: Preparation of presentation, Easter holidays - Week 22: Writing of project report" /></a>
+</p>
+<p>
+(may be subject to minor changes)
+</p>
+</div>
+
+<div class="box">
+<h2>Resources</h2>
+<p>
+I will be writing the program on the <acronym>DCS</acronym> machines and on my own computer at home (which is running Linux). Any work I do at home will be backed up regularly onto the <acronym>DCS</acronym> computers.
+</p>
+<p>
+The presentation of Ganesha will be done on the <acronym>DCS</acronym> machines using OpenOffice so no non-standard software or hardware is required.
+</p>
+</div>
+
+
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="/uni/ganesha/w3html.png" width="88" height="31" alt="[Valid XHTML]" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/uni/ganesha/w3css.png" width="88" height="31" alt="[Valid CSS]" /></a>
+<a href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img src="/uni/ganesha/somerights.png" width="88" height="31" alt="[Some rights reserved]" /></a>
+<p>This page is &copy; 2003 <a href="http://cirrus.twiddles.com/">James Nash</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/1.0/">some rights reserved</a>.</p>
+</div>
+
+</body>
+</html>

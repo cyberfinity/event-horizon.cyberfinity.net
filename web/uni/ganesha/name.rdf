@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://web.resource.org/cc/" >
+  <rdf:Description rdf:about="http://event-horizon.kicks-ass.net/uni/ganesha/">
+    <dc:language>en-GB</dc:language>
+    <dc:creator rdf:nodeID="A0"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/"/>
+    <dc:subject>ganesha, rdf, xml, editor, name, reason</dc:subject>
+    <dc:description>The reason Ganesha the RDF/XML editor was named after the Hindu god Ganesha.</dc:description>
+    <dc:title>Why is it called Ganesha?</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <foaf:name>James Nash</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:mbox_sha1sum>daa4c3cc578a304c8205a44e3cc907fc7e7bd9a9</foaf:mbox_sha1sum>
+    <rdfs:seeAlso rdf:resource="http://cirrus.twiddles.com/foaf.rdf"/>
+  </rdf:Description>
+</rdf:RDF>

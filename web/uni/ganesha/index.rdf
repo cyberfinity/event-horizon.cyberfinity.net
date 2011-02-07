@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://web.resource.org/cc/" >
+  <rdf:Description rdf:nodeID="A0">
+    <foaf:name>James Nash</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:mbox_sha1sum>daa4c3cc578a304c8205a44e3cc907fc7e7bd9a9</foaf:mbox_sha1sum>
+    <rdfs:seeAlso rdf:resource="http://cirrus.twiddles.com/foaf.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    <dc:description>Ganesha is a simple RDF/XML editor. It allows people to easily create meta data describing their work.</dc:description>
+    <foaf:homepage rdf:resource="http://event-horizon.kicks-ass.net/uni/ganesha/"/>
+    <foaf:img rdf:resource="http://event-horizon.kicks-ass.net/uni/ganesha/ganesha_logo.png"/>
+    <dc:title>Ganesha</dc:title>
+    <foaf:member rdf:nodeID="A0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://event-horizon.kicks-ass.net/uni/ganesha/">
+    <dc:language>en-GB</dc:language>
+    <dc:subject>ganesha, rdf, xml, editor, creator, utility, easy, simple, basic, graphical, gui, meta data, semantic, web, webpage, website, free, open source, gnu, gpl, java, foaf, dublin core, rss, creative common</dc:subject>
+    <dc:description>Ganesha is an easy to use, graphical RDF/XML editor that allows anyone to augment their web pages with RDF meta data.</dc:description>
+    <dc:title>Ganesha - an easy to use RDF/XML editor</dc:title>
+    <dc:creator rdf:nodeID="A0"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <foaf:name>Ganesha</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:img rdf:resource="http://event-horizon.kicks-ass.net/uni/ganesha/fancy_ganesha.png"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://event-horizon.kicks-ass.net/uni/ganesha/ganesha_logo.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/"/>
+    <dc:creator rdf:nodeID="A0"/>
+    <dc:description>Logo of Ganesha, the RDF/XML editor</dc:description>
+    <dc:title>Ganesha logo</dc:title>
+    <foaf:depicts rdf:nodeID="A2"/>
+  </rdf:Description>
+</rdf:RDF>

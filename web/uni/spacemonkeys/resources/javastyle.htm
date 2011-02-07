@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>the SpaceMonkeys' Java style guidelines page</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link rel=stylesheet type="text/css" href="style/spacemonkey.css">
+<meta name="description" content="Website of the SpaceMonkeys - a 2nd year Sotware Engineering group at Warwick Uni."><meta name="keywords" content="spacemonkey, software, warwick,uni, computer science, java"></head>
+<body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
+<a href="http://event-horizon.kicks-ass.net/uni/spacemonkeys/"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
+<p>
+<div class="maintext">
+
+<h1><a name="style">Style</a></h1>
+To make it easier for us to understand one another's Java code we should adhere to some basic style guidelines. These guidelines will also ensure that any javadoc generated pages from our code will look consistant.
+<p>
+<ol>
+<li>Always put javadoc comments before class declarations and all methods in your class. These comments should contain a brief description of what the class or method does and, if necessary, how it is to be used. In the case of class comments you should also include your name, so we know how made what class!<br>
+Here's an example of what it should look like (The javadoc comments are italicised):
+<p>
+<div class="codebox">
+<i>/**<br>
+<br>
+   Example class written by James Nash.<br>
+<br>
+   This class does fuck all - it's just to show you how<br>
+   to use the javadoc comments!<br>
+<br>
+*/</i><br>
+public class Example{<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;// you don't need javadoc comments<br>
+&nbsp;&nbsp;&nbsp;&nbsp;// before private data<br>
+&nbsp;&nbsp;&nbsp;&nbsp;private float floater;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;private Object ofDesire;<br>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<i>/**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   Constructor method.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   This one takes lots of pointless arguments and<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   normally this is where I'd explain what they are<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   for unless it was really trivial (like in get and<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   set methods)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*/</i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;public Example(String name, Object whatever, float number){<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// some code here<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<i>/**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   method that does fuck all!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*/</i><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;public void doFuckAll(){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// some more code<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+<br>
+}
+</div>
+<p>
+Btw, this code would produce <a href="Example_dox/">these javadocs</a>!
+<p>
+</li>
+<li>
+We will also stick to the recommended Java conventions for capitalisation...
+<p>
+<ul>
+<li>
+Class names must always begin with a capital letter. Multiple-word names should use mixed capitalisation. Here are some examples:
+<p>
+<div class="codebox">
+class <i>Example2</i>{}<br>
+<br>
+class <i>SevenOfNine</i>{}<br>
+<br>
+// but not...<br>
+class <i>wrongName</i>{}
+</div>
+<p>
+</li>
+<li>
+Method and variable names should always begin lowercase. Multiple-word names shoud use mixed capitalisation too. Examples:
+<p>
+<div class="codebox">
+public int <i>number</i>;<br>
+private Object <i>recipientOfSeriousPhysicalAbuse</i>;<br>
+<br>
+public void <i>getBritneysBrain</i>(){}
+</div>
+<p>
+</li>
+</ul>
+</li>
+<li>
+All classes must be declared public or private. For some reason javadoc doesn't like them otherwise, so we might aswell.
+<p>
+</li>
+<li>
+Although it's not strictly a style guideline remember to always comment your code as you write it! It can be tedious at times but it is definitely better than going through a huge chunk of code you just wrote and trying to figure it out again in order to add comments.<br>
+A good idea is to add short one or two line comments before java statements explaining what they will do.
+</li>
+</ol>
+<hr>
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="style/w3c-html.png" width="88"
+height="31" alt="W3C HTML 4.01" border=0></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="style/w3c-css.png"
+width="88" height="31" alt="W3C CSS" border=0></a>
+ (c) 2002 SpaceMonkeys
+</div>
+</div>
+</body>
+</html>
+
+
+

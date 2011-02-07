@@ -1,0 +1,14 @@
+# Event-Horizon.kicks-ass.net's robots.txt file
+# disallowing a few pic dirs coz there's no decent html there
+
+User-agent: *
+Disallow: /uni/photos/
+Disallow: /uni/o2/old/
+Disallow: /uni/spacemonkeys/resources/admin/
+Disallow: /uni/spacemonkeys/resources/code/
+Disallow: /uni/spacemonkeys/downloads/
+Disallow: /uni/ganesha/docs/javadoc/
+Disallow: /uni/ganesha/docs/presentation.pdf
+Disallow: /uni/ganesha/docs/progress.pdf
+Disallow: /uni/ganesha/docs/report/report.pdf
+Disallow: /wap/gfx2/

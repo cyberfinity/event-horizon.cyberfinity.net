@@ -1,0 +1,16 @@
+body { background-color: #ffffff; color: #022a62; font-family: "helvetica", sans-serif; }
+
+img { border: 0px; }
+
+a:link { color: #98135b; }
+a:visited { color: #565656; }
+a:active { color: #98135b; }
+
+
+table {width: 100%; }
+
+th {text-align: center; vertical-align: middle; padding: 5px; border-width: 1px; border-style: solid; border-color: #022a62; background-color: #f9d6ea; }
+
+td {text-align: center; vertical-align: middle; padding: 5px; border-width: 1px; border-style: solid; border-color: #022a62; }
+
+td.blue {background-color: #dadaf6; }

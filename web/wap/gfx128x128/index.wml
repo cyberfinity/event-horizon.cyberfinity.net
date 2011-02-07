@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="welcome" title="100x80 Gfx">
+<p align="center">
+100x80 pixel graphics<br/>
+<br/>
+<a href="twiddles.png">Twiddles logo</a><br/>
+<br/>
+<a href="eve-hoz.png">Event Horizon pic</a><br/>
+<br/>
+<a href="swirl.jpg">Psychedaelic Swirl</a><br/>
+<br/>
+<a href="swirl2.jpg">Psychedaelic Swirl 2</a><br/>
+<br/>
+<a href="splosh.png">Psychedaelic Splosh</a><br/>
+<br/>
+<a href="first_light.jpg">"First Light" pic</a>
+</p>
+</card>
+</wml>

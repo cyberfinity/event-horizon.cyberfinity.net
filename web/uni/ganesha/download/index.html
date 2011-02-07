@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Ganesha downloads</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="Download Ganesha the RDF/XML editor for free." />
+<meta name="keywords" content="download, ganesha, gnu, free, open-source, get, fetch, install, java, jena" />
+<meta name="robots" content="follow, index" />
+<link rel="shortcut icon" href="/uni/ganesha/ganesha.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/uni/ganesha/icon16.png" type="image/png" />
+<link rel="stylesheet" href="/uni/ganesha/style.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="/uni/ganesha/style-mob.css" type="text/css" media="handheld" />
+<script src="/uni/ganesha/fix.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div class="mob">
+<h1>Ganesha downloads</h1>
+</div>
+
+<hr class="hide" />
+
+<div class="nav">
+<img src="/uni/ganesha/banner.png" width="545" height="80" alt="Ganesha - the RDF/XML editor" id="banner" /><br />
+<a href="/uni/ganesha/"><img src="/uni/ganesha/home.gif" width="95" height="26" alt="[Home]" id="home" /></a><br />
+<a href="/uni/ganesha/news/"><img src="/uni/ganesha/news.gif" width="95" height="40" alt="[News]" id="news" /></a><br />
+<a href="/uni/ganesha/screenshots/"><img src="/uni/ganesha/shots.gif" width="95" height="40" alt="[Screenshots]" id="shots" /></a><br />
+<a href="/uni/ganesha/docs/"><img src="/uni/ganesha/docs.gif" width="95" height="40" alt="[Docs]" id="docs" /></a><br />
+<img src="/uni/ganesha/get_it_hi.png" width="95" height="40" alt="[Download]" id="get" />
+</div>
+
+<hr class="hide" />
+
+<div class="side" id="logo">
+<img src="/uni/ganesha/ganesha_logo.png" width="90" height="130" alt="[Ganesha logo]" />
+</div>
+
+<div class="side" id="subsections">
+<p>Subsections:</p>
+<ul>
+<li class="selected">Download page</li>
+</ul>
+</div>
+
+<hr class="hide" />
+
+<div class="box">
+<h2>Download files</h2>
+<p>
+I have decided to rename Ganesha 1.0 to Ganesha 0.1. It is a fully functioning RDF editor but it is still a bit rough at the edges so I'll save version 1.0 for a more polished release. Sorry if this causes any confusion.
+</p>
+<p>
+In order to use Ganesha you just need to download the binary package below, download any missing <a href="#requirements">required programs</a> and follow <a href="#install">the installation steps</a> further down this page.
+</p>
+<p>
+Since Ganesha is open-source software distributed under the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a> you can also download the sourcecode and modify it to your heart's content!
+</p>
+<ul>
+<li><a href="files/0.1.x/ganesha-0.1.tar.bz2">Download Ganesha version 0.1 binary package</a></li>
+<li><a href="files/0.1.x/ganesha-0.1src.tar.bz2">Download Ganesha version 0.1 source code</a></li>
+</ul>
+</div>
+
+
+<div class="box">
+<h2><a name="requirements"></a>Requirements</h2>
+<p>
+Ganesha is written in <a href="http://java.sun.com/">Java</a> and requires Java version 1.4 or greater to be installed on your system in order to run. Ganesha also depends on <a href="http://jena.sourceforge.net/">Jena 2.0</a> so you will need to get that too. You can download their respective latest versions here:
+</p>
+<ul>
+<li><a href="http://java.sun.com/j2se/">Latest Java Runtime Environment (JRE)</a></li>
+<li><a href="http://jena.sourceforge.net/downloads.html">Latest version of Jena</a></li>
+</ul>
+<p>
+Because Ganesha is written in Java it will run on any computer that supports Java. Therefore it doesn't matter whether you are using Windows, Mac OS X, Linux or anything else!
+</p>
+<p>
+If you are using Mac OS X or some Linux distros you should already have an up-to-date version of Java on your system. Please check before downloading another one.
+</p>
+</div>
+
+
+<div class="box">
+<h2><a name="install"></a>Installation</h2>
+<p>Once you have Java and Jena installed on your system you can install Ganesha using these steps:
+</p>
+<ol>
+<li>
+<p>Unpack the Ganesha binary package:</p>
+<p><kbd>tar jxf <var>ganesha-0.1.tar.bz2</var></kbd></p>
+<p>This should have created a directory called "ganesha" within your working directory.</p>
+</li>
+<li>
+<p>Add the "lib" directory contained in the newly created "ganesha" directory to your java classpath environment variable</p>
+<p><kbd>export CLASSPATH="${CLASSPATH}:<var>your-working-dir/</var>ganesha/lib/"</kbd></p>
+</li>
+<li>
+<p>And you're done! You should now be able to run Ganesha by typing:</p>
+<p><kbd>java com.twiddles.ganesha.Ganesha</kbd></p>
+</ol>
+<p>
+In time I hope to package Ganesha more elegantly as a JAR file which will simplify its installation. Eventually I also hope to release self installing packages for the various major operating systems. Until then I'm afraid you'll have to put up with the steps above - sorry!
+</p>
+</div>
+
+<div class="box">
+<h2>Feedback</h2>
+<p>
+If you have tried Ganesha please feel free to send me any feedback, bugs or patches. Once 
+I move to something like sourceforge I hope to streamline the feedback process a bit, but 
+for now just <a href="mailto:cirrus@linuxgames.com">send me an email</a>. Thanks!
+</p>
+</div>
+
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="/uni/ganesha/w3html.png" width="88" height="31" alt="[Valid XHTML]" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/uni/ganesha/w3css.png" width="88" height="31" alt="[Valid CSS]" /></a>
+<a href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img src="/uni/ganesha/somerights.png" width="88" height="31" alt="[Some rights reserved]" /></a>
+<p>This page is &copy; 2003, 2004 <a href="http://cirrus.twiddles.com/">James Nash</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/1.0/">some rights reserved</a>.</p>
+</div>
+
+</body>
+</html>

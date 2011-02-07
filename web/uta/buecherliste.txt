@@ -1,0 +1,363 @@
+#
+# Uta's B¸cherliste
+#
+# Bitte halte dich an dieses format:
+#
+# <nachname> ¬ <vorname> ¬ <titel> ¬ <p/h> ¬ <en/de/fr..> ¬ <anmerkung>
+Sigmund ¬ Anna Maria ¬ Die Frauen der Nazis ¬ p ¬ de
+Jin ¬ Ha ¬ Warten ¬ p ¬ de
+Tolkien ¬ J.R.R. ¬ The Silmarillion ¬ p ¬ en ¬ James's book!
+Dubus ¬ Andre ¬ House of Sand and Fog ¬ p ¬ en
+Plunkett ¬ James ¬ Strumpet City ¬ p ¬ en
+Lee ¬ Laurie ¬ As I walked out one Midsummer Morning ¬ h ¬ en
+Maupin ¬ Armistead ¬ Tales of the City ¬ p ¬ en
+Maupin ¬ Armistead ¬ Further Tales of the City ¬ p ¬ en
+Maupin ¬ Armistead ¬ More Tales of the City ¬ p ¬ en
+Vickers ¬ Salley ¬ Miss Garnet's Angel ¬ p ¬ en
+Flagg ¬ Fannie ¬ Welcome to the World ¬ p ¬ en
+Thorpe ¬ Adam ¬ Ulverton ¬ p ¬ en
+Belfer ¬ Lauren ¬ City of Light ¬ p ¬ en
+Walpole ¬ Hugh ¬ The Herries Chronicle, Volume 2 ¬ p ¬ en
+Walpole ¬ Hugh ¬ The Herries Chronicle, Volume 1 ¬ p ¬ en
+  ¬  ¬ Stories for Summer ¬ p ¬ en ¬ Short Stories
+Cole ¬ Martina ¬ Maura's Game ¬ p ¬ en
+Atkinson ¬ Kate ¬ Human Croquet ¬ p ¬ en
+Karon ¬ Jan ¬ Out to Canaan ¬ p ¬ en
+Malone ¬ Michael ¬ Dingley Falls ¬ p ¬ en
+Thomson ¬ Rupert ¬ The Insult ¬ p ¬ en
+MacDonald ¬ Ann-Marie ¬ Fall on your Knees ¬ p ¬ en
+Lodge ¬ David ¬ Paradise News ¬ p ¬ en
+Vine ¬ Barbara ¬ Asta's Book ¬ h ¬ en
+Freeman ¬ Cynthia ¬ Portraits ¬ h ¬ en
+Downer ¬ Lesley ¬ Geisha ¬ p ¬ en
+Mayle ¬ Peter ¬ Hotel Pastis ¬ p ¬ en
+Read ¬ Miss ¬ Chronicles of Fairacre ¬ p ¬ en
+Read ¬ Miss ¬ A peaceful Retirement ¬ h ¬ en
+Read ¬ Miss ¬ Fairacre Affairs ¬ h ¬ en
+Read ¬ Miss ¬ At Home in Thrush Green ¬ p ¬ en
+Read ¬ Miss ¬ Farewell to Fairacre ¬ p ¬ en
+Read ¬ Miss ¬ Changes at Fairacre ¬ p ¬ en
+Parks ¬ Tim ¬ Shear ¬ p ¬ en
+Parks ¬ Tim ¬ Mimi's Ghost ¬ p ¬ en
+Grisham ¬ John ¬ The Testament ¬ h ¬ en
+Delderfield ¬ R.F. ¬ Give us this Day ¬ p ¬ en
+Friedman ¬ Kinky ¬ Musical Chairs, Frequent Flyer ¬ h ¬ en
+Forbes ¬ Bryan ¬ The Twisted Playground ¬ p ¬ en
+Grisham ¬ John ¬ The Summons ¬ h ¬ en
+Vine ¬ Barbara ¬ The House of Stairs ¬ h ¬ en
+Hoffman ¬ Alice ¬ The River King ¬ p ¬ en
+Frazuer ¬ Charles ¬ Cold Mountain ¬ p ¬ en
+Dexter ¬ Colin ¬ The Daughters of Cain ¬ p ¬ en
+Styron ¬ William ¬ Sophies's Choice ¬ h ¬ en
+Sheringham ¬ Sally ¬ Cuckoo in the Nest ¬ h ¬ en
+Moggach ¬ Deborah ¬ Tulip Fever ¬ p ¬ en
+Lynn ¬ Jonathan ¬ Yes Minister ¬ h ¬ en
+Tartt ¬ Donna ¬ The Secret History ¬ p ¬ en
+Clavell ¬ James ¬ Gai-Jin ¬ h ¬ en
+Freeman ¬ Cynthia ¬ The days of Winter ¬ p ¬ en
+Karon ¬ Jan ¬ At home in Mitford ¬ p ¬ en
+Karon ¬ Jan ¬ These high, green Hills ¬ p ¬ en
+Wolf ¬ Christa ¬ Cassandra ¬ p ¬ en
+Tyler ¬ Anne ¬ Earthly Possessions ¬ p ¬ en
+Wilde ¬ Oscar ¬ The Picture of Dorian Gray ¬ p ¬ en
+Snow ¬ C.P. ¬ Homecomings ¬ p ¬ en
+James ¬ P.D. ¬ The Skull beneath the Skin ¬ p ¬ en
+Grisham ¬ John ¬ The Client ¬ p ¬ en
+Cornwell ¬ Patricia ¬ The last Precinct ¬ p ¬ en
+Cornwell ¬ Patricia ¬ Point of Origin ¬ p ¬ en
+Grisham ¬ John ¬ The Rain Maker ¬ p ¬ en
+Grisham ¬ John ¬ The Partner ¬ h ¬ en
+Grisham ¬ John ¬ The Chamber ¬ h ¬ en
+Grisham ¬ John ¬ The Pelican Brief/A Time to Kill ¬ h ¬ en
+Grisham ¬ John ¬ The Client/The Firm ¬ h ¬ en
+Grisham ¬ John ¬ The Runaway Jury ¬ h ¬ en
+Gaskell ¬ Elisabeth ¬ Sylvia's Lovers ¬ p ¬ en
+Grisham ¬ John ¬ A painted House ¬ h ¬ en
+Golden ¬ Arthur ¬ Memoirs of a Geisha ¬ p ¬ en
+Hardy ¬ Thomas ¬ Tess of the D'Urbervilles ¬ p ¬ en
+Hardy ¬ Thomas ¬ The Mayor of Casterbridge ¬ p ¬ en
+Granville-Barker ¬ Harley ¬ The Voysey Inheritance ¬ p ¬ en
+Gordon ¬ Richard ¬ Doctor at Sea ¬ h ¬ en
+Goldsmith ¬ Oliver ¬ The Vicar of Wakefield ¬ h ¬ en
+Goldsmith ¬ Oliver ¬ She stoops to conquer ¬ h ¬ en
+Golding ¬ William ¬ Lord of the Flies ¬ p ¬ en
+Grisham ¬ John ¬ The Brethren ¬ h ¬ en
+Frayn ¬ Michael ¬ Headlong ¬ p ¬ en
+Hardy ¬ Thomas ¬ Far from the Madding Crowd ¬ p ¬ en
+Hemmingway ¬ Ernest ¬ To Have and Have Not ¬ p ¬ en
+Hemmingway ¬ Ernest ¬ Death in the Afternoon ¬ p ¬ en
+Hesse ¬ Hermann ¬ Autobiographical Writings ¬ p ¬ en
+Hesse ¬ Hermann ¬ Narziss and Goldmund ¬ p ¬ en
+Parks ¬ Tim ¬ Cara Massimina ¬ p ¬ en
+Cornwell ¬ Patricia ¬ From Potter's Field ¬ p ¬ en
+Cornwell ¬ Patricia ¬ Cruel and Unusual ¬ p ¬ en
+Cornwell ¬ Patricia ¬ Cause of Death ¬ p ¬ en
+Dexter ¬ Colin ¬ Death is now my Neighbour ¬ h ¬ en
+Dexter ¬ Colin ¬ The remorseful Day ¬ h ¬ en
+LaPlante ¬ Lynda ¬ Sleeping Cruelty ¬ h ¬ en
+Cornwell ¬ Patricia ¬ Hornet's Nest ¬ h ¬ en
+Reichs ¬ Kathy ¬ Fatal Voyage ¬ h ¬ en
+Walters ¬ Minette ¬ The Echo ¬ h ¬ en
+Scott ¬ Manda ¬ No good Deed ¬ h ¬ en
+Cornwell ¬ Bernard ¬ Harlequin ¬ p ¬ en
+McNab ¬ Andy ¬ Firewall ¬ h ¬ en
+McNab ¬ Andy ¬ Crisis Four ¬ h ¬ en
+Fielding ¬ Henry ¬ Tom Jones ¬ p ¬ en
+Elon ¬ Amos ¬ Founder ¬ p ¬ en
+Eliot ¬ George ¬ Felix Holt the Radical ¬ p ¬ en
+Forbes ¬ Colin ¬ The Stone Leopard ¬ p ¬ en
+Fontane ¬ Theodor ¬ Effi Briest ¬ p ¬ en
+Flaubert ¬ Gustave ¬ Madame Bovary ¬ p ¬ en
+Eliot ¬ George ¬ Adam Bede ¬ p ¬ en
+Eliot ¬ George ¬ Silas Marner ¬ p ¬ en
+Eliot ¬ George ¬ The Mill on the Floss ¬ p ¬ en
+Eliot ¬ George ¬ Middlemarch ¬ p ¬ en
+Eliot ¬ George ¬ Daniel Doronda ¬ p ¬ en
+Delderfield ¬ R.F. ¬ A Horseman riding by, Bood 2 ¬ p ¬ en
+Dreiser ¬ Theodore ¬ An American Tragedy ¬ p ¬ en
+Delderfield ¬ R.F. ¬ God is an Englishman ¬ p ¬ en
+Delderfield ¬ R.F. ¬ A Horseman riding by, Book 1 ¬ p ¬ en
+Delderfield ¬ R.F. ¬ Diana ¬ p ¬ en
+Dostoyevsky ¬ Fyodor ¬ The Brothers Karamazov ¬ p ¬ en
+Dumas ¬ Alexandre ¬ The Count of Monte Cristo ¬ p ¬ en
+Bronte ¬ Charlotte ¬ Jane Eyre ¬ h ¬ en
+O'Brien ¬ Edna ¬ The Country Girls ¬ p ¬ en
+Braine ¬ John ¬ Room at the Top ¬ p ¬ en
+Collins ¬ Wilkie ¬ The Moonstone ¬ p ¬ en
+Darwin ¬ Charles ¬ The Origin of Species ¬ h ¬ en
+Cox ¬ Michael ¬ Victorian Detective Stories (Selected) ¬ p ¬ en
+Austen ¬ Jane ¬ Persuasion ¬ h ¬ en
+Austen ¬ Jane ¬ Emma ¬ h ¬ en
+Auden ¬ W.H. ¬ Collected shorter Poems ¬ p ¬ en
+Bely ¬ Andrei ¬ Petersburg ¬ p ¬ en
+Balzac ¬ Honore de ¬ Old Goriot ¬ p ¬ en
+Bronte ¬ Emily ¬ Wuthering Heights ¬ p ¬ en
+Collins ¬ Wilkie ¬ The Woman in White ¬ p ¬ en
+Collins ¬ Wilkie ¬ Armadale ¬ p ¬ en
+Cheek ¬ Mavis ¬ Three Men on a Plane ¬ p ¬ en
+Carey ¬ Peter ¬ Oscar and Lucinda ¬ p ¬ en
+Carey ¬ Peter ¬ Illywhacker ¬ p ¬ en
+Deighton ¬ Len ¬ Spy Sinker ¬ p ¬ en
+Binchy ¬ Maeve ¬ The Glass Lake ¬ p ¬ en
+Bennett ¬ Arnold ¬ The old Wive's Tale ¬ p ¬ en
+Austen ¬ Jane ¬ Mansfield Park ¬ h ¬ en
+Austen ¬ Jane ¬ Pride and Prejudice ¬ p ¬ en
+Austen ¬ Jane ¬ Lady Susan/The Watsons/Sanditon ¬ p ¬ en
+Bennett ¬ Arnold ¬ Clayhanger ¬ h ¬ en
+Bennett ¬ Alan ¬ The Clothes they stood up in ¬ h ¬ en
+Bates ¬ H, E, ¬ The Grapes of Paradise ¬ p ¬ en
+Barber ¬ Noel ¬ Tanamera ¬ p ¬ en
+Forsyth ¬ Frederick ¬ The Devil's Alternative ¬ h ¬ en
+Bushnell ¬ Candace ¬ Sex and the City ¬ p ¬ en
+Grisham ¬ John ¬ The Street Lawyer ¬ p ¬ en
+Bennett ¬ Arnold ¬ Sketches for Autobiography ¬ h ¬ en
+Bryson ¬ Bill ¬ Notes from a small Island ¬ p ¬ en
+Bryson ¬ Bill ¬ Down Under ¬ p ¬ en
+Conan Doyle ¬ Arthur Sir ¬ The lost World ¬ p ¬ en
+Halter ¬ Marek ¬ The Book of Abraham ¬ p ¬ en
+Bryson ¬ Bill ¬ A Walk in the Woods ¬ h ¬ en
+Austen ¬ Janes ¬ Northanger Abbey ¬ h ¬ en
+Kipling ¬ Rudyard ¬ The Jungle Book ¬ h ¬ en
+Kipling ¬ Rudyard ¬ The Second Jungle Book ¬ h ¬ en
+Kipling ¬ Rudyard ¬ Just so Stories ¬ h ¬ en
+Kipling ¬ Rudyard ¬ Puck of Pooks Hill ¬ h ¬ en
+Kipling ¬ Rudyard ¬ Stalky & Co ¬ h ¬ en
+Kipling ¬ Rudyard ¬ Kim ¬ h ¬ en
+James ¬ Henry ¬ The Spoils of Poynton ¬ p ¬ en
+Herriot ¬ James ¬ Vet in a Spin ¬ p ¬ en
+Herriot ¬ James ¬ Vet in Harness ¬ p ¬ en
+Hamson ¬ Knut ¬ Wayfarers ¬ p ¬ en
+James ¬ P.D. ¬ A certain Justice ¬ p ¬ en
+James ¬ P.D. ¬ A Taste for Death ¬ p ¬ en
+James ¬ P.D. ¬ Shroud for a Nightingale ¬ p ¬ en
+James ¬ P.D. ¬ A Mind to Murder ¬ p ¬ en
+James ¬ P.D. ¬ The Children of Men ¬ h ¬ en
+James ¬ P.D. ¬ Original Sin ¬ p ¬ en
+Kemelman ¬ Harry ¬ Sunday the Rabbi stayed home ¬ p ¬ en
+Kaye ¬ M.M. ¬ Enchanted Evening ¬ h ¬ en
+Kaye ¬ M.M. ¬ Shadow of the Moon ¬ p ¬ en
+Kaye ¬ M.M. ¬ The far Pavilions ¬ h ¬ en
+Kaye ¬ M.M. ¬ Trade Wind ¬ p ¬ en
+Jie ¬ Zhang ¬ Leaden Wings ¬ p ¬ en
+Ye ¬ Ting-xing ¬ A leaf in the bitter wind ¬ p ¬ en
+Lessing ¬ Doris ¬ The Golden Notebook ¬ p ¬ en
+Lawrence-Smith ¬ Kathleen ¬ Tales of Old Herefordshire ¬ p ¬ en
+Lawrence ¬ D.H. ¬ The Collected Short Stories ¬ h ¬ en
+Lawrence ¬ D.H. ¬ Sons and Lovers ¬ p ¬ en
+Lessing ¬ Doris ¬ Walking in the Shade ¬ h ¬ en
+Mann ¬ Thomas ¬ Death in Venice,d Tristan, Tonio Kroeger ¬ h ¬ en
+Mann ¬ Thomas ¬ Dr. Faustus, Mario and the Magician ¬ h ¬ en
+Mann ¬ Thomas ¬ A Man and his Dog, The black Swan ¬ h ¬ en
+Mann ¬ Thomas ¬ Felix Krull Confessions ¬ h ¬ en
+Moorbock ¬ Michael ¬ Byzantium endures ¬ p ¬ en
+Muir ¬ Kenneth ¬ John Milton ¬ h ¬ en
+Mikes ¬ Georg ¬ How to be an Alien ¬ p ¬ en
+Michener ¬ James A. ¬ The Covenant ¬ p ¬ en
+Melville ¬ Herman ¬ Moby-Dick ¬ p ¬ en
+McCarthy ¬ Pete ¬ McCarthy's Bar ¬ p ¬ en
+Mayle ¬ Peter ¬ Toujours Provence ¬ h ¬ en
+Somerset Maugham ¬ W. ¬ Cakes and Ale ¬ h ¬ en
+Masters ¬ John ¬ Bhowani Junction ¬ p ¬ en
+Mann ¬ Thomas ¬ Buddenbrooks ¬ p ¬ en
+Murdoch ¬ Iris ¬ The Sacred and Profane Love Machine ¬ p ¬ en
+Murdoch ¬ Iris ¬ Henry and Cato ¬ h ¬ en
+Mortimer ¬ John ¬ Titmuss Regained ¬ p ¬ en
+Mortimer ¬ John ¬ Like Men betrayed ¬ p ¬ en
+Mortimer ¬ John ¬ Charade ¬ p ¬ en
+Mortimer ¬ John ¬ The Summer of a Dormouse ¬ p ¬ en
+Mortimer ¬ John ¬ In Character ¬ p ¬ en
+Mortimer ¬ John ¬ Paradise Postponed ¬ p ¬ en
+Mortimer ¬ John ¬ Dunster ¬ p ¬ en
+Mortimer ¬ John ¬ Summer's Lease ¬ p ¬ en
+Shakespeare ¬ William ¬ Othello ¬ p ¬ en
+Shakespeare ¬ William ¬ Tragedies ¬ h ¬ en
+Shakespeare ¬ William ¬ Romeo and Juliet ¬ h ¬ en
+Shakespeare ¬ William ¬ Richard II ¬ p ¬ en
+Scott ¬ Sir Walter ¬ Rob Roy ¬ p ¬ en
+Orwell ¬ George ¬ Animal Farm ¬ p ¬ en
+Henry ¬ O ¬ 100 Selected Stories ¬ p ¬ en
+Henry ¬ O ¬ The Unknown Quantity and other stories ¬ h ¬ en
+O'Hara ¬ John ¬ The Lockwood Concern ¬ h ¬ en
+Scott ¬ Sir Walter ¬ Old Mortality ¬ p ¬ en
+Scott ¬ Sir Walter ¬ The Heart of Midlothian ¬ p ¬ en
+Scott ¬ Sir Walter ¬ Ivanhoe ¬ p ¬ en
+Scott ¬ Sir Walter ¬ Waverley ¬ p ¬ en
+Singer ¬ Isaac B ¬ The Spinoza of Market Street ¬ p ¬ en
+Shaw ¬ Bernard ¬ Androcles and the Lion ¬ h ¬ en
+Shaw ¬ Bernard ¬ Overruled - Pygmalion ¬ h ¬ en
+Shaw ¬ Bernard ¬ The Dark Lady of the Sonnets ¬ h ¬ en
+Shaw ¬ Bernard ¬ Fanny's first Play ¬ h ¬ en
+Shaw ¬ Bernard ¬ Widower's Houses ¬ h ¬ en
+Shaw ¬ Bernard ¬ The Philanderer ¬ h ¬ en
+Shaw ¬ Bernard ¬ Mrs. Warren's Profession ¬ h ¬ en
+Scott Fitzgerald ¬ F. ¬ This Side of Paradise ¬ p ¬ en
+Priestley ¬ J.B. ¬ Lost Empires ¬ p ¬ en
+Scott ¬ Paul ¬ Staying on ¬ p ¬ en
+Scott ¬ Paul ¬ The Jewel in the Crown ¬ p ¬ en
+Poe ¬ Edgar Allan ¬ Fall House of Usher and others ¬ h ¬ en
+Poe ¬ Edgar Allan ¬ The Complete Stories ¬ h ¬ en
+Paxman ¬ Jeremy ¬ The English ¬ p ¬ en
+Thackeray ¬ William M ¬ The History of Henry Esmond ¬ p ¬ en
+Thackeray ¬ William M ¬ Vanity Fair ¬ p ¬ en
+Thackeray ¬ William M ¬ The Irish Sketch Book ¬ h ¬ en
+Thackeray ¬ William M ¬ Critical Review ¬ h ¬ en
+Thackeray ¬ William M ¬ Yellowplush/Fitz-Boodle ¬ h ¬ en
+Thackeray ¬ William M ¬ Cox's Diary/Character Sketches ¬ h ¬ en
+Tacitus ¬ xxx ¬ The Agricola and The Germania ¬ p ¬ en
+Stendhal ¬ xxx ¬ Scarlet and Black ¬ p ¬ en
+Steinbeck ¬ John ¬ The Grapes of Wrath ¬ h ¬ en
+Steinbeck ¬ John ¬ Of Mice and Men ¬ p ¬ en
+Solzhenitsyn ¬ A ¬ Ivan Denisovich ¬ p ¬ en
+Saint-Exupery ¬ Antione de ¬ The little Prince ¬ p ¬ en
+Singer ¬ Isaac B ¬ The Family Moskat ¬ p ¬ en
+Singer ¬ Isaac B ¬ The Estate ¬ p ¬ en
+Trollope ¬ Anthony ¬ Small House Allington ¬ p ¬ en
+Trollope ¬ Anthony ¬ Last Chronicle of Barset ¬ p ¬ en
+Trollope ¬ Anthony ¬ The Warden ¬ p ¬ en
+Trollope ¬ Anthony ¬ Barchester Towers ¬ p ¬ en
+Trollope ¬ Anthony ¬ The Eustache Diamonds ¬ p ¬ en
+Tolstoy ¬ Leo ¬ War and Peace ¬ p ¬ en
+Theroux ¬ Paul ¬ The Kingdom by the Sea ¬ p ¬ en
+Thackeray ¬ W/M/ ¬ Pendennis ¬ p ¬ en
+Trollopr ¬ Fanny ¬ Domestic Manners Americans ¬ p ¬ en
+Trollope ¬ Fanny ¬ The Widow Barnaby ¬ p ¬ en
+Trollope ¬ Anthony ¬ Can you forgive her ¬ p ¬ en
+Trollope ¬ Anthony ¬ Phineas Finn ¬ p ¬ en
+Trollope ¬ Anthony ¬ Orley Farm ¬ p ¬ en
+Trollope ¬ Anthony ¬ The way we live now ¬ p ¬ en
+Trollope ¬ Anthony ¬ Doctor Thorne ¬ p ¬ en
+Trollope ¬ Anthony ¬ Framley Parsonage ¬ p ¬ en
+Read ¬ Miss ¬ Fresh from the Country ¬ h ¬ en
+Dickens ¬ Charles ¬ Complete Works ¬ h ¬ en
+Dickens ¬ Charles ¬ Christmas Carol/Chimes ¬ p ¬ en
+Dickens ¬ Charles ¬ Tale of 2 Cities ¬ h ¬ en
+Kiping ¬ Rudyard ¬ second Jungle Book ¬ p ¬ en
+Twain ¬ Mark ¬ Huckleberry Finn ¬ h ¬ en
+Twain ¬ Mark ¬ Tom Sawyer ¬ h ¬ en
+Zindel ¬ Paul ¬ The Pigman ¬ p ¬ en
+Wouk ¬ Herman ¬ Winds of War ¬ p ¬ en
+Wodehouse ¬ P.G. ¬ Plum Pie ¬ h ¬ en
+Waugh ¬ Evelyn ¬ Brideshead Revisited ¬ p ¬ en
+Voltaire ¬ M. de ¬ Candide ¬ h ¬ en
+Verne ¬ Jules ¬ Around World in 80 days ¬ h ¬ en
+Verne ¬ Jules ¬ 2OOOO leagues under the Sea ¬ h ¬ en
+Tyler ¬ Anne ¬ The accidental Tourist ¬ p ¬ en
+Tyler ¬ Anne ¬ Ladder of Years ¬ p ¬ en
+Tyler ¬ Anne ¬ Saint Maybe ¬ p ¬ en
+Wolfe ¬ Tom ¬ A Man in Full ¬ p ¬ en
+Wolf ¬ Christa ¬ A model Childhood ¬ p ¬ en
+Wodehouse ¬ P.G. ¬ The White Feather ¬ h ¬ en
+Wodehouse ¬ P.G. ¬ Joy in the morning ¬ h ¬ en
+Wouk ¬ Herman ¬ Inside Outside ¬ p ¬ en
+Wolfe ¬ Tom ¬ Bonfire of the Vanities ¬ p ¬ en
+Sayers ¬ and others ¬ 50 Masterpieces of Mystery ¬ h ¬ en
+Conan Doyle ¬ Sir Arthur ¬ Sherlock Holmes complete ¬ h ¬ en
+Conan Doyle ¬ Sir Arthur ¬ Sherlock Holmes 56 short stories ¬ h ¬ en
+Wells ¬ H. G. ¬ Complete Works ¬ h ¬ en
+Anthony ¬ Evelyn ¬ The House of Vandekar ¬ p ¬ en
+Bates ¬ H.E. ¬ Fair stood the maid for France ¬ p ¬ en
+Bates ¬ H.E. ¬ A Moment in time ¬ p ¬ en
+Bates ¬ H.E. ¬ Seven by Five ¬ p ¬ en
+Bates ¬ H.E. ¬ The wild cherry tree ¬ p ¬ en
+Bronte ¬ Anne ¬ The tenant of Wildfell Hall ¬ p ¬ en
+Cornwell ¬ Bernard ¬ Rebel and Copperhead ¬ h ¬ en
+Cornwell ¬ Bernard ¬ Heretic ¬ h ¬ en
+Cornwell ¬ Patricia ¬ All that Remains ¬ p ¬ en
+Cornwell ¬ Patricia ¬ Black Notice ¬ h ¬ en
+Cornwell ¬ Patricia ¬ Isle of Dogs ¬ p ¬ en
+Cornwell ¬ Patricia ¬ The Body Farm ¬ h ¬ en
+Cornwell ¬ Patricia ¬ Southern Cross ¬ h ¬ en
+Cornwell ¬ Patricia ¬ Unnatural Exposure ¬ h ¬ en
+Cornwell ¬ Patricia ¬ Hornet's Nest ¬ h ¬ en
+Cornwell ¬ Patricia ¬ Blow Fly ¬ h ¬ en
+Delderfield ¬ R.F. ¬ Theirs was the kingdom ¬ p ¬ en
+Dobbs ¬ Michael ¬ The Buddha of Brewer Street ¬ h ¬ en
+Drabble ¬ Margaret ¬ Radiant Way ¬ p ¬ en
+Forbes ¬ Bryan ¬ Familiar Strangers ¬ p ¬ en
+Forsyth ¬ Frederick ¬ The negotiator ¬ h ¬ en
+Kaye ¬ M.M. ¬ Golden Afternon ¬ p ¬ en
+Lawrence ¬ D.H. ¬ The Rainbow ¬ p ¬ en
+Marai ¬ Sandor ¬ Embers ¬ p ¬ en
+Cornwell ¬ Patricia ¬ Post Mortem ¬ p ¬ en
+Mo ¬ Timothy ¬ Insular Possession ¬ p ¬ en
+Nobbs ¬ David ¬ Going Gently ¬ p ¬ en
+Pym ¬ Barbara ¬ An unsuitable attachment ¬ p ¬ en
+Mossman ¬ Dow ¬ The Stones of Summer ¬ h ¬ en
+Reichs ¬ Kathy ¬ Deadly decisions ¬ p ¬ en
+Reichs ¬ Kathy ¬ Deja dead ¬ h ¬ en
+Reichs ¬ Kathy ¬ Grave secrets ¬ p ¬ en
+Sheldon ¬ Sidney ¬ The Stars shine down ¬ h ¬ en
+Sheldon ¬ Sidney ¬ Windmill of the Gods ¬ h ¬ en
+Sparks ¬ Nicholas ¬ The rescue ¬ h ¬ en
+Prospero ¬ Ann ¬ Almost Night ¬ h ¬ en
+Miller ¬ Henry ¬ Tropic of Cancer ¬ p ¬ en
+Miller ¬ Henry ¬ Tropic of Capricorn ¬ p ¬ en
+Powys ¬ John Cowper ¬ A Glastonbury Romance ¬ p ¬ en
+Grisham ¬ John ¬ The King of Torts ¬ h ¬ en
+Grisham ¬ John ¬ Bleachers ¬ h ¬ en
+Reichs ¬ Kathy ¬ Death du Jour ¬ h ¬ en
+McCall Smith ¬ Alexander ¬ The Kalahari Typing School for Men ¬ p ¬ en
+McCall Smith ¬ Alexander ¬ Morality for beautiful Girls ¬ p ¬ en
+McCall Smith ¬ Alexander ¬ Tears of the Giraffe ¬ p ¬ en
+McCall Smith ¬ Alexander ¬ The No. 1 Ladies' Detective Agency ¬ p ¬ en
+Turow ¬ Scott ¬ Pleading guilty ¬ p ¬ en
+le Carre ¬ John ¬ The Tailor of Panama ¬ p ¬ en
+Bowering ¬ Marilyn ¬ Visible Worlds ¬ p ¬ en
+Gordon ¬ Noah ¬ Shaman ¬ p ¬ en
+la Plante ¬ Lynda ¬ Cold Heart ¬ h ¬ en
+Vine ¬ Barbara ¬ The Chimney Sweeper's Boy ¬ p ¬ en
+Picard ¬ Liza ¬ Dr. Johnson's London ¬ p ¬ en
+O'Faolain ¬ Nuala ¬ Are you somebody? ¬ p ¬ en
+Forbes ¬ Bryan ¬ Familiar Strangers ¬ p ¬ en
+Sheldon ¬ Sidney ¬ Bloodline ¬ p ¬ en
+Sheldon ¬ Sidney ¬ The Stars Shine Down ¬ p ¬ en
+Sheldon ¬ Sidney ¬ Nothing lasts forever ¬ p ¬ en
+Sheldon ¬ Sidney ¬ Memories of Midnight ¬ p ¬ en
+Sheldon ¬ Sidney ¬ The Other Side of Midnight ¬ p ¬ en
+Sheldon ¬ Sidney ¬ Morning, Noon & Night ¬ p ¬ en
+Sheldon ¬ Sidney ¬ The Sands of Time ¬ p ¬ en
+Sheldon ¬ Sidney ¬ The Naked Face ¬ h ¬ en
+Sheldon ¬ Sidney ¬ If Tomorrow Comes ¬ h ¬ en
+Reichs ¬ Kathy ¬ Bare Bones ¬ h ¬ en
+Mauriac ¬ Francois ¬ La Pharisienne ¬ p ¬ f
+David ¬ Elizabeth ¬ An Omelette and ... ¬ p ¬ en

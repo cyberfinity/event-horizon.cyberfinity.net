@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>the SpaceMonkeys' website guidelines</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link rel=stylesheet type="text/css" href="style/spacemonkey.css">
+<meta name="description" content="Website of the SpaceMonkeys - a 2nd year Sotware Engineering group at Warwick Uni."><meta name="keywords" content="spacemonkey, software, warwick,uni, computer science, java"></head>
+<body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
+<a href="http://event-horizon.kicks-ass.net/uni/spacemonkeys/"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
+<p>
+<div class="maintext">
+
+<div class="anchors">
+<a href="#general">General</a> |
+<a href="#specific">Specific</a> |
+<a href="#html">HTML</a> |
+<a href="#headings">Headings</a>
+</div>
+
+<hr>
+
+<h1><a name="general"><img src="general.png" width="131" height="26" alt="General"></a></h1>
+
+To help keep the look and feel of our site / documentation consistant I suggest you read these guidelines on adding new pages. You don't HAVE TO read this in order to add minutes and stuff like that (They're covered in the next section), but I do recommend that you read this at least once anyway!
+<p>
+Let's begin with the looks. Most of the visual appearance of these pages is governed by a central <a href="style/spacemonkey.css">style sheet file</a>. The advantages of this are that it makes the actual HTML writing easier since you only need to concentrate on the content and not on the presentation. It also makes maintenance a lot easier - if, say, we want to change the text colour to red we only need to update the style sheet file and all pages will immediately be changed!
+<p>
+Furthermore I have provided a blank <a href="template.htm">template page</a> which only contains the common header and footer parts of the page. So I suggest whenever you want to make a new page you make a copy of that file or download it, rename it to whatever your page will be called and work on that copy. The template contains some comments to indicate where you should add your content (you will see these when you open the file in a text editor like Emacs).
+<p>
+In most cases you'll just have to add some text and hardly need to do any HTML tags. Any HTML tags that you can use are outlined in the <a href="demo.htm">demo page</a> (Remember to check out the comments in the source code!). If you stick to those nothing can really go wrong. If you do use other tags please <a href="http://validator.w3.org/check/referer">validate your page at the W3C</a> to ensure that it adheres to standard HTML! (remember that any files in the resources folder need a login, so you might need to use the 'Upload files' option when validating!)
+<p>
+For the sake of good design and consistency there are a limited number of elements we should use in our pages. All of them are documented (along with their intended usage and code) in the <a href="demo.htm">demo page</a>.
+<p>
+Generally pages will be devided into 1 or more sections. Every section must have a heading which also cotains a hidden anchor (explained in the demo file). If there are 2 or more sections on one page then each section is seperated by a horizontal line and there is an index of the section names at the top and bottom of the page. These names are clickable and make the browser skip straight to that section of the page (that's why you need the anchors in the headings!). Generally the headings will use images instead of text because it looks nicer. I can make these images for you upon request or you can read how to do 'em yourself further down.
+<p>
+Okay! That's pretty much all there is to say. If you have understood all that and looked at the <a href="demo.htm">demo page</a> then you are ready to go off making pages! Further down the page you'll find a couple of general HTML tips that you may find useful. Next up: Some brief notes on more specific templates!
+
+<hr>
+
+
+<h1><a name="specific"><img src="specific.png" width="133" height="35" alt="Specific"></a></h1>
+
+For some common tasks I will provide more specific templates to make life easier. So far there is only one for the minutes. This <a href="minutes/template.htm">minute template</a> has the basic structure that all minute pages should have and it has plenty of comments in the sourcecode explaining what you should do. You probably don't need any knowledge of HTML to do this, just copy or download <a href="minutes/template.htm">the file</a>, open it a texteditor and away you go! (Note: It's a UNIX textfile so it might look a little screwy in primitive editors like Notepad on Windows because they use a different character for linebreaks!)
+<p>
+Please name your new minute's file as the date of the meeting. So minutes for the 3. December, 2002 should be saved as "03122002.htm". And then when you've done that add a link to the <a href="minutes/index.html">"index.html"</a> page in the minutes directory!
+
+<hr>
+
+<h1><a name="html"><img src="html.png" width="96" height="26" alt="HTML"></a></h1>
+
+Ok, here a some elementary facts about HTML that you ought to know about...
+<p>
+<div class="box">
+HTML files are text files and can therefore be edited using any text editor (Emacs, KEdit, Notepad, whatever!). It doesn't make any difference to web-browsers if they are stored as UNIX, Macintosh or Windows text files (they all use different symbols to represent a line-break), the only problems you may have are with editors like Notepad that can only understand one variation (A UNIX text file will appear as one really long line in Notepad!). Fortunately editors exist for all platforms that can deal with the different kind of line-breaks :)
+</div>
+<p>
+<div class="box">
+The tags in HTML (that's the bits surrounded by angle brackets - &lt;I'm a tag&gt;) are case insensitive, so &lt;P&gt; is the same as &lt;p&gt;.
+<p>
+Multiple whitespace (that's several spaces, tabs and/or line-breaks in a row) will always be concatenated to a single space in a browser. If for some reason you really need several spaces in a row you can use &amp;nbsp; to force a space in your HTML code. So typing "Hello&amp;nbsp;&amp;nbsp;&amp;nbsp;there" in your source code creates this: "Hello&nbsp;&nbsp;&nbsp;there"
+</div>
+<p>
+<div class="box">
+Since HTML files are just text you may wonder where all pictures, videos, flash-anims etc. come from. Well, they are all stored as seperate files and the HTML pages just include links to them. Basically, a HTML file only contains the text on the page and formatting information telling the browser where to display text, pictures and other stuff and whereabouts to find those pictures and things.<p>
+The advantage of this is that several HTML pages can reference the same picture for example. That way there is less data redundancy (excuse the CS233 blurb!) so the website takes up less space on the server and browsers don't need to download as much (because they store things in their cache).
+</div>
+<p>
+<div class="box">
+While we're on the subject of images: There are many many file formats for pictures but on websites you should only ever use PNG, JPEG or GIF files! These can be guaranteed to work in all (visual) browsers and they all use compression so they are relatively small files which means they download quicker.
+</div>
+<p>
+<div class="box">
+HTML files generally have ".htm" or ".html" as their file extension. You are free to use whichever one you like for your files. However, there is a common convention (which I am using too) to use ".htm" on all files except for "index.html". The reason for this is the way webservers deal with sites. If you go to "event-horizon.kicks-ass.net/uni/" then the Event-Horizon's webserver looks in its "uni" folder, if there is an "index.html" file present it will send that to the browser (so in that case: "event-horizon.kicks-ass.net/uni/" and "event-horizon.kicks-ass.net/uni/index.html" are equivalent). However, if there is no "index.html" it will send a listing of the directory contents of "uni" to the browser instead (which is usually NOT what you want).<p>
+So to make that special "index.html" stand out people tend to use the other extension on all other files!
+</div>
+
+<hr>
+
+<h1><a name="headings"><img src="headings.png" width="155" height="35" alt="Headings"></a></h1>
+And finally, some instructions on how to make those heading graphics:
+<p>
+The headings use the Bazaronite font which is freeware and available <a href="bazaronite.zip">here</a>. It's a TrueType font and ought to work on most systems.
+<p>
+Fire up your favourite graphics app and make a new pic with a white background. Now type your heading's text using the Bazaronite font at 32 pixel size (NOT point size!) using the colour: RGB: 2, 42, 98 (hex: #022a62).
+<p>
+Now crop the image so that there is no space between the edge of the text and the edge of the image (in Gimp you can use 'autocrop') and flatten the image. It should now be either exactly 26 pixels or exactly 35 pixels in height (depends on whether there are any dropped down letters (like 'g' or 'y') or not).
+<p>
+Now switch the colour mode to indexed colour, using an optimal palette of 8 colours and save as a PNG file!
+<p>
+Et voila! You're done!
+
+<hr>
+
+<div class="anchors">
+<a href="#general">General</a> |
+<a href="#specific">Specific</a> |
+<a href="#html">HTML</a> |
+<a href="#headings">Headings</a>
+</div>
+
+<hr>
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="style/w3c-html.png" width="88"
+height="31" alt="W3C HTML 4.01" border=0></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="style/w3c-css.png"
+width="88" height="31" alt="W3C CSS" border=0></a>
+ (c) 2002 SpaceMonkeys
+</div>
+</div>
+</body>
+</html>

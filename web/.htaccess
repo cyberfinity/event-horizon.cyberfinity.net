@@ -1,0 +1,3 @@
+ErrorDocument 401 /eve/403.htm
+ErrorDocument 403 /eve/403.htm
+ErrorDocument 404 /eve/404.htm

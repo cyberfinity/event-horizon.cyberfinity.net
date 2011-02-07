@@ -1,0 +1,261 @@
+06:00     LKX     c     DS     001
+07:00     BAN     c     A      001
+07:05     BAN     a     D      001
+07:15     OX      c     A      001
+07:20     OX      b     D      001
+07:35     COV     e     A      001
+07:45     COV     a     D      001
+08:30     BIRM    c     AT     001
+
+09:00     BIRM    a     DS     001
+09:05     BAIR    a     A      001
+09:10     BAIR    b     D      001
+09:20     UNI     a     A      001
+09:30     UNI     b     D      001
+09:50     COV     b     A      001
+10:00     COV     c     D      001
+11:00     LEU     a     A      001
+11:05     LEU     b     D      001
+11:10     LKX     b     AT     001
+
+
+12:00     LKX     c     DS     001
+13:00     BAN     c     A      001
+13:05     BAN     a     D      001
+13:15     OX      c     A      001
+13:20     OX      b     D      001
+13:35     COV     e     A      001
+13:45     COV     a     D      001
+14:30     BIRM    c     AT     001
+
+15:00     BIRM    a     DS     001
+15:05     BAIR    a     A      001
+15:10     BAIR    b     D      001
+15:20     UNI     a     A      001
+15:30     UNI     b     D      001
+15:50     COV     b     A      001
+16:00     COV     c     D      001
+17:00     LEU     a     A      001
+17:05     LEU     b     D      001
+17:10     LKX     b     AT     001
+
+
+07:00     COV     b     DS     002
+07:20     UNI     b     A      002
+07:25     UNI     a     D      002
+07:30     BAIR    b     ST     002
+07:30     BAIR    a     ST     002
+07:35     BIRM    a     A      002
+07:40     BIRM    c     D      002
+08:10     COV     a     AT     002
+
+
+09:00     COV     b     DS     002
+09:20     UNI     b     A      002
+09:25     UNI     a     D      002
+09:30     BAIR    b     ST     002
+09:30     BAIR    a     ST     002
+09:35     BIRM    a     A      002
+09:40     BIRM    c     D      002
+10:10     COV     a     AT     002
+
+
+11:00     COV     b     DS     002
+11:20     UNI     b     A      002
+11:25     UNI     a     D      002
+11:30     BAIR    b     ST     002
+11:30     BAIR    a     ST     002
+11:35     BIRM    a     A      002
+11:40     BIRM    c     D      002
+12:10     COV     a     AT     002
+
+
+13:00     COV     b     DS     002
+13:20     UNI     b     A      002
+13:25     UNI     a     D      002
+13:30     BAIR    b     ST     002
+13:30     BAIR    a     ST     002
+13:35     BIRM    a     A      002
+13:40     BIRM    c     D      002
+14:10     COV     a     AT     002
+
+
+15:00     COV     b     DS     002
+15:20     UNI     b     A      002
+15:25     UNI     a     D      002
+15:30     BAIR    b     ST     002
+15:30     BAIR    a     ST     002
+15:35     BIRM    a     A      002
+15:40     BIRM    c     D      002
+16:10     COV     a     AT     002
+
+
+17:00     COV     b     DS     002
+17:20     UNI     b     A      002
+17:25     UNI     a     D      002
+17:30     BAIR    b     ST     002
+17:30     BAIR    a     ST     002
+17:35     BIRM    a     A      002
+17:40     BIRM    c     D      002
+18:10     COV     a     AT     002
+
+
+19:00     COV     b     DS     002
+19:20     UNI     b     A      002
+19:25     UNI     a     D      002
+19:30     BAIR    b     ST     002
+19:30     BAIR    a     ST     002
+19:35     BIRM    a     A      002
+19:40     BIRM    c     D      002
+20:10     COV     a     AT     002
+
+
+21:00     COV     b     DS     002
+21:20     UNI     b     A      002
+21:25     UNI     a     D      002
+21:30     BAIR    b     ST     002
+21:30     BAIR    a     ST     002
+21:35     BIRM    a     A      002
+21:40     BIRM    c     D      002
+22:10     COV     a     AT     002
+
+06:00     BIRM    b     DS     003
+06:55     LKX     a     AT     003
+
+07:00     LKX     a     DS     003
+07:55     BIRM    b     AT     003
+
+
+08:00     BIRM    b     DS     003
+08:55     LKX     a     AT     003
+
+17:00     LKX     a     DS     003
+17:55     BIRM    b     AT     003
+
+18:00     BIRM    b     DS     003
+18:55     LKX     a     AT     003
+
+19:00     LKX     a     DS     003
+19:55     BIRM    b     AT     003
+
+07:30     OX      c     DS     004
+07:40     BAN     a     A      004
+07:50     BAN     b     D      004
+08:20     MK      c     A      004
+08:25     MK      a     D      004
+09:30     COV     d     A      004
+09:40     COV     e     D      004
+09:55     OX      b     AT     004
+
+10:30     OX      c     DS     004
+10:40     BAN     a     A      004
+10:50     BAN     b     D      004
+11:20     MK      c     A      004
+11:25     MK      a     D      004
+12:30     COV     d     A      004
+12:40     COV     e     D      004
+12:55     OX      b     AT     004
+
+14:30     OX      c     DS     004
+14:40     BAN     a     A      004
+14:50     BAN     b     D      004
+15:20     MK      c     A      004
+15:25     MK      a     D      004
+16:30     COV     d     A      004
+16:40     COV     e     D      004
+16:55     OX      b     AT     004
+
+17:30     OX      c     DS     004
+17:40     BAN     a     A      004
+17:50     BAN     b     D      004
+18:20     MK      c     A      004
+18:25     MK      a     D      004
+19:30     COV     d     A      004
+19:40     COV     e     D      004
+19:55     OX      b     AT     004
+
+20:30     OX      c     DS     004
+20:40     BAN     a     A      004
+20:50     BAN     b     D      004
+21:20     MK      c     A      004
+21:25     MK      a     D      004
+22:30     COV     d     A      004
+22:40     COV     e     D      004
+22:55     OX      b     AT     004
+
+05:50     BIRM    d     DS     005
+06:30     OX      a     AT     005
+
+06:45     OX      a     DS     005
+07:25     BIRM    d     AT     005
+
+
+07:50     BIRM    d     DS     005
+08:30     OX      a     AT     005
+
+08:45     OX      a     DS     005
+09:25     BIRM    d     AT     005
+
+
+11:00     BIRM    d     DS     005
+12:00     OX      a     A      005
+12:10     OX      b     D      005
+12:30     COV     e     ST     005
+12:30     COV     a     ST     005
+13:00     BIRM    c     AT     005
+
+
+15:00     BIRM    d     DS     005
+16:00     OX      a     A      005
+16:10     OX      b     D      005
+16:30     COV     e     ST     005
+16:30     COV     a     ST     005
+17:00     BIRM    c     AT     005
+
+
+18:00     BIRM    d     DS     005
+19:00     OX      a     A      005
+19:10     OX      b     D      005
+19:30     COV     e     ST     005
+19:30     COV     a     ST     005
+20:00     BIRM    c     AT     005
+
+
+21:00     BIRM    d     DS     005
+22:00     OX      a     A      005
+22:10     OX      b     D      005
+22:30     COV     e     ST     005
+22:30     COV     a     ST     005
+23:00     BIRM    c     AT     005
+
+03:00	  LEU	  c	DS     006
+05:50	  NEW	  b	A      006
+06:00	  NEW	  a	D      006
+07:30	  MAN	  c	A      006
+07:35	  MAN     b	D      006
+07:55	  LIV	  b	A      006
+08:00	  LIV     c     D      006
+09:30	  BAN	  d	A      006
+09:35	  BAN	  e	D      006
+09:55	  HW	  a	ST     006
+10:10	  LEU     d	AT     006
+
+12:00	  LEU     e	DS     006
+14:00	  NOR	  a	AT     006
+
+15:30	  NOR	  b	DS     006
+16:40	  COV	  f	A      006
+16:45	  COV	  b	D      006
+17:05	  UNI	  b	A      006
+17:10	  UNI	  c	D      006
+18:00	  SHEF	  c	A      006
+18:10	  SHEF	  a	D      006
+20:00	  NEW	  c     A      006
+20:10	  NEW	  b	D      006
+23:45	  LEU	  c	AT     006
+
+
+
+
+
+

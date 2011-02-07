@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>the SpaceMonkeys' project page</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link rel=stylesheet type="text/css" href="style/spacemonkey.css">
+<meta name="description" content="Website of the SpaceMonkeys - a 2nd year Sotware Engineering group at Warwick Uni."><meta name="keywords" content="spacemonkey, software, warwick,uni, computer science, java"></head>
+<body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
+<a href="http://event-horizon.kicks-ass.net/uni/spacemonkeys/"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
+<p>
+<div class="maintext">
+
+<div class="anchors">
+<a href="#intro">Intro</a> |
+<a href="#news">News</a> |
+<a href="#info">Info</a> |
+<a href="#resources">Resources</a>
+</div>
+
+<hr>
+
+<h1><a name="intro"><img src="intro.png" width="89" height="26" alt="Intro"></a></h1>
+Welcome to the SpaceMonkeys' project homepage! Every year students in the "Introduction to Software Engineering" module of <a
+href="http://www.warwick.ac.uk">Warwick University's</a> Computer Science course must participate in a group project. We were
+one of those groups!
+<p>
+Our year's task (2002/2003) was to produce a train timetabeling system. The full assignment is <a href="http://www.dcs.warwick.ac.uk/people/academic/M.S.Joy/course/cs223/project/index.html">here</a>
+(Note: This link is only accessible from within the uni network!). The members of the best team will receive 50 quid and a get
+to go to IBM to compete against groups from other universities for a chance to win an IBM Laptop each! We really want/need the
+money/laptops so we were gonna try damn hard to be the best team! Raaarrr!
+<p>
+The SpaceMonkeys rock forever!
+<p>
+Part of our work was to produce design specifications, minutes of group meetings and other documentation regarding the project.
+We decided to make all our documents in HTML so that they would be easily maintainable and accessible (see our
+<a href="resources/minutes/27112002.htm">first meeting's minutes</a>). Since these are readable by any browser
+we put our work online on this site so that we would have a central information resource, which helped us
+streamline
+our work!.
+<p>
+The project has now been completed (but the winners have not been decided yet). You can
+<a href="downloads/">download our
+finished program and its manual</a>. We are keeping this site online partly for nostalgia value and incase it is of use and/or  
+interest to software engineering groups in future years. Since there is no longer nay need for secrecy our <a 
+href="resources/">internal documents</a> are now publicly accessible.
+
+<hr>
+<h1><a name="news"><img src="news.png" width="99" height="26" alt="News"></a></h1>
+
+<!--#include virtual="news_gen.pl"-->
+
+<hr>
+
+<h1><a name="info"><img src="info.png" width="70" height="26" alt="Info"></a></h1>
+
+<ul>
+<li><a href="about.htm">About the SpaceMonkeys</a></li>
+<li><a href="downloads/sats.jar">Download the SpaceMonkeys' Amazing Train System (<abbr>SATS</abbr>)</a></li>
+<li><a href="downloads/sats_manual.pdf">Download the SATS intruction manual (PDF)</a></li>
+<li><a href="screenshots/">See screenshots of SATS</a></li>
+</ul>
+
+<hr>
+
+<h1><a name="resources"><img src="resources.png" width="185" height="26" alt="Resources"></a></h1>
+
+<ul>
+<li><a href="resources/index.html">Internal Resources (Minutes, docs, etc..)</a><p></li>
+<li><a href="http://www.dcs.warwick.ac.uk/people/academic/M.S.Joy/course/cs223/project/index.html">Mike Joy's project assignment</a></li>
+<li><a href="http://www.w3.org/TR/html401/">World Wide Web Consortium's HTML 4.01 spec</a></li>
+<li><a href="http://java.sun.com/j2se/1.4.1/docs/">Sun's Java 1.4.1 Documentation</a></li>
+</ul>
+
+<hr>
+
+This website is hosted on <a href="http://event-horizon.kicks-ass.net/">Event-Horizon</a>.
+
+<hr>
+<div class="anchors">
+<a href="#intro">Intro</a> |
+<a href="#news">News</a> |
+<a href="#info">Info</a> |
+<a href="#resources">Resources</a>
+</div>
+
+<hr>
+
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="style/w3c-html.png" width="88" height="31" alt="W3C HTML 4.01" border=0></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="style/w3c-css.png" width="88" height="31" alt="W3C CSS" border=0></a>
+ (c) 2002 SpaceMonkeys
+</div>
+</div>
+</body>
+</html>

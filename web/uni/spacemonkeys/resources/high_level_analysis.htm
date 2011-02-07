@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>High Level Analysis</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link rel=stylesheet type="text/css" href="style/spacemonkey.css">
+<meta name="description" content="Website of the SpaceMonkeys - a 2nd year Sotware Engineering group at Warwick Uni."><meta name="keywords" content="spacemonkey, software, warwick,uni, computer science, java"></head>
+<body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
+<a href="http://event-horizon.kicks-ass.net/uni/spacemonkeys/highlevelanalysis.htm"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
+<p>
+<div class="maintext">
+<H1>High Level Analysis</H1>
+The following document will outline the scope of the "Train Timetabeling System" along with the requirements that it will need to meet.
+The program will be used to monitor the whereabouts of trains running on the current network, and also allow a prospective passenger to 
+plan a journey by train.  The system itself comprises three parts, each entailing it's own separate analysis and design.  These, although separate in terms of their usage, will be packaged under one program.  The three parts to this system, are the passenger view, the station master view, and the network operator view.  Each view (or component of the program) will be aimed at, and designed specifically for a different end user, as suggested by their names.
+<p>
+<H4>Scope & Requirements</H4>
+The program, as described above, consists of three main parts, and therefore the scope and requirements of the system will be discussed with respect to these.
+<p>
+<U>Passenger View</U>
+<p>
+The passenger view will be the visual interface that a prospective passenger would use to find out information concerning when they want to travel.
+The initial screen should provide the user with facilities to enter the following information:
+<p>
+- Which station they wish to depart from.<br>
+- Their destination station.<br>
+- What date they wish to travel.<br>
+- When they wish to travel.<br>
+- Up to three stations that they wish to travel via.<br>
+<p>
+There will also be the facility to book tickets, although this will probably not be fully implemented.  The user will be able to select the
+train journey for which they wish to book tickets, and then submit credit card, and other personal details.  The user will then have the 
+option to print out a ticket or receipt which they could theoretically then
+use to travel.  It will also include the facility to reserve a 
+seat on that particular journey and possibly search for a ticket using filters, e.g. fastest way to get there, least connections, cheapest
+ticket etc.
+<br>
+An online help section will also be required, providing the user with easy instructions on how to use the system, and resolutions to any
+possible errors that they may encounter.
+<p>
+<U>Station Master View</U>
+<p>
+The station master needs to be able to discover which train will be arriving next at a specified station, and therefore needs to facility
+to enter a station and a time.  The program will then be able to examine the
+current status of the network and return to him the relevant
+information.  This might also include what platform the train will be departing from or arriving at, and also whether it is just passing
+through the station, stopping there, or terminating.  He will also be able to query which trains will be arriving between a specified time
+ period.  For example, he could supply a station name and the times 13.00 and
+15.00, and in turn receive a chronologically ordered list of
+ all trains arriving at his station within that two hour time gap.  This should be a printable document in HTML format, allowing the station
+ master to produce and distribute it amongst his employees.
+<p>
+As a booking system will be implemented for the passengers, the station master will be able to submit a query to pick out a particular
+train, and find out how many seats are reserved at that time.  He will also be allowed access to the passenger view, giving him this 
+added functionality.
+<p>
+<U>Network Operator View</U>
+<p>
+The network operator needs to be able to have access to all information regarding the state of the network.  This will be done using a 
+graphical representation, showing a map with all the stations on, along with all trains currently running.  The network operator will need
+to be provided with the following information, which will be conveyed to him through the afore mentioned diagram.
+<p>
+- Which direction the train is travelling in.<br>
+- How long it will take each train to reach it's destination station.<br>
+- Each train should be able to be "clicked on" to provide more information about that train, i.e. how many reserved seats there are, where
+it set off from and where it is going to.<br>
+- The current state of the network will be displayed in real time, but the facility to see what the network should look like at some point
+in the future will be incorporated.  The network operator will be able to
+"fast forward" through the network and see the trains actually
+sped up.  Likewise he should be able to go back again.  Facilities for
+pausing the diagram will also be included, although once it is
+unpaused, the diagram will fast forward to its current state.
+<p>
+When the initial data is loaded, a network diagram will be produced by the system, with all the stations on, but the diagram produced will
+ not hold a geographical correlation to the actual positions of these stations in real life.  Therefore, the network operator will be able
+ to "drag" the stations around the map to provide a more realistic view of where they all lie.  This can then be saved and used from then on
+in place of the automatically generated diagram.  There will also be the option to load in a new network from within the network operator
+view, thereby eliminating the need to close the program down and start it up again every time a new network is required.
+<p>
+The program, when loaded for the first time, will load in the network operator view, so that data can be loaded for use in the other views as
+well.  The accompaning documentation regarding the set up of the program (the user's guide) will mention pre-requisites that the network 
+operator must have in order to set up the system properly, for example, a good geographical sense of Great Britain in order to correctly
+re-position the stations on the diagram. 
+<p>
+The network operator will be able to click on a particular station in the diagram, and go to the station manager's view for further details
+on that station, and the ability to submit various queries as outlined in the above text.  He will also have access to the passenger view.
+<p>
+<H4>General Requirements</H4>
+<p>
+The three different views are all aimed at different types of user, but as outlined above, users with a higher level of authority will be
+able to see all the views "below" them.  Therefore, the network operator will have access to the entire program, the station master to his
+own and the passenger view, and the passenger just to his own.  Access to the various views will be controlled via password protection.
+However, as this program requires us not to use a database of any kind, this feature will most likely be implemented by hardcoding the
+password in or just leaving it as blank.  The feature will however be included for evaluation purposes.
+<p>
+The program will be executed from a command line prompt, which will in turn load a visual interface giving access to all three views. This
+ is opposed to the other possibility of having three different command prompts for the three different views (which was discussed).
+<hr>
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="style/w3c-html.png" width="88"
+height="31" alt="W3C HTML 4.01" border=0></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="style/w3c-css.png"
+width="88" height="31" alt="W3C CSS" border=0></a>
+ (c) 2002 SpaceMonkeys
+</div>
+</div>
+</body>
+</html>

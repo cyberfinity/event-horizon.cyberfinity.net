@@ -1,0 +1,32 @@
+/* Stylesheet for mobiles and PDAs */
+
+/* Body */
+body {  text-align: justify; font-family: verdana, sans-serif; background-color: #e0e0e0; }
+
+/* General Stuff */
+.hide { display: none; }
+
+img { border: 0px; margin-top: 5px; margin-bottom: 5px; }
+
+a:link { color: #707070; }
+a:visited { color: #000000; }
+a:hover { color: #6ac8f7; }
+
+/* Navbar and banner along the top */
+div.nav { background-color: #707070; color: #ffaa00; margin: 0px 0px 10px 0px; padding-left: 5px; padding-right: 5px; }
+
+div.nav img#banner { display: none; }
+
+/* Black boxes and stuff in them */
+div.side#subsections { background-color: #707070; color: #ffaa00; margin: 0px 0px 10px 0px; padding: 5px; text-align: left; }
+div.side#logo { display: none; }
+
+div.side a:link {  color: #ffaa00; }
+div.side a:visited {  color: #ffaa00; }
+div.side a:hover { color: #6ac8f7; }
+div.side p { margin: 15px 0px 10px 20px; padding: 0px; }
+div.side ul { margin: 0px 0px 10px 20px; padding: 0px; }
+div.side li.selected { color: #88e04e; }
+
+/* footer */
+div.footer { display: none; }

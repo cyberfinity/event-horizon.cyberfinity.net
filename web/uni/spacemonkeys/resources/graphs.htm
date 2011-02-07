@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>the SpaceMonkeys' graph drawing page</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link rel=stylesheet type="text/css" href="style/spacemonkey.css">
+<meta name="description" content="Website of the SpaceMonkeys - a 2nd year Sotware Engineering group at Warwick Uni."><meta name="keywords" content="spacemonkey, software, warwick,uni, computer science, java"></head>
+<body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
+<a href="http://event-horizon.kicks-ass.net/uni/spacemonkeys/"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
+<p>
+<div class="maintext">
+<h1><a name="graphs"><img src="graphs.png" width="124" height="35" alt="Graphs"></a></h1>
+
+Eventually we will need to find an algorithm that, given a graph as it's input, can create a graphical representation thereof that looks vaguely ok! :)
+<p>
+Ben sent in this suggestion. It hasn't been tested yet, but looks very promising:
+<p>
+<ol>
+<li>Let n = the number of stations that have been given.</li>
+
+<li>Make an 'n by 4' matrix.</li>
+
+<li>Give each station a number from 1 to n, Let s = station number.</li>
+
+<li>Let point (a,b) be the centre of the area that the map will be in, and let r = the minimum distance from (a,b) to an edge.</li>
+
+<li>Let T = 360/n</li>
+
+<li>Let x (for each station) = a + r sin (sT) and y = b + r cos (sT).</li>
+
+<li>In matrix, let each line of 4 values be [s, station acronym, x, y]. In this way you have co-ordinates for each station, from which you can draw the nodes, and lines between each station as needed.</li>
+</ol>
+
+<hr>
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="style/w3c-html.png" width="88"
+height="31" alt="W3C HTML 4.01" border=0></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="style/w3c-css.png"
+width="88" height="31" alt="W3C CSS" border=0></a>
+ (c) 2002 SpaceMonkeys
+</div>
+</div>
+</body>
+</html>

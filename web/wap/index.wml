@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="welcome" title="Event-Horizon">
+<p align="center">
+Welcome to Event-Horizon's wap site!<br/>
+<br/>
+Probably the world's first fun wapsite! :P<br/>
+<br/>
+Check out some <a href="#pix">kewl pix</a> for ur fone...<br/>
+<br/>
+...or see what's <a href="#soon">coming soon!</a>
+</p>
+</card>
+<card id="pix" title="Kewl Pix!">
+<p align="center">
+You can download all the gfx here for free!!<br/>
+<br/>
+Provided you have a fone with a colour screen you should be able to see and download any of these. If you intend to use them as a background ur probably best off getting ones that match the resolution of ur screen!<br/>
+Enjoy!<br/>
+<br/>
+<a href="gfx100x80/">100x80 pixel graphics (eg: T68i)</a><br/>
+<br/>
+<a href="gfx128x128/">128x128 pixel graphics (eg: 7210)</a><br/>
+<br/>
+<a href="gfx2/">misc graphics</a><br/>
+<br/>
+<a href="#welcome">back to startpage</a>
+</p>
+</card>
+<card id="soon" title="Random link...">
+<p align="center">
+<a href="http://members.tripod.com/~smoggs_denn/">BCP Outpost 2</a><br/>"
+<br/>
+<a href="#welcome">back to startpage</a>
+</p>
+</card>
+</wml>

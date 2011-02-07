@@ -1,0 +1,39 @@
+
+body { background-color: #ffffff; color: #022a62; font-family: "helvetica", sans-serif; }
+
+a:link { color: #98135b; }
+a:visited { color: #565656; }
+a:active { color: #98135b; }
+
+hr { margin-top: 14px; margin-bottom: 14px; height: 1px; color: #022a62; }
+
+
+/* Table colors */
+
+table {width: 100%; }
+th { text-align: center; vertical-align: middle; padding: 5px; border-width: 1px; border-style: solid; border-color: #022a62; background-color: #f9d6ea}
+td { padding: 5px; border-width: 1px; border-style: solid; border-color: #022a62; }
+
+.TableSubHeadingColor     { background-color: #dadaf6; background-image: url(http://event-horizon.kicks-ass.net/uni/spacemonkeys/style/box_back.png); background-repeat:repeat-y; }
+.TableHeadingColor  { background-color: #f9d6ea; background-image: url(http://event-horizon.kicks-ass.net/uni/spacemonkeys/style/codebox_back.png); background-repeat:repeat-y; }
+.TableRowColor         { background: #FFFFFF; }
+
+/* Font used in left-hand frame lists */
+.FrameTitleFont   { font-size: 120%; }
+.FrameHeadingFont { font-size: 110%; }
+.FrameItemFont    { font-size: 100%; }
+
+h1 { font-size: 120%; }
+h2 { font-size: 110%; }
+
+
+/* Navigation bar fonts and colors */
+.NavBarCell1    { background-color: #f9d6ea; } /* light red */
+.NavBarCell1Rev { background-color: #98135b;} /*dark red */
+.NavBarFont1Rev { color:#dadaf6;} /* light blue */
+
+.NavBarCell2    { text-align: center; vertical-align: middle; font-size: 70%; background-color:#FFFFFF;}
+.NavBarCell3    { text-align: center; vertical-align: middle; font-size: 70%; background-color:#FFFFFF;}
+
+
+

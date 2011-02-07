@@ -1,0 +1,725 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>the SpaceMonkeys' website elements demo page</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link rel=stylesheet type="text/css" href="style/spacemonkey.css">
+<meta name="description" content="Website of the SpaceMonkeys - a 2nd year Sotware Engineering group at Warwick Uni."><meta name="keywords" content="spacemonkey, software, warwick,uni, computer science, java"></head>
+<body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
+<a href="http://event-horizon.kicks-ass.net/uni/spacemonkeys/"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
+<p>
+<div class="maintext">
+<!--
+
+    Welcome to the demo page!
+    All comments such as this one will be ignored by web-browsers.
+
+    The blurb above this comment represents the header of the page. That's
+    various 'invisible' informations about what sort of HTML this is and
+    where the stylesheet file is located. it also includes the SpaceMonkeys
+    logo that appears at the top of every page!
+
+    The only thing you need to care about up there is the stuff inbetween
+    <title> and </title>. That's the title of the page that appears at the
+    top of your browser's window or in search engine results. Therefore you
+    should take care to change it to something meaningful.
+
+    
+
+    Below I will introduce the various elements we use in our website. It
+    might be a good idea to have this page loaded in a browser alongside
+    whatever you are viewing this source in. That way you can see how
+    the HTML translates to the visuals in your browser.
+
+    When making a new page you should begin with a copy of the blank template
+    (http://event-horizon.kicks-ass.net/uni/spacemonkeys/resources/template.htm).
+    You can then copy/paste the elements you need from this file to that one
+    and just replace the text with yours!
+
+//-->
+
+
+
+
+<!--
+
+    Since this page is divided into several sections we will have an
+    index here at the top of the page. The user can click any of the
+    headings to jump straight to that part of the page.
+    (If there was only one section on this page we'd omit this bit!)
+
+    As you will see, we give every section a heading and an internal
+    name (referred to as an anchor). It's probably easiest if you make
+    the heading and the anchor name the same.
+
+    To create the links we surround the text that should become the
+    link with <a href="#something"> and </a> where "something" is the
+    anchor name.    
+
+// -->
+
+<div class="anchors">
+
+<a href="#text">Text</a> |
+<a href="#lists">Lists</a> |
+<a href="#links">Links</a> |
+<a href="#pix">Pix</a> |
+<a href="#code">Code</a> |
+<a href="#tables">Tables</a> |
+<a href="#boxes">Boxes</a>
+
+</div>
+
+
+
+
+<!--
+
+    Inbetween every section on the page we place a horizontal line.
+    This is simply done with the <hr> tag (for "horizontal rule")
+
+//-->
+
+<hr>
+
+
+
+
+<!--
+
+    On to our first section!
+    Every section must begin with a heading. The names you use in the headings
+    should match the ones you used in the index above!
+
+    Rather than using plain text for headings we are using images because they
+    look nicer (see the guidelines page for details on how these are made).
+    That's what the <img> tag does - it tells the browser where the image file
+    is located and how big it is (in pixels). The "alt" attribute is for an
+    alternative text that can be displayed if the image cannot be displayed.
+    It is crucial that you give an alt text! Although most browsers can display
+    images some, such a Lynx or audio browsers for blind people, cannot! These
+    browsers will then display the alt text instead.
+
+    And finally we enclose our heading image in <a> tags. This is where we
+    specify the anchor name that the links in the index use. It must be
+    EXACTLY the same as whatever you put in the index.
+    (Note: The name does NOT have a preceding '#', but the link does)
+
+// -->
+
+<h1><a name="text"><img src="text.png" width="75" height="26" alt="Text"></a></h1>
+
+
+
+
+<!--
+
+    After the heading we can place the content of the section. For this one we will
+    just have a block of text.
+
+    As you can see you just tpye your text straight in! Note that a browser will turn
+    new-lines into spaces, so if you want to force a newline to get a space between
+    paragraphs you need to use a <p> tag (for "paragraph")
+
+//-->
+
+This is a demo of a simple text block. Regardless of how I broke
+up
+the
+text
+in the source code the browser will turn it all into one long line of text and wrap that line to fit your browser's window.
+<p>
+This is good, because it means the text on this page will dynamically fit itself into whatever space it gets given. So the page always looks good, regardless of what resolution someone is using and whether or not they are running their browser full-screen. Go on, resize your browser window and see it in action!
+
+
+
+
+<!--
+
+    Remember to put a <hr> before the next section and to give that section
+    a heading!
+
+//-->
+
+<hr>
+
+<h1><a name="lists"><img src="lists.png" width="79" height="26" alt="Lists"></a></h1>
+
+
+
+
+<!--
+
+     We can place bullet lists on our pages too. This can be useful if you
+     need to make a list of things (duh!).
+     The list is between <ul> and </ul> and each bullet point is between
+     <li> and </li>
+    
+//-->
+
+Right, now we will demonstrate a list of things. A list can appear on its own in a page section or, like we're doing here, inbetween some other text!
+<p>
+
+<ul>
+<li>List item number 1</li>
+<li>List item number 2</li>
+<li>Another list item</li>
+</ul>
+<ul>
+<li>Putting 2 lists directly after one another creates a bit of a space inbetween</li>
+<li>You can also nest lists within each other:
+   <ul>
+   <li>Sub point 1</li>
+   <li>Sub point 2</li>
+   <li>etc...</li>
+   </ul>
+<li>
+<li>I think you get the idea!</li>
+</ul>
+
+<p>
+And if we want some more text below that's no problem! Just remember to create a space with a paragraphe tag!
+
+
+
+
+<!--
+
+    Enough of the lists! Let's end this section!
+
+//-->
+
+<hr>
+
+
+
+
+<!--
+
+    Right, next section is on how to make links!
+
+    You have already encountered links in the index section at the top.
+    The syntax was: <a href="link location">Link Text</a>
+
+    Up there "link location" was stuff like "#text". The "#" tells
+    your browser that that's a link to some anchor on this page.
+
+    If you want to link to another page (or any other file for that
+    matter) you set "link location" to the file's name, relative
+    to this file. (for example: "../index.html")
+
+    if you link to a folder you should have a slash at the end of
+    your link location (for example: "../../photos/")
+
+    If the file is on another computer altogether you just give
+    the full URL preceded by "http://".
+    (for example: "http://www.twiddles.com/pic.gif")
+
+//-->
+<h1><a name="links"><img src="links.png" width="87" height="26" alt="Links"></a></h1>
+
+In this section we introduce links. We can link to an anchor on this page like <a href="#lists">so</a>. Or we can link to another <a href="../about.htm">page</a>, <a href="style/">folder</a> or <a href="style/spacemonkey-logo.png">file</a> on the same server. Or any of those things on another server (like <a href="http://www.warwick.ac.uk/~csvpg/tesco.jpg">this</a>, for example)!
+<p>
+<ul>
+<li>Links may, of course appear within a list too...</li>
+<li>...like <a href="index.html">this</a>!</li>
+</ul>
+
+
+
+
+<hr>
+
+
+
+
+
+<!--
+
+    Next up - pictures!
+    
+    As you have seen with the headings - images use the <img> tag.
+    You can only use JPEG, PNG or GIF files for images on websites.
+
+    The "src" attribute specifies where the image file is located.
+    The same conventions as with links apply here!
+
+    You should always specify the images pixel dimensions using the
+    "width" and "height" attributes.
+
+    You MUST always have an "alt" text for the reasons explained
+    above with the headings. The alt text should be some kind of
+    description of the picture.
+
+    Finally, images can appear between <a> tags if they are supposed
+    to be (part of) a link. If this is the case remember to add a
+    "border" attribute with the value of 0. This is because some older
+    browsers will display and ugly border around the picture and we
+    want to avoid that!
+    
+//-->
+
+<h1><a name="pix"><img src="pix.png" width="48" height="26" alt="Pix"></a></h1>
+
+Now it's time to show how pictures can be embedded into a webpage! As a style guideline for this site I recommend that you do not place pictures in the middle of some text because it generally looks crap!
+<img src="demo_pic1.jpg" width="80" height="60" alt="Picture of some landscape">
+...as you can clearly see! The problem is that the browser aligns the bottom of the text with the bottom of the picture, so if the pic is taller than the text you get a daft looking gap! Even if your picture looks the same height as the text in your browser and you think you can get away with it - think again! Other browsers or computers may render the text at a different size or someone might have just increased the default text size to make stuff easier to read and you can end up with the same problem.
+<p>
+Therefore I propose only having pictures on their own inbetween paragraphs of text. To make it look a bit nicer I will align them with the center. Here's an example:
+<p>
+
+<!--
+
+    Use these <div> tags to achieve the centred alignment. Note, any text between them will
+    be centred too and 70% of it's normal size - this is so you can add captions to your
+    pictures if you wish.
+
+    Use a <br> tag between the picture and the caption to create a line-break without
+    a big gap like a <p> would do!
+
+//-->
+
+<div class="pixmid">
+
+<img src="demo_pic1.jpg" width="80" height="60" alt="Picture of some landscape">
+<br>
+We can add captions to pix too!
+
+<p>
+
+<img src="demo_pic2.jpg" width="80" height="60" alt="Some bizarre pic">
+<br>
+Another pointless caption!
+
+</div>
+
+<p>
+Of course pictures, just like text, can be links too! Bear in mind that there is no visible difference between link images and normal ones (other than the cursor turning into hand when you move it over the image). So you should make it clear from the context which pictures are supposed to be clickable!
+<p>
+
+<div class="pixmid">
+
+<a href="../../../cirrus/gfx/backgrounds/1024x768/fuck_windows.png">
+<img src="f_win.jpg" width="80" height="60" alt="Desktop background thumbnail" border="0">
+<br>
+Click me for a surprise!
+</a>
+
+</div>
+
+
+
+
+<hr>
+
+
+
+
+<!--
+
+     In order to highlight snippits of Java code (or any other code for that matter)
+     I have created a type of <div> tag to create a code box!
+     
+     It works similar to the one to centre images above, you just surround your
+     java code with <div class="codebox"> and </div>.
+
+     You must remember though, that multiple whitespace gets turned into a single
+     space by a browser, so you will loose any indentation your code had.
+
+     Fear not though - I have made a script on Event-Horizon which turns indented
+     Java code into HTML text that appears indented in a browser! It does this by
+     placing lots of &nbsp; (which force a space in HTML) to recreate the indentation.
+
+     (Note: There was a tag in HTML called <pre> which achieved a similar effect
+      without the need for all the &nbsp; but it's rendering is unpredictable in
+      some browsers and that tag has been deprecated anyway - so that's why we're
+      not using it!)
+
+//-->
+<h1><a name="code"><img src="code.png" width="83" height="26" alt="Code"></a></h1>
+
+Sometimes we may wish to include bits of Java code on our pages to help document our work. Just copy / pasting the code into the HTML would produce ugly code since the indentation would be lots. Furthermore it would be nice to have the code highlighted in some way to make the difference between it and any normal text on the page clear.
+<p>
+Roll on the code-box!....
+<p>
+
+<div class="codebox">
+
+class test1{<br>
+<br>
+&nbsp;&nbsp;# main method<br>
+&nbsp;&nbsp;public static void main (String[] argz){<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hello world!");<br>
+<br>
+&nbsp;&nbsp;}<br>
+}<br>
+
+</div>
+
+<p>
+Of course, we can have multiple code-boxes like so...
+<p>
+
+<div class="codebox">
+
+class test2{<br>
+<br>
+&nbsp;&nbsp;# main method<br>
+&nbsp;&nbsp;public static void main (String[] argz){<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hello again world!");<br>
+<br>
+&nbsp;&nbsp;}<br>
+}<br>
+
+</div>
+
+<p>
+
+<div class="codebox">
+
+class test3{<br>
+<br>
+&nbsp;&nbsp;# main method<br>
+&nbsp;&nbsp;public static void main (String[] argz){<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Goodbye world!");<br>
+<br>
+&nbsp;&nbsp;}<br>
+}<br>
+
+</div>
+
+
+
+
+<hr>
+
+<!--
+
+    Time to make some tables now!
+    Every table in HTML begins with <table> and ends with </table>.
+
+    You must first define table rown using <tr> and </tr> and then you can
+    place columns in each row with <td> and </td>. Each row must have the
+    same amount of columns.
+
+    You may optionally have table headers in the top row. To do this use
+    <th> instead of <td>.
+
+    It's probably easier if you look at the examples below. They should be
+    quite self-explanatory!
+
+    There is also the option of making an individual cell have a blue
+    background. Just use <td class="blue"> for that cell.
+
+//-->
+
+<h1><a name="tables"><img src="tables.png" width="112" height="26" alt="Tables"></a></h1>
+
+We can also create tables in HTML. Tables may have table headers which get highlighted like this:
+<p>
+
+<table>
+<tr>
+  <th>Left Column</th>
+  <th>Middle Column</th>
+  <th>Right Column</th>
+</tr>
+<tr>
+  <td>Top Left</td>
+  <td>Top Middle</td>
+  <td>Top Right</td>
+</tr>
+<tr>
+  <td>Middle Left</td>
+  <td>Middle Middle</td>
+  <td>Middle Right</td>
+</tr>
+<tr>
+  <td>Bottom Left</td>
+  <td>Bottom Middle</td>
+  <td>Bottom Right</td>
+</tr>
+</table>
+
+<p>
+Or you can just have a table without headers like the one below. You can also highlight individual cells in blue if you want:
+<p>
+
+<table>
+<tr>
+  <td class="blue">Top Left</td>
+  <td>Top Middle</td>
+  <td>Top Right</td>
+</tr>
+<tr>
+  <td>Middle Left</td>
+  <td class="blue">Middle Middle</td>
+  <td>Middle Right</td>
+</tr>
+<tr>
+  <td>Bottom Left</td>
+  <td>Bottom Middle</td>
+  <td class="blue">Bottom Right</td>
+</tr>
+</table>
+
+
+<hr>
+
+
+
+<!--
+
+    Almost done now!
+    All that remains are boxes! That's those blue boxes, like the ones
+    on the front page that contain the news items!
+
+    These work almost identically to the code-boxes. The only difference
+    is the <div> tag you use. For boxes it must be: <div class="box">
+
+    The boxes may contain virtually any of the other elements. All
+    would work, but some might just look a little daft!
+
+    See the examples below...
+
+//-->
+
+<h1><a name="boxes"><img src="boxes.png" width="104" height="26" alt="Boxes"></a></h1>
+
+The last element we can use is the blue box. You can use these to subdivide a section in some way. For example the <a href="minutes/template.htm">minutes</a> use boxes to seperate the notes from different agenda points.
+<p>
+
+<div class="box">
+So this is a standard box. This one only contains text, but as we'll see you place pretty much anything in a box!
+<p>
+The <a href="#next">next box</a> contains some of the elements that were intended to appear in boxes and the following box shows examples of things you should avoid inside a box!
+
+</div>
+
+<p>
+
+<div class="box">
+
+<!--
+
+     The minutes' agenda notes and the front page's news items both use mini
+     headings. I haven't introduced these before because they're only meant for
+     use inside of a box. Technically they should work anywhere on the page
+     but y'know - consistency! :P
+     
+     The <u> tags cause the text to be underlined and, as you should now know,
+     the <a> tag provides an anchor name for the heading so we can link to it
+     if we want. Finally we have to place a <p> tag after it since unlike the
+     normal headings there will be no gap before the following text otherwise!
+
+//-->
+
+<u><a name="next">A mini heading</a></u>
+<p>
+
+Ok, there's an example of a mini heading. Since boxes are mainly intended as a way of dividing a large section of a page, it is conceivable that you'll want to give them headings!
+<p>
+Now then, a box may contain pictures as described above:
+<p>
+
+<div class="pixmid">
+
+<a href="../../../cirrus/gfx/backgrounds/1024x768/fuck_windows.png">
+<img src="f_win.jpg" width="80" height="60" alt="Desktop background thumbnail" border="0">
+<br>
+Click me for a surprise!
+</a>
+
+<p>
+
+<img src="demo_pic1.jpg" width="80" height="60" alt="Picture of some landscape">
+<br>
+We can add captions to pix too!
+
+</div>
+
+<p>
+
+Or a box may contain a list:
+
+<p>
+
+<ul>
+<li>List point 1</li>
+<li>List point 2</li>
+<li>List point 3</li>
+<li>List point 4</li>
+</ul>
+
+<p>
+
+So, you see, these blue boxes are quite versatile! Almost too versatile in fact, because you can put all sorts of mad things inside them...
+
+</div>
+
+<p>
+
+<div class="box">
+
+Right, examples of stuff not to put in a box. Well, the obvious one first - it looks silly and is quite pointless to have a box within a box:
+
+<div class="box">
+
+Like this one for instance! In fact, you can have another box within this one and you can carry on like this for as much as you like!
+
+<div class="box">
+ad infinitum! ...well, or more likely until your browser gets tired of it and decides to perform an illegal operation or something like that!
+</div>
+
+So that was a box within a box within a box. Time to get out of this box within a box then!
+</div>
+
+<p>
+
+As mentioned in the source code, code-boxes are very similar to blue boxes. So, surprise surprise, you can stick them in here too!
+
+<p>
+
+<div class="codebox">
+
+class test4{<br>
+<br>
+&nbsp;&nbsp;# main method<br>
+&nbsp;&nbsp;public static void main (String[] argz){<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("I'm in a box!");<br>
+<br>
+&nbsp;&nbsp;}<br>
+}<br>
+
+</div>
+
+<p>
+
+Fair enough, it doesn't look too stupid and I guess there might be instances where you'd want to do this, but I still recommend you avoid it since you might get tempted to do something like this:
+
+<p>
+
+<div class="codebox">
+
+class recursion{<br>
+<br>
+&nbsp;&nbsp;# main method<br>
+&nbsp;&nbsp;public static void main (String[] argz){<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Lets nest stuff!");<br>
+<br>
+&nbsp;&nbsp;}<br>
+<br>
+
+<div class="box">
+Hey I know! Let's bung a blue box in here for no reason at all! Gee, what a good idea!
+<p>
+Oh maybe not - I seem to have inherited that silly fixed-width font! Oh dear!
+</div>
+
+<br>
+&nbsp;&nbsp;# other method<br>
+&nbsp;&nbsp;public int blah (int z){<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return 5 + z;<br>
+<br>
+&nbsp;&nbsp;}<br>
+}<br>
+<br>
+
+<table>
+<tr>
+  <td class="blue">Hell,</td>
+  <td>why</td>
+  <td class="blue">not</td>
+</tr>
+<tr>
+  <td>stick</td>
+  <td class="blue">a</td>
+  <td>table</td>
+</tr>
+<tr>
+  <td class="blue">in</td>
+  <td>here</td>
+  <td class="blue">too!</td>
+</tr>
+</table>
+
+</div>
+
+<p>
+
+I think you get the idea! After all, we want to keep these pages looking tidy! So let's just stick to the conventions, eh?
+
+<p>
+
+One quick final note on tables in boxes. As you can see above the normal, non-blue table cells have no background, so whatever's underneath shines through. In this case the code-box's background. By the same token if you place a table in the blue box, all cells will appear blue so you can't really highlight stuff with blue cells, like you can on a white background.
+
+<p>
+
+<table>
+<tr>
+  <th>Table headings...</th>
+  <th>...still retain...</th>
+  <th>...their colour though!</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td>2</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>A</td>
+  <td>B</td>
+  <td>C</td>
+</tr>
+</table>
+
+</div>
+
+<hr>
+<!--
+
+    That's almost it!
+    You've now seen all the available elements and how to use them.
+
+    A few quick reminders:
+    - Always put <hr>s between page sections
+    - Always put <p>s between elements within a section
+    - Don't forget to make a copy of the index from the top
+      at the bottom of the page....
+
+//-->
+
+<div class="anchors">
+
+<a href="#text">Text</a> |
+<a href="#lists">Lists</a> |
+<a href="#links">Links</a> |
+<a href="#pix">Pix</a> |
+<a href="#code">Code</a> |
+<a href="#tables">Tables</a> |
+<a href="#boxes">Boxes</a>
+
+</div>
+
+<!--
+
+     OK! Done that!
+     
+     That's all folks!
+
+//-->
+<hr>
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="style/w3c-html.png" width="88" height="31" alt="W3C HTML 4.01" border=0></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="style/w3c-css.png" width="88" height="31" alt="W3C CSS" border=0></a>
+ (c) 2002 SpaceMonkeys
+</div>
+</div>
+</body>
+</html>

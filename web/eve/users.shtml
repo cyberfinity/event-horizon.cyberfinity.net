@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<title> -= Event-Horizon =- / the people</title>
+
+<link rel="shortcut icon" href="../eve.ico">
+<link rel="shortcut icon" href="../eve16.png">
+
+<meta name="keywords" content="event-horizon, users, websites">
+<meta name="description" content="The users of Event-Horizon and in some cases their websites">
+<meta name="DC.Title" content="The people on Event-Horizon">
+<meta name="DC.Creator" content="James Nash">
+<meta name="DC.Subject" content="Event-Horizon's users">
+<meta name="DC.Description" content="The users of Event-Horizon and in some cases their websites">
+<meta name="DC.Publisher" content="Twiddles">
+<meta name="DC.Format" content="text/html">
+<meta name="DC.Rights" content="Copyright James Nash">
+</head>
+<body bgcolor="#000000" text="#cccccc" link="#ffffff" vlink="#ffffff" alink="#ffffff">
+<center>
+<a href="./"><img src="eve.jpg" width="278" height="82" alt="Event Horizon" border="0"></a>
+<p>
+Several of my friends have user accounts on Event-Horizon. Here is a list of their usernames (and mine too). If they have made publicly available webpages then their username will be a link to those pages.
+<p>
+<!--#exec cmd="./usersites.pl" -->
+<p>
+<small><font color="#999999">&copy; 2002 <a href="http://cirrus.twiddles.com/">James
+Nash</a>.
+Event-Horizon is a member of the <a href="http://www.twiddles.com/">Twiddles
+Network</a>.</font></small>
+</center>
+</body>
+</html>

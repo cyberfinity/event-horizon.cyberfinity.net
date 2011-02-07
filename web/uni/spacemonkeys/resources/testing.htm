@@ -1,0 +1,390 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Test Document</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link rel=stylesheet type="text/css" href="style/spacemonkey.css">
+<meta name="description" content="Website of the SpaceMonkeys - a 2nd year Sotware Engineering group at Warwick Uni."><meta name="keywords" content="spacemonkey, software, warwick,uni, computer science, java"></head>
+<body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
+<a href="http://event-horizon.kicks-ass.net/uni/spacemonkeys/resources/TestDoc.htm"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
+<p>
+<div class="maintext">
+<h1><a name="testing"><img src="testing.png" width="125" height="35" alt="Testing"></a></h1>
+The following document will outline all relevant test procedures that will be incorporated in the programming of this system.  It will give
+a description of what parts of the system will be tested, how they will be tested including methods and procedures, and actual test data 
+(some of this will be alluded to rather than printed out, as it can all be accessed via the website, and makes for more concise reading).
+Each of the tests that we carry out will be documented and numbered, so that they can be referred to easily in the test results.  Each test
+will consist of information regarding how it will be carried out, pre and post conditions and at what stage in the project it is to be 
+executed.  The various tests will be divided into different categories depending on at what level they are to be carried out.  Various
+levels of testing will include:
+<p>
+
+<b>- High level testing:</b> Includes tests regarding usability of the GUI. For example, how easy is it to navigate the site, can a user do all 
+the things he/she want to do, does the user only have access to the parts of the system they should do and so on.  Most of these tests will
+be done when the system is complete, or very near completion.<p>
+<b>- Class testing:</b> These will be done during coding for the most part, probably on completion of a particular class.  Does the class produce
+the correct data when it is passed the correct parameters.  How do the classes interact with each other, do they communicate in the way 
+that they have been designed to?<p>
+<b>- General code testing:</b> An on-going test procedure carried out while coding, including methods such as System.out.println statements.  
+This part of the testing will not be documented in the same way as the above tests for obvious reasons, but is being mentioned as part of 
+this document as it will make up a large percentage of how we will get
+the system to run in the correct way.<p>
+<b>- Algorithm testing:</b>  Parts of the coding that are more complex will require detailed algorithm design and analysis and where possible, 
+dry runs and test rigs will be constructed to ensure correct functionality before they are hardcoded.  Again, these cannot be documented
+here as we need to start coding before these become aparant to us, but is being mentioned as it will be neccessary as part of the testing.
+<p>
+The first section of tests will refer to the usability of the system, i.e. how the user will interact with the system including expected output.
+
+<p>
+<b>High Level Testing</b>
+<p>
+<b>Passenger View</b>
+<p>
+   <table border=0 cellspacing=0 cellpadding=2>
+      <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+	     1.01
+          </td>
+	  <td class="mike">
+	     Passenger submits a query requesting information on a journey.
+	  </td>
+	  <td class="mike">
+
+	     All relavent text boxes filled in, destination station, beginning station, date and time, and any via stations required.
+	  </td>
+	  <td class="mike">
+	     User should be redirected to another screen showing them a list of all reasonable possible routes they could take to get to where
+	     they want to go.  They should be able to scroll through a list of possible routes and drill down on any one particular train to see
+	     more information on it.  They should also be able to have the option to book tickets from here.  
+	  </td>
+       </tr>
+   </table>
+<p>   
+   <table border=0 cellspacing=0 cellpadding=2>
+      <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+	     1.02
+          </td>
+	  <td class="mike">
+	     Passenger views specific train details regarding a paritcular journey
+	  </td>
+	  <td class="mike">
+	     A query must have already been made by a passenger as above requesting information on a particular journey.  They must have seen a list of possible trains that are available to them, and selected one from the list by clicking on it.
+	  </td>
+	  <td class="mike">
+	     Details corresponding to the specified train must be shown to the user on screen.  This will include the type of train, where and when it stops en-route to it's destination, what facilities it has on board, and also a link to be able to book tickets for that particular journey.
+	  </td>
+       </tr>
+   </table>
+<p>
+   <table border=0 cellspacing=0 cellpadding=2>
+      <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+	     1.03
+          </td>
+	  <td class="mike">
+	     Passenger can output details of journey as a hard copy (i.e. print journey details)
+	  </td>
+	  <td class="mike">
+	     The passenger must have selected the correct journey to print from the list made available to them.
+	  </td>
+	  <td class="mike">
+	     Details of the journey are printed out correctly when the appropriate button(s) is(are) pressed.
+	  </td>
+       </tr>
+   </table>
+<p>
+   <table border=0 cellspacing=0 cellpadding=2>
+      <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+	     1.04
+          </td>
+	  <td class="mike">
+	     Passenger can make a booking and reserve a seat on the train.
+	  </td>
+	  <td class="mike">
+	     The passenger must have selected the journey that he/she wishes to book tickets for.
+	  </td>
+	  <td class="mike">
+	     Details of the booking can be printed out for the user to keep as a reference.  Also, any seat reservation made must update the train info so that the station master can see how many seats have been booked so far for that particular journey.
+	  </td>
+       </tr>
+   </table>
+<p> 
+<b>Station Master View</b>
+<p>
+    <table border=0 cellspacing=0 cellpadding=2>
+       <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+	     2.01
+          </td>
+	  <td class="mike">
+	     Station Master submits a query requesting information on train going through the station at a particular time.
+	  </td>
+	  <td class="mike">
+	     All relevent text boxes filled in: station, date and time.
+	  </td>
+	  <td class="mike">
+	     User should be redirected to another screen showing them a list of all trains entering and departing the station in the next
+	     30 minutes, and which track they are on. They should be able to leave the screen to run in real time, or be able to fast-forward
+	     or rewind to a different point. They should be able to click on a train to view it's details.
+	  </td>
+      </tr>
+  </table>
+<p>
+  <table border=0 cellspacing=0 cellpadding=2>
+      <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+
+	  <p>
+	     2.02
+          </td>
+	  <td class="mike">
+	     Station Master requests to see passenger view.
+	  </td>
+	  <td class="mike">
+	     Relevent tab clicked.
+	  </td>
+	  <td class="mike">
+	     User should be redirected to another screen showing passenger view.
+	  </td>
+       </tr>
+   </table>
+<p>
+<b>Network Operator View</b>
+<p>
+ <table border=0 cellspacing=0 cellpadding=2>
+      <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+	      3.01
+          </td>
+	  <td class="mike">
+	     Network Operator submits a query requesting information on trains currently on the network
+	  </td>
+	  <td class="mike">
+	     All relevent text boxes filled in: date and time.
+	  </td>
+	  <td class="mike">
+	     User should be redirected to another screen showing them a graphical representation of all trains on the network.
+	     They should be able to leave the screen to run in real time, or be able to fast-forward
+	     or rewind to a different point. They should be able to click on a train or station to view it's details.
+	  </td>
+       </tr>
+    </table>
+<p>
+    <table border=0 cellspacing=0 cellpadding=2>
+       <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+	     3.02
+          </td>
+	  <td class="mike">
+	     Network operator requests to see passenger view.
+	  </td>
+	  <td class="mike">
+	     Relevent tab clicked.
+	  </td>
+	  <td class="mike">
+	     User should be redirected to another screen showing passenger view.
+	  </td>
+       </tr>	  
+    </table>
+<p>   
+    <table border=0 cellspacing=0 cellpadding=2>
+      <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+	     3.03
+          </td>
+	  <td class="mike">
+	     Network operator requests to see station master view.
+	  </td>
+	  <td class="mike">
+	     Relevent tab clicked.
+	  </td>
+	  <td class="mike">
+	     User should be redirected to another screen showing station master view.
+	  </td>
+      </tr>
+    </table>
+<p>
+    <table border=0 cellspacing=0 cellpadding=2>
+       <tr>
+	  <td class="mike" width="15%">
+	      <b>Test No.</b>
+	  </td>
+	  <td class="mike" width="25%">
+	     <b>Test Description</b>
+	  </td>
+	  <td class="mike" width="30%">
+
+	     <b>Pre Conditions</b>
+	  </td>
+	  <td class="mike" width="30%">
+	     <b>Post Conditions</b>
+	  </td>
+       </tr>
+       <tr valign="top">
+	  <td class="mike">
+	     3.04
+          </td>
+	  <td class="mike">
+	     Network operator requests to change network data.
+	  </td>
+	  <td class="mike">
+	     Relevent button clicked and appropriate files entered.
+	  </td>
+	  <td class="mike">
+	     User should be redirected to another screen showing crude map of network.
+	     They should be able to drag stations to different positions and input full names for each station.
+	  </td>
+       </tr>
+   </table>
+<p>
+These are the only tests which have been fully documented as they are the only ones at this stage that can be.  They all relate to the use cases for the individual users and reflect all the different things that these users will be able to do.  The test data that has been included at this stage is going to be used in the class testing, but more details of the class testing will be available once the full UML procedure is complete.
+<hr>
+<div class="footer">
+<a href="http://validator.w3.org/check/referer"><img src="style/w3c-html.png" width="88"
+height="31" alt="W3C HTML 4.01" border=0></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="style/w3c-css.png"
+width="88" height="31" alt="W3C CSS" border=0></a>
+ (c) 2002 SpaceMonkeys
+</div>
+
+</div>
+</body>
+</html>
+
+
+

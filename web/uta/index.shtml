@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Booklist</title>
+<link rel=stylesheet type="text/css" href="style.css">
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
+<h1>Utas B&uuml;cherliste</h1>
+<p>
+
+<!--#include virtual="./books.pl?${QUERY_STRING}"-->
+
+</body>
+</html>

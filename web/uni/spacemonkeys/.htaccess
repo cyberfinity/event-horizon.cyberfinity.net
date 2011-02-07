@@ -1,0 +1,4 @@
+Options +Includes +ExecCGI
+
+ErrorDocument 404 /uni/spacemonkeys/404.htm
+ErrorDocument 403 /uni/spacemonkeys/403.htm

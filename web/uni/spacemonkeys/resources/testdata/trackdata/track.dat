@@ -1,0 +1,14 @@
+BAIR   	BIRM   	5
+BAIR   	UNI     8
+BAN     LKX    50
+BAN     MK     20
+BAN     OX      5
+BIRM    COV    30
+BIRM    LKX   100
+BIRM    OX     50
+COV     LEU    80
+COV     MK     45
+COV     OX     15
+COV     UNI    15
+LEU     LKX    15
+LKX     MK     30		

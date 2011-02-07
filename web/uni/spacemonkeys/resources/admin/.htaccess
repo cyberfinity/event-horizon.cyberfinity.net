@@ -1,0 +1,4 @@
+AuthType	Basic
+AuthName	SpaceMonkeys
+AuthUserFile	/stuff/.sites_admin/passwords
+Require		user spacemonkey
