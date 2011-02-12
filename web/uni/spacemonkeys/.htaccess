@@ -2,3 +2,8 @@ Options +Includes +ExecCGI
 
 ErrorDocument 404 /uni/spacemonkeys/404.htm
 ErrorDocument 403 /uni/spacemonkeys/403.htm
+
+AuthType	Basic
+AuthName	Uni
+AuthUserFile	/stuff/.sites_admin/passwords
+Require		user test

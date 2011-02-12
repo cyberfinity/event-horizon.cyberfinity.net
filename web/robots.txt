@@ -2,11 +2,10 @@
 # disallowing a few pic dirs coz there's no decent html there
 
 User-agent: *
+Disallow: /new/
 Disallow: /uni/photos/
 Disallow: /uni/o2/old/
-Disallow: /uni/spacemonkeys/resources/admin/
-Disallow: /uni/spacemonkeys/resources/code/
-Disallow: /uni/spacemonkeys/downloads/
+Disallow: /uni/spacemonkeys/
 Disallow: /uni/ganesha/docs/javadoc/
 Disallow: /uni/ganesha/docs/presentation.pdf
 Disallow: /uni/ganesha/docs/progress.pdf
