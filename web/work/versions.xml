@@ -9,6 +9,6 @@
 	<Driver version="1.2" href="driver_v.1.2.xyz" />
 	<Driver version="1.1" href="driver_v.1.1.xyz">
 		<OviSuite version="2.6.5.432" />
-	<Driver>
+	</Driver>
 	<Driver version="1.0" href="driver_v.1.0.xyz" />
 </VersionListing>
