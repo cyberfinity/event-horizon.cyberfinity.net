@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://event-horizon.twiddles.com/sites/arty/outposts/mountain_outpost.jpg">
+   <dc:title>Mountain Outpost</dc:title>
+   <dc:date>2005-01-08</dc:date>
+   <dc:description>Picture of a large, dark watch-tower standing on a snowy mountain range surrounded by whispy clouds.</dc:description>
+   <dc:creator><Agent>
+      <dc:title>James Nash</dc:title>
+   </Agent></dc:creator>
+   <dc:rights><Agent>
+      <dc:title>James Nash</dc:title>
+   </Agent></dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+   <dc:source rdf:resource="http://www.flickr.com/photos/moe/285192/in/pool-creativecommons/"/>
+   <dc:source rdf:resource="http://www.flickr.com/photos/moe/285192/in/pool-creativecommons/"/>
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/" />
+</Work>
+
+<Work rdf:about="http://event-horizon.twiddles.com/sites/arty/outposts/leaves.jpg">
+   <dc:title>Leaves</dc:title>
+   <dc:date>2005-01-08</dc:date>
+   <dc:description>Pale picture of tree branches with autumn leaves against a clear blue sky.</dc:description>
+   <dc:creator><Agent>
+      <dc:title>James Nash</dc:title>
+   </Agent></dc:creator>
+   <dc:rights><Agent>
+      <dc:title>James Nash</dc:title>
+   </Agent></dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+   <dc:source rdf:resource="http://o2.openphoto.net/gallery/image.html?image_id=7014"/>
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+</Work>
+
+<Work rdf:about="http://event-horizon.twiddles.com/sites/arty/outposts/urban_outpost.jpg">
+   <dc:title>Urban Outpost</dc:title>
+   <dc:date>2005-08-24</dc:date>
+   <dc:description>Picture of a machine-like, dark tower against an brewing storm.</dc:description>
+   <dc:creator><Agent>
+      <dc:title>James Nash</dc:title>
+   </Agent></dc:creator>
+   <dc:rights><Agent>
+      <dc:title>James Nash</dc:title>
+   </Agent></dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+   <dc:source rdf:resource="http://www.flickr.com/photos/suttree/12794070/in/pool-creativecommons/"/>
+   <dc:source rdf:resource="http://www.flickr.com/photos/johndan/31428882/"/>
+   <dc:source rdf:resource="http://www.flickr.com/photos/victorgeere/28267267/in/pool-creativecommons/"/>
+   <dc:source rdf:resource="http://www.flickr.com/photos/remydwd/2988129/"/>
+   <dc:source rdf:resource="http://www.flickr.com/photos/denn/20450050/"/>
+   <dc:source rdf:resource="http://www.flickr.com/photos/mcclanahan/15370959/"/>
+   <license rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/" />
+</Work>
+
+</rdf:RDF>

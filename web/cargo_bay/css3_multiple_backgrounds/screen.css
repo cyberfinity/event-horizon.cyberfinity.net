@@ -1,0 +1,107 @@
+/* CSS3 multiple background test
+ *
+ * © 2005 James Nash ( http://cirrus.twiddles.com/ )
+ *
+ */
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: Verdana, sans-serif;
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0 160px 0 18%;
+}
+
+p, ul, ol, dl {
+	margin: 0 0 1em 0;
+	padding: 0;
+	text-align: justify;
+}
+
+/* Layered background images to create a flexible, rounded box */
+.box {
+	background-color: #e2e2e2;
+	background-image: url("box-tl"), url("box-tr"), url("box-bl"), url("box-br"), url("box-left"), url("box-top");
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-x;
+	background-position: top left, top right, bottom left, bottom right, left, top;
+	margin: 0 0 1em 0;
+	padding: 10px;
+	min-height: 16px;
+	min-width: 16px;
+}
+
+/* code highlighting */
+pre {
+	margin: 0 7% 1em 7%;
+	border: 1px solid #bbbbbb;
+	padding: 1em;
+	font-size: 1.2em;
+}
+
+.screenshot {
+	margin: 0 7% 1em 7%;
+	padding: 0;
+	border: 1px solid #bbbbbb;
+}
+
+.screenshot img {
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+
+.screenshots {
+	margin: 0 7% 1em 7%;
+	padding: 0;
+}
+
+.screenshots a {
+	display: block;
+	float: left;
+	margin: 0 1em 1em 1em;
+	padding: 0;
+	border: 1px solid #bbbbbb;
+}
+
+.screenshots a:hover, .screenshots a:active {
+	border-color: #00c;
+}
+
+.screenshots img {
+	display: block;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+code.selector {
+	color: #C86D0D;
+}
+
+code.property {
+	color: #2436AF;
+}
+
+code.value {
+	color: #2C9D43;
+}
+
+code.comment {
+	color: #BA0D2E;
+}
+
+code.string {
+	color: #9D2194;
+}
+
+#footer {
+	font-size: 0.8em;
+	margin: 3em 0 0 0;
+	padding: 0.5em 0 0 0;
+	border-top: 1px solid #bbbbbb;
+}

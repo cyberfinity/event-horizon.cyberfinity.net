@@ -1,0 +1,380 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #7a7a7a url('bg.png') top left;
+	font-size: 9pt;
+	font-family: "Verdana", sans-serif;
+}
+
+a:link {
+	color: #de4509;
+}
+
+a:visited {
+	color: #a02e01;
+}
+
+a:active, a:hover {
+	color: #ffeed4;
+	background-color: #a02e01;
+}
+
+p, ul, ol, blockquote {
+	margin: 0 0 1em 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* XXXXXXXXXXXXXXX   BANNER   XXXXXXXXXXXXXXX */
+
+#header {
+	margin: 0 200px 0 0;
+	padding: 0;
+	background: #803e01 url('banner-bg.png') repeat-x bottom left;
+	height: 200px;
+	position: relative;
+}
+
+#header h1 {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: url('head-bg.jpg') no-repeat top right;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 2.6em;
+	color: #000;
+	text-shadow: #fcf5ed 0 0 8px;
+}
+
+.dd #header {
+	background-color: #ff3e09;
+}
+
+.dd #header h1 {
+	text-shadow: #fff 0 0 8px;
+	background-image: url('dd-head-bg.jpg');
+}
+
+.sk #header {
+	background-color: #b2b2b0;
+}
+
+.sk #header h1 {
+	text-shadow: #fff 0 0 8px;
+	background-image: url('sk-head-bg.jpg');
+}
+
+.md #header {
+	background-color: #1d1d1d;
+}
+
+.md #header h1 {
+	color: #fff;
+	text-shadow: #1d1d1d 0 0 8px;
+	background-image: url('md-head-bg.jpg');
+}
+
+#header h1 span {
+	display: block;
+	padding: 50px 0 0 160px;
+}
+
+#header ul {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin: 0 0 0 160px;
+	padding: 0 0 12px 0;
+	background: url('nav-bg.png') repeat-x bottom left;
+}
+
+#header li {
+	margin:  0 0 0 10px;
+	padding: 0;
+	float: left;
+	list-style-type: none;
+}
+
+#header li a, #header li span {
+	display:block;
+	width: 90px;
+	height: 36px;
+	padding: 7px 4px 1px 4px;
+	margin: 0;
+	font-size: 1.1em;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#header li span {
+	color: #000;
+	background: url('nav-current.png') no-repeat top left;
+}
+
+#header li a {
+	color: #fff;
+	text-shadow: #000 0 1px 5px;
+	background: transparent url('nav-home.png') no-repeat top left;
+}
+
+#header li a.dd {
+	background-image: url('nav-dd.png');
+}
+
+#header li a.md {
+	background-image: url('nav-md.png');
+}
+
+#header li a.sk {
+	background-image: url('nav-sk.png');
+}
+
+#header li a:active, #header li a:hover {
+	color: #ffeed4;
+	background-image: url('nav-active.png');
+}
+
+/* XXXXXXXXXXXXXXX   MAIN CONTENT   XXXXXXXXXXXXXXX */
+
+#main, #footer {
+	margin: 0 200px 0 160px;
+	padding: 0.1em 20px 0.5em 20px;
+	background-color: #ffeed4;
+	color: #000;
+}
+
+h2 {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 1.4em;
+	padding: 0 0 0.1em 0;
+	margin: 1.2em 0 0.4em 0;
+	border-bottom: 1px dashed #ffa800;
+	clear: both;
+}
+
+img {
+	display: block;
+	margin: 0 auto 1em auto;
+	border: 1px solid #ffa800;
+	padding: 2px;
+}
+
+img.preview {
+	margin: 0 0 1em 0;
+	float: left;
+}
+
+div.preview {
+	margin: 0 0 0 160px;
+	padding: 0;
+}
+
+p.status {
+	border: 4px solid #a02e01;
+	background: #ffa800 url('warning.gif') no-repeat 4px 4px;
+	min-height: 44px;
+	padding: 4px 4px 4px 60px;
+}
+
+ul.linklove {
+	padding: 0 0 0 5px;
+}
+
+ul.linklove li {
+	margin: 0 0 0.2em 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.linklove a {
+	display: block;
+	margin: 0;
+	padding: 1px 1px 1px 23px;
+	min-height: 16px;
+	background-position: 1px 1px;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+ul.linklove li.digg a {
+	background-image: url('digg_it.gif');
+}
+ul.linklove li.delicious a {
+	background-image: url('delicious.gif');
+}
+ul.linklove li.facebook a {
+	background-image: url('facebook.gif');
+}
+ul.linklove li.stumbleupon a {
+	background-image: url('stumbleit.gif');
+}
+ul.linklove li.reddit a {
+	background-image: url('reddit.png');
+}
+ul.linklove li.furl a {
+	background-image: url('furl.gif');
+}
+ul.linklove li.blinklist a {
+	background-image: url('blinklist.png');
+}
+
+
+
+ul#designlinks {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+#designlinks li {
+	float: left;
+	width: 28%;
+	min-width: 162px;
+	list-style-type: none;
+	margin: 0 2% 1em 2%;
+	padding: 0;
+	text-align: center;
+}
+
+#designlinks img {
+	margin-bottom: 0.2em;
+}
+
+ul#friendly {
+	margin: 0 0 1em 0;
+	padding: 0 0 0 2em;
+}
+
+#friendly li {
+	margin: 0 0 0.5em 0;
+	padding: 0;
+	list-style-type: none;
+	clear: both;
+}
+
+#friendly span {
+	font-size: 1.3em;
+	display: block;
+	margin: 0 0 0.5em 0;
+}
+
+#friendly img {
+	float: left;
+	margin: 0 1em 0.5em 0;
+}
+
+
+
+#mainlinks {
+	padding: 0 0 0 2em;
+	list-style-type: none;
+}
+
+#mainlinks li {
+	padding: 2px;
+	border: 1px solid #a02e01;
+	margin: 0 0 0.5em 0;
+	background-color: #ffa800;
+}
+
+#mainlinks li a {
+	display: block;
+	background: #ffa800 url('mobile_site.jpg') no-repeat top right;
+	min-height: 48px;
+	padding: 8px 90px 4px 4px;
+	font-size: 1.2em;
+}
+
+#mainlinks li a:hover {
+	background-color: #a02e01;
+	color: #fff;
+}
+
+.dd #mainlinks a.site {
+	background-image: url('dirty_banner.jpg');
+}
+
+.dd #mainlinks a.desktop {
+	background-image: url('dirty_desktop.jpg');
+}
+
+.md #mainlinks a.site {
+	background-image: url('midnight_banner.jpg');
+}
+
+.md #mainlinks a.desktop {
+	background-image: url('midnight_desktop.jpg');
+}
+
+.sk #mainlinks a.site {
+	background-image: url('skull_banner.jpg');
+}
+
+.sk #mainlinks a.desktop {
+	background-image: url('skull_desktop.jpg');
+}
+
+
+/* XXXXXXXXXXXXXXX   FOOTER  XXXXXXXXXXXXXXX */
+
+#footer {
+	border-top: 1px solid #a02e01;
+	background: #ffeed4 url('nav-bg.png') repeat-x top left;
+	padding-top: 1em;
+	font-size: 0.8em;
+}
+
+#footer p {
+	margin: 0 0 0.2em 0;
+}
+
+#footer .gap {
+	margin-top: 1em;
+}
+
+/* XXXXXXXXXXXXXXX   SIDE CONTENT   XXXXXXXXXXXXXXX */
+
+#side {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	min-height: 200px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url('side-bg.png') no-repeat top right;
+}
+
+.dd #side {
+	background-image: url('dd-side-bg.png');
+}
+
+.sk #side {
+	background-image: url('sk-side-bg.png');
+}
+
+.md #side {
+	background-image: url('md-side-bg.png');
+}
+
+
+
+
+#side div.box {
+	margin: 0 10px 30px 20px;
+	padding: 10px;
+	background-color: #ffeed4;
+	color: #000;
+	font-size: 0.9em;
+}
+
+#side h2 {
+	margin-top: 0;
+}
+
+#side #first {
+	margin-top: 210px;
+}
