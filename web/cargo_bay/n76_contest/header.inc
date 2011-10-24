@@ -1,6 +1,6 @@
 <?php
 	define( ETC_DOMAIN,	'http://event-horizon.twiddles.com' );
-	define( SITE_BASE_PATH, '/sites/arty/n76contest/' );
+	define( SITE_BASE_PATH, '/cargo_bay/n76_contest/' );
 
 	class pageInfo{
 
