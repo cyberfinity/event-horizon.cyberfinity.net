@@ -1,0 +1,62 @@
+#etc-sidebar {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width: 124px;
+	padding: 6px;
+	background: #000 url('sidebar.jpg') no-repeat bottom left;
+	color: #aaaaaa;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9pt;
+	border-style: dashed;
+	border-color: #aaaaaa;
+	border-width: 2px 0 2px 2px;
+	text-shadow: none;
+}
+
+#etc-sidebar a:link, #etc-sidebar a:visited {
+	color: #ff8e08;
+}
+
+
+#etc-sidebar a:hover, #etc-sidebar a:active {
+	color: #ffc682;
+}
+
+#etc-sidebar acronym, #etc-sidebar abbr {
+	border: none;
+}
+
+#etc-sidebar p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 8pt;
+}
+
+#etc-sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+
+#etc-sidebar li {
+	list-style-type: none;
+	margin: 0.6em 0 0 0;
+	padding: 0;
+}
+
+#etc-sidebar li a {
+	text-decoration: none;
+	display: block;
+	text-align: right;
+	padding: 4px;
+}
+
+#etc-sidebar li a:after {
+	content: '  \00BB';
+}
+
+#etc-sidebar li a:hover, #etc-sidebar li a:active {
+	background-color: #ff8e08;
+	color: #000;
+}
