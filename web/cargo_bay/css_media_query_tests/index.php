@@ -881,6 +881,10 @@
 		<li class="dpr-2">2</li>
 		<li class="dpr-unsupported">Not Supported</li>
 	</ul>
-	
+
+<footer>
+	<p>Hosted on the <a href="/">Event-Horizon</a>.
+	<p>&copy; 2012<?php $current_year = date('Y'); if( $current_year > 2012 ){ print( " - ".date('Y') ); } ?> <a href="http://cirrus.twiddles.com/">James Nash</a>.</p>
+</footer>
 </body>
 </html>
