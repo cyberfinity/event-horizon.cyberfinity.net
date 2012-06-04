@@ -3,6 +3,7 @@
 <head>
 	<title>Responsive Tests</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<script src="media_info.js"></script>
 	<style type="text/css">
 	
 	/* Unsupported */
@@ -765,7 +766,7 @@
 	<h1>How is your browser responding to media queries?</h1>
 	
 	<h2>Media Type</h2>
-	<ul>
+	<ul id="type">
 		<li class="type-screen">Screen</li>
 		<li class="type-print">Print</li>
 		<li class="type-handheld">Handheld</li>
@@ -780,7 +781,7 @@
 	</ul>
 	
 	<h2>Width</h2>
-	<ul>
+	<ul id="width">
 		<li class="width-lte240">&lt; 240</li>
 		<li class="width-lte320">241 - 320</li>
 		<li class="width-lte480">321 - 480</li>
@@ -796,7 +797,7 @@
 	</ul>
 	
 	<h2>Height</h2>
-	<ul>
+	<ul id="height">
 		<li class="height-lte240">&lt; 240</li>
 		<li class="height-lte320">241 - 320</li>
 		<li class="height-lte480">321 - 480</li>
@@ -812,7 +813,7 @@
 	</ul>
 	
 	<h2>Device Width</h2>
-	<ul>
+	<ul id="dev-width">
 		<li class="dev-width-lte240">&lt; 240</li>
 		<li class="dev-width-lte320">241 - 320</li>
 		<li class="dev-width-lte480">321 - 480</li>
@@ -828,7 +829,7 @@
 	</ul>
 	
 	<h2>Device Height</h2>
-	<ul>
+	<ul id="dev-height">
 		<li class="dev-height-lte240">&lt; 240</li>
 		<li class="dev-height-lte320">241 - 320</li>
 		<li class="dev-height-lte480">321 - 480</li>
@@ -844,14 +845,14 @@
 	</ul>
 	
 	<h2>Orientation</h2>
-	<ul>
+	<ul id="dev-orientation">
 		<li class="orientation-portrait">Portrait</li>
 		<li class="orientation-landscape">Landscape</li>
 		<li class="orientation-unsupported">Not Supported</li>
 	</ul>
 	
 	<h2>Aspect Ratio</h2>
-	<ul>
+	<ul id="aspect">
 		<li class="aspect-portrait">Portrait</li>
 		<li class="aspect-square">Square</li>
 		<li class="aspect-landscape">Landscape</li>
@@ -859,7 +860,7 @@
 	</ul>
 	
 	<h2>Device Aspect Ratio</h2>
-	<ul>
+	<ul id="dev-aspect">
 		<li class="dev-aspect-portrait">Portrait</li>
 		<li class="dev-aspect-square">Square</li>
 		<li class="dev-aspect-landscape">Landscape</li>
@@ -867,7 +868,7 @@
 	</ul>
 	
 	<h2>Resolution (aka pixel density)</h2>
-	<ul>
+	<ul id="res">
 		<li class="res-low">Low (&lt;= 140dpi)</li>
 		<li class="res-medium">Medium (141dpi - 200dpi)</li>
 		<li class="res-high">High (201dpi - 280dpi)</li>
@@ -876,7 +877,7 @@
 	</ul>
 	
 	<h2>Device Pixel Ratio</h2>
-	<ul>
+	<ul id="dpr">
 		<li class="dpr-1">1</li>
 		<li class="dpr-2">2</li>
 		<li class="dpr-unsupported">Not Supported</li>
