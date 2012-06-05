@@ -3,6 +3,18 @@
 <head>
 	<title>Responsive Tests</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <!-- Prevent iOS & friends from turning numbers on this page into erroneous telephone links -->
+    <meta name="format-detection" content="telephone=no" />
+ <?php
+ 
+    $useMetaViewport = false;
+    if( isset( $_GET['metaviewport'] ) && strcmp( $_GET['metaviewport'], 'true' ) === 0 ){
+            // We've been asked to use the meta viewport tag
+            $useMetaViewport = true;
+            print '<meta name = "viewport" content = "width = device-width" />';
+    }
+ 
+ ?>
 	<script src="media_info.js"></script>
 	<style type="text/css">
 	
@@ -764,7 +776,15 @@
 </head>
 <body>
 	<h1>How is your browser responding to media queries?</h1>
-	
+ <?php
+    if( $useMetaViewport ){
+        print '<p>We are setting <code>viewport = device-width</code> via meta tag. <a href="./">Disable setting viewport width via meta tag</a>.</p>';
+    }
+    else{
+        print '<p>We are using this browser\'s default (layout) viewport width. <a href="./?metaviewport=true">Set viewport width to device width via meta tag</a>.</p>';
+    }
+ 
+ ?>    
 	<h2>Media Type</h2>
 	<ul id="type">
 		<li class="type-screen">Screen</li>
