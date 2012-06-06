@@ -1,6 +1,11 @@
 
 var idPrefix = "comment-";
-		
+
+var lastWidth = 0;
+var lastHeight = 0;
+var lastDevWidth = 0;
+var lastDevHeight = 0;
+
 // Append a comment after the element with the given id
 function appendComment( id, comment ){
 	var element = document.getElementById( id );
@@ -28,26 +33,44 @@ function replaceComment( unprefixedId, newComment ){
 
 function initComments(){			
 	// Width
-	appendComment('width','Javascript says that width is: '+document.documentElement.clientWidth+'px.');
+	lastWidth = document.documentElement.clientWidth;
+	appendComment('width','Javascript says that width is: '+lastWidth+'px.');
 	// Height
-	appendComment('height','Javascript says that height is: '+document.documentElement.clientHeight+'px.');
+	lastHeight = document.documentElement.clientHeight;
+	appendComment('height','Javascript says that height is: '+lastHeight+'px.');
 	// Device Width
-	appendComment('dev-width','Javascript says that device width is: '+screen.width+'px.');
+	lastDevWidth = screen.width;
+	appendComment('dev-width','Javascript says that device width is: '+lastDevWidth+'px.');
 	// Device Height
-	appendComment('dev-height','Javascript says that device height is: '+screen.height+'px.');			
+	lastDevHeight = screen.height;
+	appendComment('dev-height','Javascript says that device height is: '+lastDevHeight+'px.');			
 }
 		
 function updateComments(){
 	// Width
-	replaceComment('width','Javascript says that width is: '+document.documentElement.clientWidth+'px.');
+	if( lastWidth != document.documentElement.clientWidth ){
+		lastWidth = document.documentElement.clientWidth;
+		replaceComment('width','Javascript says that width is: '+lastWidth+'px.');
+	}
 	// Height
-	replaceComment('height','Javascript says that height is: '+document.documentElement.clientHeight+'px.');
+	if( lastHeight != document.documentElement.clientHeight ){
+		lastHeight = document.documentElement.clientHeight;
+		replaceComment('height','Javascript says that height is: '+lastHeight+'px.');
+	}
 	// Device Width
-	replaceComment('dev-width','Javascript says that device width is: '+screen.width+'px.');
+	if( lastDevWidth != screen.width ){
+		lastDevWidth = screen.width;
+		replaceComment('dev-width','Javascript says that device width is: '+lastDevWidth+'px.');
+	}
 	// Device Height
-	replaceComment('dev-height','Javascript says that device height is: '+screen.height+'px.');
+	if( lastDevHeight != screen.height ){
+		lastDevHeight = screen.height;
+		replaceComment('dev-height','Javascript says that device height is: '+lastDevHeight+'px.');
+	}
 }
 
 
 window.addEventListener('load', initComments, false );
 window.addEventListener('resize', updateComments, false );
+// Adding orientation change listener for iPad
+window.addEventListener('orientationchange', updateComments, false );
