@@ -35,7 +35,9 @@ $half-gutter: ($basegutter / 2) / $em;
 	margin-right: $half-gutter;
 }
 
-
+.clear {
+	clear: both;
+}
 
 body {
 	font-size: $font-size;
@@ -52,7 +54,6 @@ p {
 
 .main {
 	background-color: #fff;
-	height: 400px;
 	margin: 0 auto;
 	/*padding-left: $half-gutter;*/
 	@include fullwidth(24);
@@ -106,7 +107,6 @@ p {
 	}
 	
 	.main {
-		height: 800px;
 		@include fullwidth(16);
 	}
 }
@@ -122,7 +122,6 @@ p {
 	}
 	
 	.main {
-		height: 800px;
 		@include fullwidth(16);
 	}
 }
@@ -138,7 +137,6 @@ p {
 	}
 	
 	.main {
-		height: 800px;
 		@include fullwidth(16);
 	}
 }
@@ -146,7 +144,7 @@ p {
 /* Large Mobile */
 @media screen and (min-width: 400px) and (max-width: 639px) {
 	body {
-		font-size: ($font-size +1);
+		font-size: ($font-size + 1);
 	}
 	
 	.colfull {
@@ -154,7 +152,6 @@ p {
 	}
 	
 	.main {
-		height: 1200px;
 		@include fullwidth(8);
 	}
 }
@@ -162,7 +159,7 @@ p {
 /* Medium Mobile */
 @media screen and (min-width: 360px) and (max-width: 399px) {
 	body {
-		font-size: ($font-size +1);
+		font-size: ($font-size 0);
 	}
 	
 	.colfull {
@@ -170,7 +167,6 @@ p {
 	}
 	
 	.main {
-		height: 1200px;
 		@include fullwidth(8);
 	}
 }
@@ -178,7 +174,7 @@ p {
 /* Small Mobile */
 @media screen and (max-width: 359px) {
 	body {
-		font-size: ($font-size +1);
+		font-size: ($font-size - 1);
 	}
 	
 	.colfull {
