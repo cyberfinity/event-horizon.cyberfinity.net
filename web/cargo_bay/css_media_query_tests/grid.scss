@@ -68,7 +68,7 @@ p {
 .main {
 	background-color: #fff;
 	margin: 0 auto;
-	/*padding-left: $half-gutter;*/
+	padding-top: 1em;
 	@include fullwidth( $deskcols );
 }
 
