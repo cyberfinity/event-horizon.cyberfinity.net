@@ -7,6 +7,11 @@ if( isset( $_GET['initial-scale'] ) ){
 	$scale = $_GET['initial-scale'];
 }
 
+$use_hack = false;
+if( isset( $_GET['hack'] ) && strcmp($_GET['hack'], 'yes') ){
+	$use_hack = true;
+}
+
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +24,38 @@ if( $use_scale ){
 }
 
 ?>" />
-<script src="grid_info.js"></script>
+<?php
+
+if( $use_hack ){
+
+?>
+<script type="text/javascript">
+(function(doc) {
+
+	var addEvent = 'addEventListener',
+	    type = 'gesturestart',
+	    qsa = 'querySelectorAll',
+	    scales = [1, 1],
+	    meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+	function fix() {
+		meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+		doc.removeEventListener(type, fix, true);
+	}
+
+	if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+		fix();
+		scales = [.25, 1.6];
+		doc[addEvent](type, fix, true);
+	}
+
+}(document));
+</script>
+<?php
+
+}
+
+?><script src="grid_info.js"></script>
 </head>
 <body>
 	<section class="main" id="mainbody">
@@ -27,7 +63,12 @@ if( $use_scale ){
 			<p><?php
 
 if( $use_scale ){
-	print "Using <code>initial-scale=".$scale."</code> in meta tag. <a href=\"grid.php\">Disable scale</a>.";
+	if( $use_hack ){
+		print "Using <code>initial-scale=".$scale."</code> in meta tag with hack. <a href=\"grid.php\">Disable scale</a>. <a href=\"grid.php?initial-scale=1.0\">Disable hack</a>.";
+	}
+	else{
+		print "Using <code>initial-scale=".$scale."</code> in meta tag without hack. <a href=\"grid.php\">Disable scale</a>. <a href=\"grid.php?initial-scale=1.0&amp;hack=yes\">Enable hack</a>.";
+	}
 }
 else{
 	print "Not using <code>initial-scale</code> in meta tag. <a href=\"grid.php?initial-scale=1.0\">Enable scale</a>.";
