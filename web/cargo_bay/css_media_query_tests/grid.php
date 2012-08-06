@@ -8,7 +8,7 @@ if( isset( $_GET['initial-scale'] ) ){
 }
 
 $use_hack = false;
-if( isset( $_GET['hack'] ) && strcmp($_GET['hack'], 'yes') ){
+if( isset( $_GET['hack'] ) && (strcmp($_GET['hack'], 'yes') == 0) ){
 	$use_hack = true;
 }
 
