@@ -2,12 +2,26 @@
 
 
 $basecolumn: 36px;
-$basegutter: 9px;
+$basegutter: 12px;
+
+$sizeadjust: 2px;
+
+$deskcols: 24;
+$tabcols: 16;
+$mobcols: 8;
+
+
+$largegutter: $basegutter + $sizeadjust;
+$largecolumn: ($largegutter / $basegutter) * $basecolumn;
+
+$smallgutter: $basegutter - $sizeadjust;
+$smallcolumn: ($smallgutter / $basegutter) * $basecolumn;
+
+
 
 
 $font-size: $basegutter;
 $em: $font-size / 1em;
-
 
 $gutter: $basegutter / $em;
 $half-gutter: ($basegutter / 2) / $em;
@@ -29,7 +43,7 @@ $half-gutter: ($basegutter / 2) / $em;
 }
 
 .colfull {
-	@include width(24);
+	@include width( $deskcols );
 	margin-left: $half-gutter;
 	margin-right: $half-gutter;
 }
@@ -55,7 +69,7 @@ p {
 	background-color: #fff;
 	margin: 0 auto;
 	/*padding-left: $half-gutter;*/
-	@include fullwidth(24);
+	@include fullwidth( $deskcols );
 }
 
 
@@ -77,112 +91,117 @@ p {
 }
 
 
-
-
-
-
 /* Large Desktop */
-@media screen and (min-width: 1200px) {
+$large-desk-min: $deskcols * ($largegutter + $largecolumn);
+@media screen and (min-width: $large-desk-min) {
 	body {
-		font-size: ($font-size + 1px);
+		font-size: ($font-size + $sizeadjust);
 	}
 }
 
+/* Medium Desktop gets default styles */
+$medium-desk-min: $deskcols * ($basegutter + $basecolumn);
+
 /* Small Desktop */
-@media screen and (min-width: 960px) and (max-width: 1079px) {
+$small-desk-min: $deskcols * ($smallgutter + $smallcolumn);
+@media screen and (min-width: $small-desk-min) and (max-width: $medium-desk-min - 1px) {
 	body {
-		font-size: ($font-size - 1px);
+		font-size: ($font-size - $sizeadjust);
 	}
 }
 
 /* Large Tablet */
-@media screen and (min-width: 800px) and (max-width: 959px) {
+$large-tab-min: $tabcols * ($largegutter + $largecolumn);
+@media screen and (min-width: $large-tab-min) and (max-width: $small-desk-min - 1px) {
 	body {
-		font-size: ($font-size + 1px);
+		font-size: ($font-size + $sizeadjust);
 	}
 	
 	.colfull {
-		@include width(16);
+		@include width( $tabcols );
 	}
 	
 	.main {
-		@include fullwidth(16);
+		@include fullwidth( $tabcols );
 	}
 }
 
 /* Medium Tablet */
-@media screen and (min-width: 720px) and (max-width: 799px) {
+$medium-tab-min: $tabcols * ($basegutter + $basecolumn);
+@media screen and (min-width: $medium-tab-min) and (max-width: $large-tab-min - 1px) {
 	body {
 		font-size: $font-size;
 	}
 	
 	.colfull {
-		@include width(16);
+		@include width( $tabcols );
 	}
 	
 	.main {
-		@include fullwidth(16);
+		@include fullwidth( $tabcols );
 	}
 }
 
 /* Small Tablet */
-@media screen and (min-width: 640px) and (max-width: 719px) {
+$small-tab-min: $tabcols * ($smallgutter + $smallcolumn);
+@media screen and (min-width: $small-tab-min) and (max-width: $medium-tab-min - 1px) {
 	body {
-		font-size: ($font-size - 1px);
+		font-size: ($font-size - $sizeadjust);
 	}
 	
 	.colfull {
-		@include width(16);
+		@include width( $tabcols );
 	}
 	
 	.main {
-		@include fullwidth(16);
+		@include fullwidth( $tabcols );
 	}
 }
 
 /* Large Mobile */
-@media screen and (min-width: 400px) and (max-width: 639px) {
+$large-mob-min: $mobcols * ($largegutter + $largecolumn);
+@media screen and (min-width: $large-mob-min) and (max-width: $small-tab-min - 1px) {
 	body {
-		font-size: ($font-size + 1px);
+		font-size: ($font-size + $sizeadjust);
 	}
 	
 	.colfull {
-		@include width(8);
+		@include width( $mobcols );
 	}
 	
 	.main {
-		@include fullwidth(8);
+		@include fullwidth( $mobcols );
 	}
 }
 
 /* Medium Mobile */
-@media screen and (min-width: 360px) and (max-width: 399px) {
+$medium-mob-min: $mobcols * ($basegutter + $basecolumn);
+@media screen and (min-width: $medium-mob-min) and (max-width: $large-mob-min - 1px) {
 	body {
-		font-size: ($font-size);
+		font-size: $font-size;
 	}
 	
 	.colfull {
-		@include width(8);
+		@include width( $mobcols );
 	}
 	
 	.main {
-		@include fullwidth(8);
+		@include fullwidth( $mobcols );
 	}
 }
 
 /* Small Mobile */
-@media screen and (max-width: 359px) {
+//$small-mob-min: $mobcols * ($smallgutter + $smallcolumn);
+@media screen and (max-width: $medium-mob-min - 1px) {
 	body {
-		font-size: ($font-size - 1px);
+		font-size: ($font-size - $sizeadjust);
 	}
 	
 	.colfull {
-		@include width(8);
+		@include width( $mobcols );
 	}
 	
 	.main {
-		height: 1200px;
-		@include fullwidth(8);
-		min-width: 320px;
+		@include fullwidth( $mobcols );
 	}
 }
