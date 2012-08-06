@@ -92,7 +92,7 @@ p {
 /* Medium Mobile */
 @media screen and (min-width: 360px) and (max-width: 399px) {
   body {
-    font-size: 9px 0; }
+    font-size: 9px; }
 
   .colfull {
     width: 39em; }
