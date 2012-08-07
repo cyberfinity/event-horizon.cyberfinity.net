@@ -16,7 +16,8 @@ if( isset( $_GET['hack'] ) && (strcmp($_GET['hack'], 'yes') == 0) ){
 <html>
 <head>
 <title>Grid Idea</title>
-<link rel="stylesheet" type="text/css" href="grid.css" />
+<link rel="stylesheet" type="text/css" href="grid_36_12.css" title="36 / 12 grid (default)" />
+<link rel="alternate stylesheet" type="text/css" href="grid_36_9.css" title="36 / 9 grid" />
 <meta name="viewport" content="width=device-width<?php
 
 if( $use_scale ){
