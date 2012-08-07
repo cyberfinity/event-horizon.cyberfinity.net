@@ -61,6 +61,7 @@ if( $use_hack ){
 <body>
 	<section class="main" id="mainbody">
 		<div class="colfull">
+			<p>Choose style: <a href="#" id="36-12">36 / 12 grid</a> | <a href="#" id="36-9">36 / 9 grid</a></p>
 			<p><?php
 
 if( $use_scale ){
@@ -105,6 +106,18 @@ else{
 		<div class="cols1 preview group3"></div>
 		<div class="cols1 preview group3"></div>
 		<div class="cols1 preview group3"></div>
+		
+		<img class="cols4" src="img1.jpg" />
+		
+		<img class="cols4" src="img2.jpg" />
+		
+		<img class="cols4" src="img3.jpg" />
+		
+		<img class="cols4" src="img4.jpg" />
+		
+		<div class="cols4 bgtest1"></div>
+		
+		<div class="cols4 bgtest2"></div>
 		
 		<div class="clear"></div>
 	</section>

@@ -3,6 +3,11 @@
   margin-left: 0.5em;
   margin-right: 0.5em; }
 
+.cols4 {
+  width: 19em;
+  margin-left: 0.5em;
+  margin-right: 0.5em; }
+
 .colfull {
   width: 119em;
   margin-left: 0.5em;
@@ -26,11 +31,30 @@ p {
   background-color: #fff;
   margin: 0 auto;
   padding-top: 1em;
+  padding-bottom: 1em;
   width: 120em; }
 
 .preview {
   float: left;
   height: 400px; }
+
+.bgtest1 {
+  float: left;
+  background: black url("bg1.jpg") repeat;
+  height: 14.3em;
+  margin-top: 0.5em; }
+
+.bgtest2 {
+  float: left;
+  background: black url("bg2.jpg") repeat;
+  height: 14.3em;
+  margin-top: 0.5em; }
+
+img {
+  float: left;
+  display: block;
+  margin-top: 0.5em;
+  border: none; }
 
 .group1 {
   background-color: #dc0; }

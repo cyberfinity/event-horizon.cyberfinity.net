@@ -63,8 +63,43 @@ function updateComments(){
 
 }
 
-
 window.addEventListener('load', initComments, false );
 window.addEventListener('resize', updateComments, false );
 // Adding orientation change listener for iPad
 window.addEventListener('orientationchange', updateComments, false );
+
+
+// Stylesheet switcher from ALA: http://www.alistapart.com/articles/alternate/
+
+function setActiveStyleSheet(title) {
+   var i, a, main;
+   for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+     if(a.getAttribute("rel").indexOf("style") != -1
+        && a.getAttribute("title")) {
+       a.disabled = true;
+       if(a.getAttribute("title") == title) a.disabled = false;
+     }
+   }
+}
+
+function setStyleSheet1(){
+	setActiveStyleSheet('36 / 12 grid (default)');
+	return false;
+}
+
+function setStyleSheet2(){
+	setActiveStyleSheet('36 / 9 grid');
+	return false;
+}
+
+
+function addStyleSheetSwitches(){
+	var link1 = document.getElementById('36-12');
+	var link2 = document.getElementById('36-9');
+	if( link1 && link2 ){
+		link1.addEventListener('click', setStyleSheet1, false );
+		link2.addEventListener('click', setStyleSheet2, false );
+	}
+}
+
+window.addEventListener('load', addStyleSheetSwitches, false );
