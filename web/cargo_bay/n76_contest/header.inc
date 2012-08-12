@@ -77,9 +77,6 @@
 		// Digg
 		print '<li class="digg"><a href="http://digg.com/submit?url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'>Digg this</a></li>';
 
-		// Stumble Upon
-		print '<li class="stumbleupon"><a href="http://www.stumbleupon.com/submit?url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;title='.urlencode( $pages[ $pageIndex ]->getTitle() ).'">Stumble it</a></li>';
-
 		// Del.icio.us
 		print '<li class="delicious"><a href="http://delicious.com/post?url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;title='.urlencode( $pages[ $pageIndex ]->getTitle() ).'">Save to Del.icio.us</a></li>';
 
