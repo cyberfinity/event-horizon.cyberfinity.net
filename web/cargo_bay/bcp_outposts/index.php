@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<h1>Outpost pictures</h1>
-		<p>These pictures were designed as backgrounds for the <a class="secret" href="http://burpmancorp.cyberfinity.net/">Burpman Corporation Productions (<acronym title="Burpman Corporation Productions">BCP</acronym>)</a> &amp; <a class="secret" href="http://mentalmix.cyberfinity.net/">Mental Mix</a> Outpost websites, <a href="http://members.tripod.com/~twid/">Outpost 1</a> and <a href="http://members.tripod.com/~smoggs_denn/">Outpost 2</a>. They are available under a <a href="http://www.creativecommons.org/">Creative Commons</a> license, meaning that you can freely download and re-use them as long as you attribute me as the original artist (a link to this page or to <a href="http://cirrus.twiddles.com/">my website</a> would suffice). Please note that there are some additional restrictions too, click the license buttons by the images for the full details.</p>
+		<p>These pictures were designed as backgrounds for the <a class="secret" href="http://burpmancorp.cyberfinity.net/">Burpman Corporation Productions (<acronym title="Burpman Corporation Productions">BCP</acronym>)</a> &amp; <a class="secret" href="http://mentalmix.cyberfinity.net/">Mental Mix</a> Outpost websites, <a href="http://members.tripod.com/~twid/">Outpost 1</a> and <a href="http://members.tripod.com/~smoggs_denn/">Outpost 2</a>. They are available under a <a href="http://creativecommons.org/">Creative Commons</a> license, meaning that you can freely download and re-use them as long as you attribute me as the original artist (a link to this page or to <a href="http://cirrus.twiddles.com/">my website</a> would suffice). Please note that there are some additional restrictions too, click the license buttons by the images for the full details.</p>
 		<p>Enjoy!</p>
 
 		<h2>Mountain Outpost</h2>
@@ -41,13 +41,13 @@
 			<dd><p>Picture of a machine-like, dark tower against an brewing storm.</p></dd>
 
 			<dt>Source works:</dt>
-			<dd><p>The tower is a collage of <a href="http://www.flickr.com/photos/suttree/12794070/in/pool-creativecommons/">&ldquo;Beaver Stadium 1&rdquo;</a> by &ldquo;oceanfrog&rdquo;, <a href="http://www.flickr.com/photos/johndan/31428882/">&ldquo;Connected&rdquo;</a> by Johndan Johnson-Eilola, <a href="http://www.flickr.com/photos/victorgeere/28267267/in/pool-creativecommons/">&ldquo;Tower&rdquo;</a> by Victor Geere and <a href="http://www.flickr.com/photos/remydwd/2988129/">&ldquo;The back of my Xserves&rdquo;</a> by Dan Dickinson.</p>
+			<dd><p>The tower is a collage of &ldquo;Beaver Stadium 1&rdquo; by &ldquo;oceanfrog&rdquo;, <a href="http://www.flickr.com/photos/johndan/31428882/">&ldquo;Connected&rdquo;</a> by Johndan Johnson-Eilola, &ldquo;Tower&rdquo; by Victor Geere and <a href="http://www.flickr.com/photos/remydwd/2988129/">&ldquo;The back of my Xserves&rdquo;</a> by Dan Dickinson.</p>
 			<p>The sky is composed of <a href="http://www.flickr.com/photos/denn/20450050/">&ldquo;Stormclouds&rdquo;</a> by Denise Chan and <a href="http://www.flickr.com/photos/mcclanahan/15370959/">&ldquo;Impending&rdquo;</a> by Lorrie McClanahan.</p>
 			<p>All these works are available under Creative Commons licenses.</p></dd>
 
 			<dt>Tools used:</dt>
 			<dd><a href="http://www.gimp.org/">The <acronym title="GNU Image Manipulation Program">GIMP</acronym></a></dd>
-			<dd><a href="http://developer.apple.com/macosx/coreimage.html">Core Image Fun House</a></dd>
+			<dd><a href="https://developer.apple.com/macosx/coreimage.html">Core Image Fun House</a></dd>
 
 			<dt>Size:</dt>
 			<dd>1600 x 1200, 76kb (<acronym title="Joint Photo Experts Group">JPEG</acronym> format)</dd>
