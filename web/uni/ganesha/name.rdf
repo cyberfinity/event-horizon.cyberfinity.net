@@ -5,7 +5,7 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:cc="http://web.resource.org/cc/" >
-  <rdf:Description rdf:about="http://event-horizon.kicks-ass.net/uni/ganesha/">
+  <rdf:Description rdf:about="http://event-horizon.cyberfinity.net/uni/ganesha/">
     <dc:language>en-GB</dc:language>
     <dc:creator rdf:nodeID="A0"/>
     <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/"/>

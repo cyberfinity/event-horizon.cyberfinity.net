@@ -14,12 +14,12 @@
   <rdf:Description rdf:nodeID="A1">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
     <dc:description>Ganesha is a simple RDF/XML editor. It allows people to easily create meta data describing their work.</dc:description>
-    <foaf:homepage rdf:resource="http://event-horizon.kicks-ass.net/uni/ganesha/"/>
-    <foaf:img rdf:resource="http://event-horizon.kicks-ass.net/uni/ganesha/ganesha_logo.png"/>
+    <foaf:homepage rdf:resource="http://event-horizon.cyberfinity.net/uni/ganesha/"/>
+    <foaf:img rdf:resource="http://event-horizon.cyberfinity.net/uni/ganesha/ganesha_logo.png"/>
     <dc:title>Ganesha</dc:title>
     <foaf:member rdf:nodeID="A0"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://event-horizon.kicks-ass.net/uni/ganesha/">
+  <rdf:Description rdf:about="http://event-horizon.cyberfinity.net/uni/ganesha/">
     <dc:language>en-GB</dc:language>
     <dc:subject>ganesha, rdf, xml, editor, creator, utility, easy, simple, basic, graphical, gui, meta data, semantic, web, webpage, website, free, open source, gnu, gpl, java, foaf, dublin core, rss, creative common</dc:subject>
     <dc:description>Ganesha is an easy to use, graphical RDF/XML editor that allows anyone to augment their web pages with RDF meta data.</dc:description>
@@ -30,9 +30,9 @@
   <rdf:Description rdf:nodeID="A2">
     <foaf:name>Ganesha</foaf:name>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:img rdf:resource="http://event-horizon.kicks-ass.net/uni/ganesha/fancy_ganesha.png"/>
+    <foaf:img rdf:resource="http://event-horizon.cyberfinity.net/uni/ganesha/fancy_ganesha.png"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://event-horizon.kicks-ass.net/uni/ganesha/ganesha_logo.png">
+  <rdf:Description rdf:about="http://event-horizon.cyberfinity.net/uni/ganesha/ganesha_logo.png">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
     <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/"/>
     <dc:creator rdf:nodeID="A0"/>

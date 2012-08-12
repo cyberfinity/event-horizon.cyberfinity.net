@@ -26,7 +26,7 @@ foreach $dir (sort @dirs){
 	    closedir SITE;
 
 	    if (( -f $dir."/public_html/index.html") || ( -f $dir."/public_html/index.php")) {
-		print "<a href=\"http://event-horizon.kicks-ass.net/\~".$dir."/\">".$dir."</a><p>\n";
+		print "<a href=\"http://event-horizon.cyberfinity.net/\~".$dir."/\">".$dir."</a><p>\n";
 		
 	    }
 	    else{

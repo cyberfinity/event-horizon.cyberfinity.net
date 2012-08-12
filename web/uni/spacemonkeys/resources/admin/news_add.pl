@@ -39,7 +39,7 @@ sub pageTop{
 <link rel=stylesheet type="text/css" href="style/spacemonkey.css">
 </head>
 <body bgcolor="ffffff" text="022a62" link="98135b" vlink="565656" alink="98135b">
-<a href="http://event-horizon.kicks-ass.net/uni/spacemonkeys/"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
+<a href="/uni/spacemonkeys/"><img src="style/spacemonkey-logo.png" width="401" height="117" alt="SpaceMonkeys" border="0"></a>
 <p>
 <div class="maintext">
 <h1><a name="news"><img src="../../news.png" width="99" height="26" alt="News"></a></h1>

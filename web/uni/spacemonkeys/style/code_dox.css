@@ -14,8 +14,8 @@ table {width: 100%; }
 th { text-align: center; vertical-align: middle; padding: 5px; border-width: 1px; border-style: solid; border-color: #022a62; background-color: #f9d6ea}
 td { padding: 5px; border-width: 1px; border-style: solid; border-color: #022a62; }
 
-.TableSubHeadingColor     { background-color: #dadaf6; background-image: url(http://event-horizon.kicks-ass.net/uni/spacemonkeys/style/box_back.png); background-repeat:repeat-y; }
-.TableHeadingColor  { background-color: #f9d6ea; background-image: url(http://event-horizon.kicks-ass.net/uni/spacemonkeys/style/codebox_back.png); background-repeat:repeat-y; }
+.TableSubHeadingColor     { background-color: #dadaf6; background-image: url(/uni/spacemonkeys/style/box_back.png); background-repeat:repeat-y; }
+.TableHeadingColor  { background-color: #f9d6ea; background-image: url(/uni/spacemonkeys/style/codebox_back.png); background-repeat:repeat-y; }
 .TableRowColor         { background: #FFFFFF; }
 
 /* Font used in left-hand frame lists */
