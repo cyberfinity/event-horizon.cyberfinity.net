@@ -12,8 +12,6 @@
 			<div class="preview">
 				<p><strong>Skull</strong> is one of Ha Yun Park's entries for Nokia's <a href="http://www.nseries.com/yourtalent">N-Series &ldquo;Your Talent&rdquo;</a> competition. The object of the competition is make a cover design for the Nokia N76 mobile phone.</p>
 				<ul id="mainlinks">
-					<li><a class="site" href="<?php print $rating_link; ?>">View the <strong>Skull</strong> design on the competition website.</a></li>
-					<li><a href="<?php print $mobile_link; ?>">View <strong>Skull</strong> on the mobile-friendly version of competition website.</a></li>
 					<li><a class="desktop" href="Skull%20wallpaper%201600x1200.jpg">Download <strong>Skull Doodles</strong> desktop wallpaper (1600x1200, 307kb).</a></li>
 				</ul>
 			</div>

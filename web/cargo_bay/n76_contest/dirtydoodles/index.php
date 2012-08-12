@@ -10,10 +10,8 @@
 		<div id="main">
 			<img src="dirty_front.jpg" alt="[Render of N76 with the Dirty Doodles design]" class="preview" />
 			<div class="preview">
-				<p><strong>Dirty Doodles</strong> was one of Ha Yun Park's entries for Nokia's <a href="http://www.nseries.com/yourtalent">N-Series &ldquo;Your Talent&rdquo;</a> competition. The object of the competition is make a cover design for the Nokia N76 mobile phone.</p>
+				<p><strong>Dirty Doodles</strong> was one of Ha Yun Park's entries for Nokia's <a href="http://en.wikipedia.org/wiki/Nokia_Nseries">N-Series</a> &ldquo;Your Talent&rdquo; competition. The object of the competition is make a cover design for the Nokia N76 mobile phone.</p>
 				<ul id="mainlinks">
-					<li><a class="site" href="<?php print $rating_link; ?>">View the <strong>Dirty Doodles</strong> design on the competition website.</a></li>
-					<li><a href="<?php print $mobile_link; ?>">View <strong>Dirty Doodles</strong> on the mobile-friendly version of competition website.</a></li>
 					<li><a class="desktop" href="Dirty%20Doodles%20wallpaper%201600x1200.jpg">Download <strong>Dirty Doodles</strong> desktop wallpaper (1600x1200, 403kb).</a></li>
 				</ul>
 			</div>

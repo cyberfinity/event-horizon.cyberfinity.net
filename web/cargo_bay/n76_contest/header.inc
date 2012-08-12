@@ -75,19 +75,19 @@
 		print '<li class="facebook"><a href="http://www.facebook.com/share.php?u='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;t='.urlencode( $pages[ $pageIndex ]->getTitle() ).'">Share on Facebook</a></li>';
 
 		// Digg
-		print '<li class="digg"><a href="http://digg.com/submit?phase=2&url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;title='.urlencode( $pages[ $pageIndex ]->getTitle() ).'&amp;bodytext='.urlencode( 'Nokia N76 cover design by Ha Yun Park for the N-Series "Your Talent" competition.' ).'&topic=design">Digg this</a></li>';
+		print '<li class="digg"><a href="http://digg.com/submit?url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'>Digg this</a></li>';
 
 		// Stumble Upon
 		print '<li class="stumbleupon"><a href="http://www.stumbleupon.com/submit?url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;title='.urlencode( $pages[ $pageIndex ]->getTitle() ).'">Stumble it</a></li>';
 
 		// Del.icio.us
-		print '<li class="delicious"><a href="http://del.icio.us/post?url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;title='.urlencode( $pages[ $pageIndex ]->getTitle() ).'">Save to Del.icio.us</a></li>';
+		print '<li class="delicious"><a href="http://delicious.com/post?url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;title='.urlencode( $pages[ $pageIndex ]->getTitle() ).'">Save to Del.icio.us</a></li>';
 
 		// Furl
 		print '<li class="furl"><a href="http://furl.net/storeIt.jsp?u='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;t='.urlencode( $pages[ $pageIndex ]->getTitle() ).'">Furl it</a></li>';
 
 		// Reddit
-		print '<li class="reddit"><a href="http://reddit.com/submit?url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;title='.urlencode( $pages[ $pageIndex ]->getTitle() ).'">Reddit</a></li>';
+		print '<li class="reddit"><a href="http://www.reddit.com/submit?url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;title='.urlencode( $pages[ $pageIndex ]->getTitle() ).'">Reddit</a></li>';
 
 		// Blinklist
 		print '<li class="blinklist"><a href="http://blinklist.com/index.php?Action=Blink/addblink.php&amp;Url='.urlencode( ETC_DOMAIN.$pages[ $pageIndex ]->getLocation() ).'&amp;Title='.urlencode( $pages[ $pageIndex ]->getTitle() ).'&amp;Description='.urlencode( 'Nokia N76 cover design by Ha Yun Park for the N-Series "Your Talent" competition.' ).'">Blink it</a></li>';

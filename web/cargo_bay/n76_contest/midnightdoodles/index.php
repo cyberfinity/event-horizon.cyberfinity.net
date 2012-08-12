@@ -12,8 +12,6 @@
 			<div class="preview">
 				<p><strong>Midnight Doodles</strong> was one of Ha Yun Park's entries for Nokia's <a href="http://www.nseries.com/yourtalent">N-Series &ldquo;Your Talent&rdquo;</a> competition. The object of the competition is make a cover design for the Nokia N76 mobile phone.</p>
 				<ul id="mainlinks">
-					<li><a class="site" href="<?php print $rating_link; ?>">View the <strong>Midnight Doodles</strong> design on the competition website.</a></li>
-					<li><a href="<?php print $mobile_link; ?>">View <strong>Midnight Doodles</strong> on the mobile-friendly version of competition website.</a></li>
 					<li><a class="desktop" href="Midnight%20Doodles%20wallpaper%201600x1200.jpg">Download <strong>Midnight Doodles</strong> desktop wallpaper (1600x1200, 329kb).</a></li>
 				</ul>
 			</div>
