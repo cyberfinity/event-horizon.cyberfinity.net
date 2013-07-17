@@ -12,6 +12,7 @@
 <li><a href="css_media_query_tests/">CSS Media Query Tests</a></li>
 <li><a href="n76_contest/">Nokia N76 Design Contest Entry</a></li>
 <li><a href="bcp_outposts/">BCP Outpost Pictures</a></li>
+<li><a href="structured_data_tests/">Structured Data Tests</a></li>
 </ul>
 <footer>
 	<p>Hosted on the <a href="/">Event-Horizon</a>.

@@ -1,0 +1,4 @@
+RewriteEngine   On
+
+#  now the rewriting rules
+RewriteRule             ^([A-Za-z0-9-_~\+]+)\.html$      $1.php          [L]
