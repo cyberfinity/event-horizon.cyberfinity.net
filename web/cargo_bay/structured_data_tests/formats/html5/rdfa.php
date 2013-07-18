@@ -20,7 +20,7 @@ $page->renderHeader( SDTSiteNav::NAV_FORMATS, true );
 			</div>
 			
 			<div resource="http://meatspace.cyberfinity.net/uri/burpman" typeof="schema:Person">
-				<h3>Burpman</h3>
+				<h3 property="schema:name">Burpman</h3>
 				<img property="schema:image" src="<?php print SDTSiteNav::SITE_ROOT; ?>/burpman.jpg" alt="Picture of the Burpman" />
 				<p property="schema:description"><span property="schema:givenName">Burpman</span> <span property="schema:familyName">Burp</span> is a fictional character from the <span property="schema:affiliation" resource="http://meatspace.twiddles.com/uri/bcp" typeof="schema:Organization"><a property="schema:url" href="http://burpmancorp.cyberfinity.net/"><span property="schema:name">BCP</span></a></span> universe. He's an alien from the planet Burpland. His best friend is a character called <span property="schema:knows" resource="http://meatspace.cyberfinity.net/uri/splogintop" typeof="schema:Person"><span property="schema:name">Splogintop</span></span>.</p>
 			</div>
