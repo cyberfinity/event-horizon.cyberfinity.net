@@ -33,9 +33,7 @@ class Page {
 	</head>
 	<body>
 		<div id="header">
-			{$customH1}	
-		</div>
-		<div id="main">
+			{$customH1}
 
 EOF;
 		}
@@ -99,7 +97,7 @@ EOF;
 			print <<<EOF
 		</main>
 		<footer>
-			<p>&copy; <date datetime="2003">2013</date> <a href="http://cirrus.twiddles.com/">James Nash</a>.</p>
+			<p>&copy; <time datetime="2003">2013</time> <a href="http://cirrus.twiddles.com/">James Nash</a>.</p>
 			<p>Floating through cyberspace aboard the <a href="/">Event-Horizon</a>.</p>
 		</footer>
 	</body>
