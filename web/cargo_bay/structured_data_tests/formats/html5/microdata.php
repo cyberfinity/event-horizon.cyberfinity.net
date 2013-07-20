@@ -3,7 +3,7 @@
 require_once('../../inc/Page.php');
 require_once('../../inc/SDTSiteNav.php');
 
-$page = new Page('HTML5 page with microdata', SDTSiteNav::getSiteNav() );
+$page = new Page('HTML5 page with microdata (without item IDs)', SDTSiteNav::getSiteNav() );
 
 $page->renderHeader( SDTSiteNav::NAV_FORMATS, true );
 
@@ -22,7 +22,7 @@ $page->renderHeader( SDTSiteNav::NAV_FORMATS, true );
 			<div itemscope itemtype="http://schema.org/Person">
 				<h3 itemprop="name">Burpman</h3>
 				<img itemprop="image" src="<?php print SDTSiteNav::SITE_ROOT; ?>/burpman.jpg" alt="Picture of the Burpman" />
-				<p itemprop="description"><span itemprop="givenName">Burpman</span> <span itemprop="familyName">Burp</span> is a fictional character from the <span itemprop="affiliation" itemscope itemtype="http://schema.org/Organization"><a itemprop="url" href="http://burpmancorp.cyberfinity.net/"><span itemprop="name">BCP</span></a></span> universe. He's an alien from the planet Burpland. His best friend is a character called <span itemprop="knows" itemscope itemtype="http://schema.org/Person"><span property="name">Splogintop</span></span>.</p>
+				<p itemprop="description"><span itemprop="givenName">Burpman</span> <span itemprop="familyName">Burp</span> is a fictional character from the <span itemprop="affiliation" itemscope itemtype="http://schema.org/Organization"><a itemprop="url" href="http://burpmancorp.cyberfinity.net/"><span itemprop="name">BCP</span></a></span> universe. He's an alien from the planet Burpland. His best friend is a character called <span itemprop="knows" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Splogintop</span></span>.</p>
 			</div>
 <?php
 

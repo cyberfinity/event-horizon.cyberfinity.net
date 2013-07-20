@@ -14,7 +14,8 @@ $page->renderHeader( SDTSiteNav::NAV_FORMATS, false );
 			<p>The following test pages contain some structured data (using the <a href="http://schema.org/">schema.org</a> vocabulary) in a variety of formats:</p>
 			<ul>
 				<li><a href="html5/rdfa.html">HTML5+RDFa page</a></li>
-				<li><a href="html5/microdata.html">HTML5 page with microdata</a></li>
+				<li><a href="html5/microdata.html">HTML5 page with microdata (without item IDs)</a></li>
+				<li><a href="html5/microdata-ids.html">HTML5 page with microdata (using item IDs)</a></li>
 				<li><a href="xhtml/rdfa.html">XHTML+RDFa page (served as <code>text/html</code>)</a></li>
 				<li><a href="xhtml/rdfa-xml.html">XHTML+RDFa page (served as <code>application/xhtml+xml</code>)</a></li>
 			</ul>
