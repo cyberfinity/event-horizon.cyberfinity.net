@@ -10,6 +10,11 @@ $page->renderHeader( SDTSiteNav::NAV_FORMATS, true );
 ?>
 			<p>This page is part of a <a href="../">suite of test pages</a> designed to find out how well various structured data formats are supported by major search engines.</p>
 	
+			<h2>Technical details</h2>
+			<p>This page has contains items marked up with structured data using the <a href="http://www.w3.org/html/wg/drafts/microdata/master/">HTML5 microdata</a> syntax and the <a href="http://schema.org/">schema.org</a> vocabulary. The code on this page is <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fevent-horizon.cyberfinity.net%2Fcargo_bay%2Fstructured_data_tests%2Fformats%2Fhtml5%2Fmicrodata.html">valid HTML5</a> and the microdata has been <a href="http://www.google.com/webmasters/tools/richsnippets?q=http%3A%2F%2Fevent-horizon.cyberfinity.net%2Fcargo_bay%2Fstructured_data_tests%2Fformats%2Fhtml5%2Fmicrodata.html">checked using Google's Structured Data Testing Tool</a>.</p>
+			<p>The <a href="http://www.w3.org/html/wg/drafts/microdata/master/#items">microdata spec</a> states that a global identifier via the <code>itemid</code> attribute <q cite="http://www.w3.org/html/wg/drafts/microdata/master/#items">must not be specified on elements [...] whose itemtype attribute specifies a vocabulary that does not support global identifiers</q>. Unfortunately, the current schema.org documentation <a href="http://www.w3.org/2011/webschema/track/issues/6">does not make it clear whether items can or should use global identifiers</a>. However, on a <a href="https://groups.google.com/forum/#!msg/schemaorg-discussion/YhF2cNGHVZ4/MmLVghR_MfMJ">schema.org discussion group</a> a Google employee has stated that they <q cite="https://groups.google.com/forum/#!msg/schemaorg-discussion/YhF2cNGHVZ4/MmLVghR_MfMJ">strongly encourage the use of itemids</q>. Therefore, as an experiment, two versions of this page have been created. This one, which does not use any <code>itemid</code> attributes to set global identifiers, and an <a href="microdata-ids.html">alternative microdata test page</a> that does use <code>itemid</code> attributes.</p>
+			
+	
 			<h2>Data</h2>
 			<p>The following sections have been marked up with structured data that search engines and other tools should be able to extract:</p>
 			
