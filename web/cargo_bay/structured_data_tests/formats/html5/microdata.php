@@ -21,7 +21,7 @@ $page->renderHeader( SDTSiteNav::NAV_FORMATS, true );
 			<div itemscope itemtype="http://schema.org/Organization">
 				<h3 itemprop="name">Cyberfinity</h3>
 				<img itemprop="logo" src="<?php print SDTSiteNav::SITE_ROOT; ?>/cyberfinity-logo.png" alt="Cyberfinity logo" />
-				<p itemprop="description"><a itemprop="url" href="http://www.cyberfinity.net/">Cyberfinity</a> is a collection of websites produced and maintained by <span itemprop="member" itemscope itemtype="http://schema.org/Person"><a itemprop="url" href="http://cirrus.twiddles.com/"><span itemprop="name">James Nash</span></a></span> and his friends.</p>
+				<p itemprop="description"><a itemprop="url" href="http://www.cyberfinity.net/">Cyberfinity</a> is a collection of websites produced and maintained by <span itemprop="member" itemscope itemtype="http://schema.org/Person"><a itemprop="url" href="https://cirrus.twiddles.com/"><span itemprop="name">James Nash</span></a></span> and his friends.</p>
 			</div>
 			
 			<div itemscope itemtype="http://schema.org/Person">

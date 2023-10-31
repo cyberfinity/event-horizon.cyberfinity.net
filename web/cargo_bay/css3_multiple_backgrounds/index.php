@@ -76,8 +76,8 @@
 			require('sidebar.inc');
 		?>
 		<div id="footer">
-			<p>&copy; 2005<?php $current_year = date('Y'); if( $current_year > 2005 ){ print( " - ".date('Y') ); } ?> <a href="http://cirrus.twiddles.com/">James Nash</a>.</p>
-			<p>This site is a member of the <a href="http://www.twiddles.com/">Twiddles Network</a>.</p>
+			<p>&copy; 2005<?php $current_year = date('Y'); if( $current_year > 2005 ){ print( " - ".date('Y') ); } ?> <a href="https://cirrus.twiddles.com/">James Nash</a>.</p>
+			<p>This site is a member of the <a href="https://www.twiddles.com/">Twiddles Network</a>.</p>
 		</div>
 	</body>
 </html>

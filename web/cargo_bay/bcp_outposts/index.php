@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<h1>Outpost pictures</h1>
-		<p>These pictures were designed as backgrounds for the <a class="secret" href="http://burpmancorp.cyberfinity.net/">Burpman Corporation Productions (<acronym title="Burpman Corporation Productions">BCP</acronym>)</a> &amp; <a class="secret" href="http://mentalmix.cyberfinity.net/">Mental Mix</a> Outpost websites, <a href="http://twid.tripod.com/">Outpost 1</a> and <a href="http://members.tripod.com/~smoggs_denn/">Outpost 2</a>. They are available under a <a href="http://creativecommons.org/">Creative Commons</a> license, meaning that you can freely download and re-use them as long as you attribute me as the original artist (a link to this page or to <a href="http://cirrus.twiddles.com/">my website</a> would suffice). Please note that there are some additional restrictions too, click the license buttons by the images for the full details.</p>
+		<p>These pictures were designed as backgrounds for the <a class="secret" href="http://burpmancorp.cyberfinity.net/">Burpman Corporation Productions (<acronym title="Burpman Corporation Productions">BCP</acronym>)</a> &amp; <a class="secret" href="http://mentalmix.cyberfinity.net/">Mental Mix</a> Outpost websites, <a href="http://twid.tripod.com/">Outpost 1</a> and <a href="http://members.tripod.com/~smoggs_denn/">Outpost 2</a>. They are available under a <a href="http://creativecommons.org/">Creative Commons</a> license, meaning that you can freely download and re-use them as long as you attribute me as the original artist (a link to this page or to <a href="https://cirrus.twiddles.com/">my website</a> would suffice). Please note that there are some additional restrictions too, click the license buttons by the images for the full details.</p>
 		<p>Enjoy!</p>
 
 		<h2>Mountain Outpost</h2>
@@ -85,8 +85,8 @@
 			require('sidebar.inc');
 		?>
 		<div id="footer">
-			<p>&copy; 2005<?php $current_year = date('Y'); if( $current_year > 2005 ){ print( " - ".date('Y') ); } ?> <a href="http://cirrus.twiddles.com/">James Nash</a>.  <a href="index.rdf">Download copyright meta-data as <acronym title="Resource Description Framework">RDF</acronym></a>.</p>
-			<p>This site is a member of the <a href="http://www.twiddles.com/">Twiddles Network</a>.</p>
+			<p>&copy; 2005<?php $current_year = date('Y'); if( $current_year > 2005 ){ print( " - ".date('Y') ); } ?> <a href="https://cirrus.twiddles.com/">James Nash</a>.  <a href="index.rdf">Download copyright meta-data as <acronym title="Resource Description Framework">RDF</acronym></a>.</p>
+			<p>This site is a member of the <a href="https://www.twiddles.com/">Twiddles Network</a>.</p>
 		</div>
 	</body>
 </html>

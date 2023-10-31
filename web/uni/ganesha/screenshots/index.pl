@@ -172,7 +172,7 @@ print <<EOF;
 <a href="http://validator.w3.org/check/referer"><img src="/uni/ganesha/w3html.png" width="88" height="31" alt="[Valid XHTML]" /></a>
 <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/uni/ganesha/w3css.png" width="88" height="31" alt="[Valid CSS]" /></a>
 <a href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img src="/uni/ganesha/somerights.png" width="88" height="31" alt="[Some rights reserved]" /></a>
-<p>This page is &copy; 2004 <a href="http://cirrus.twiddles.com/">James Nash</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/1.0/">some rights reserved</a>.</p>
+<p>This page is &copy; 2004 <a href="https://cirrus.twiddles.com/">James Nash</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/1.0/">some rights reserved</a>.</p>
 </div>
 </body>
 </html>

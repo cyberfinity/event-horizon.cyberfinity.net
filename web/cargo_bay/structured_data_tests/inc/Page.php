@@ -83,7 +83,7 @@ EOF;
 			print <<<EOF
 		</div>
 		<div id="footer">
-			<p>&#169; 2013 <a href="http://cirrus.twiddles.com/">James Nash</a>.</p>
+			<p>&#169; 2013 <a href="https://cirrus.twiddles.com/">James Nash</a>.</p>
 			<p>Floating through cyberspace aboard the <a href="/">Event-Horizon</a>.</p>
 		</div>
 	</body>
@@ -97,7 +97,7 @@ EOF;
 			print <<<EOF
 		</main>
 		<footer>
-			<p>&copy; <time datetime="2003">2013</time> <a href="http://cirrus.twiddles.com/">James Nash</a>.</p>
+			<p>&copy; <time datetime="2003">2013</time> <a href="https://cirrus.twiddles.com/">James Nash</a>.</p>
 			<p>Floating through cyberspace aboard the <a href="/">Event-Horizon</a>.</p>
 		</footer>
 	</body>
