@@ -3,12 +3,10 @@
 
 User-agent: *
 Disallow: /new/
-Disallow: /uni/photos/
 Disallow: /uni/o2/old/
 Disallow: /uni/spacemonkeys/
 Disallow: /uni/ganesha/docs/javadoc/
 Disallow: /uni/ganesha/docs/presentation.pdf
 Disallow: /uni/ganesha/docs/progress.pdf
 Disallow: /uni/ganesha/docs/report/report.pdf
-Disallow: /uta/
 Disallow: /wap/gfx2/
