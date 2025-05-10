@@ -1,0 +1,18 @@
+{
+  "name": "@cyberfinity/spacemonkeys-site",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "author": "James Nash (https://cirrus.twiddles.com/)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@cyberfinity/event-horizon-site-meta": "0.0.0"
+  },
+  "nx": {
+    "projectType": "application",
+    "implicitDependencies": [
+      "@cyberfinity/event-horizon-site"
+    ]
+  }
+}

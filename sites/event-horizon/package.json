@@ -1,0 +1,21 @@
+{
+  "name": "@cyberfinity/event-horizon-site",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "clean": "node ./scripts/clean.js"
+  },
+  "author": "James Nash (https://cirrus.twiddles.com/)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@cyberfinity/event-horizon-site-meta": "0.0.0"
+  },
+  "nx": {
+    "projectType": "application"
+  }
+}

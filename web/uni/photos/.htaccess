@@ -1,4 +1,0 @@
-AuthType	Basic
-AuthName	Uni
-AuthUserFile	/stuff/.sites_admin/passwords
-Require		user test
