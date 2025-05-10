@@ -1,0 +1,41 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "outDir": "dist/",
+        "declaration": true,
+        // Enable to: top-level await, and other modern ESM features.
+        "target": "ESNext",
+        "module": "NodeNext",
+        // Enable module resolution without file extensions on relative paths, for things like npm package imports.
+        "moduleResolution": "NodeNext",
+        // Enforce the usage of type-only imports when needed, which helps avoiding bundling issues.
+        "verbatimModuleSyntax": true,
+        // Report an error when importing a file using a casing different from another import of the same file.
+        "forceConsistentCasingInFileNames": true,
+        // Skip typechecking libraries and .d.ts files
+        "skipLibCheck": true,
+        // Enable strict mode. This enables a few options at a time, see https://www.typescriptlang.org/tsconfig#strict for a list.
+        "strict": true,
+        // Report errors for fallthrough cases in switch statements
+        "noFallthroughCasesInSwitch": true,
+        // Force functions designed to override their parent class to be specified as `override`.
+        "noImplicitOverride": true,
+        // Force functions to specify that they can return `undefined` if a possible code path does not return a value.
+        "noImplicitReturns": true,
+        // Report an error when a variable is declared but never used.
+        "noUnusedLocals": true,
+        // Report an error when a parameter is declared but never used.
+        "noUnusedParameters": true,
+        // Force the usage of the indexed syntax to access fields declared using an index signature.
+        "noUncheckedIndexedAccess": true,
+        // Report an error when the value `undefined` is given to an optional property that doesn't specify `undefined` as a valid value.
+        "exactOptionalPropertyTypes": true,
+        // Report an error for unreachable code instead of just a warning.
+        "allowUnreachableCode": false,
+        // Report an error for unused labels instead of just a warning.
+        "allowUnusedLabels": false
+    },
+    "include": [
+        "src/"
+    ]
+}

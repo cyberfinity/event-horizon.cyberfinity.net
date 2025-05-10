@@ -1,0 +1,20 @@
+{
+  "name": "@cyberfinity/event-horizon-site-meta",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "clean": "del-cli dist/*",
+    "build": "tsc"
+  },
+  "author": "James Nash (https://cirrus.twiddles.com/)",
+  "license": "UNLICENSED",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "nx": {
+    "projectType": "library"
+  }
+}
