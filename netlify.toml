@@ -1,0 +1,9 @@
+
+# Preserve some wonky, old URLs
+[[redirects]]
+  from = "/eve/users.shtml"
+  to = "/eve/users.htm"
+
+[[redirects]]
+  from = "/eve/stats.shtml"
+  to = "/eve/stats.htm"
