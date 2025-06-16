@@ -1,0 +1,54 @@
+---
+import HTML5 from "@cyberfinity/polymorph-components-astro/layouts/HTML5.astro";
+import PageHeader from "@cyberfinity/polymorph-components-astro/components/PageHeader.astro";
+import EvePageFooter from "../components/EvePageFooter.astro";
+
+// Global site styles
+import "../style/base.scss";
+
+export interface Props {
+  /**
+   * Content for `<title>`
+   */
+  title: string;
+
+  /**
+   * Title text to use for semantic web & social media.
+   *
+   * Will be used for stuff like `og:title`, `schema:title`, etc.
+   */
+  socialTitle?: string;
+
+  /**
+   * Content for `<meta name="keywords">`
+   */
+  keywords?: string | string[];
+
+  /**
+   * Content for `<meta name="description">`
+   */
+  description?: string;
+}
+
+const { title, socialTitle, keywords, description } = Astro.props;
+---
+
+<HTML5 title={title}>
+  <Fragment slot="head-content">
+    <link rel="icon" href={new URL("favicon.ico", Astro.site)} />
+    <meta
+      name="keywords"
+      content={Array.isArray(keywords) ? keywords.join(",") : keywords}
+    />
+    <meta name="description" content={description} />
+    {socialTitle ? <meta property="og:title" content={socialTitle} /> : null}
+    <slot name="head-extra" />
+  </Fragment>
+  <PageHeader>
+    <slot name="header-content" />
+  </PageHeader>
+  <main>
+    <slot />
+  </main>
+  <EvePageFooter />
+</HTML5>

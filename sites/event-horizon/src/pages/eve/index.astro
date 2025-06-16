@@ -1,0 +1,82 @@
+---
+import ImageLink from "../../components/ImageLink.astro";
+import EvePage from "../../layouts/EvePage.astro";
+---
+
+<EvePage
+  titleSuffix="main"
+  socialTitle="Event-Horizon main link page"
+  description="Information on Event-Horizon and links to related sites"
+  keywords="event-horizon, cirrus, links, machine, wap"
+  headerLinkHref="../"
+>
+  <blockquote>
+    The edge of a black hole in space is known as the Event Horizon. It is the
+    point of no return. Once something passes the Event Horizon, nothing, not
+    even light, can escape.
+  </blockquote>
+  <p>...and you just passed it! Gutted! :P</p>
+  <p class="eve-margin-block-start" style="--eve-margin-multiple: 2;">
+    Event-Horizon is also the name the computer that is hosting this website.
+    Click the links below to find out more about...
+  </p>
+  <ul class="eve-link-list">
+    <li>
+      <ImageLink
+        href="./friends.htm"
+        src="./friends.png"
+        alt="the friends"
+        width={168}
+        height={37}
+      />
+    </li>
+    <li>
+      <ImageLink
+        href="./users.html"
+        src="./people.png"
+        alt="the people"
+        width={152}
+        height={38}
+      />
+    </li>
+    <li>
+      <ImageLink
+        href="./sites.html"
+        src="./sites.png"
+        alt="the sites"
+        width={137}
+        height={36}
+      />
+    </li>
+    <li>
+      <ImageLink
+        href="./relics.html"
+        src="./relics.png"
+        alt="the relics"
+        width={147}
+        height={38}
+      />
+    </li>
+    <li>
+      <ImageLink
+        href="./stats.html"
+        src="./machine.png"
+        alt="the machine"
+        width={170}
+        height={38}
+      />
+    </li>
+    <li>
+      <ImageLink
+        href="./wap.html"
+        src="./wap.png"
+        alt="the wap"
+        width={112}
+        height={36}
+      />
+    </li>
+  </ul>
+  <p class="eve-margin-block-start" style="--eve-margin-multiple: 1;">
+    Here is the only way to <a href="../">get back out</a> of the black hole!
+  </p>
+</EvePage>
