@@ -13,8 +13,7 @@
   "author": "James Nash (https://cirrus.twiddles.com/)",
   "license": "UNLICENSED",
   "dependencies": {
-    "@cyberfinity/event-horizon-site-meta": "0.0.0",
-    "@cyberfinity/polymorph-components-astro": "^0.2.0"
+    "@cyberfinity/event-horizon-site-meta": "0.0.0"
   },
   "nx": {
     "projectType": "application"

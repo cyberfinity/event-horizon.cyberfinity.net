@@ -1,0 +1,35 @@
+---
+import EveBase from "../layouts/EveBase.astro";
+import ImageLink from "../components/ImageLink.astro";
+---
+
+<style is:global lang="scss">
+  body {
+    background-image: url("./stars.png");
+
+    .eve-image-link {
+      // *roughly* equivalent to the 17.5px line-height that the
+      // stand-alone HTML3.2 <a><img></a> had...
+      margin-block-end: 1.2rem;
+    }
+  }
+</style>
+<EveBase
+  title=" -= Event-Horizon =- "
+  description="Event-horizon is Cirrus's personal webserver. It hosts various personal and experimental sites of his."
+  keywords="event-horizon, twiddles, cirrus, graphics, photos, adonthell, webdesign"
+>
+  <ImageLink
+    slot="header-content"
+    href="./eve/"
+    alt="Event Horizon"
+    src="black_hole.jpg"
+    width="600"
+    height="600"
+  />
+  <ul class="eve-link-list">
+    <li><a href="https://cirrus.twiddles.com/">James Nash's homepage</a></li>
+    <li><a href="https://www.twiddles.com/">Twiddles</a></li>
+    <li><a href="./cargo_bay/">Cargo Bay</a></li>
+  </ul>
+</EveBase>
