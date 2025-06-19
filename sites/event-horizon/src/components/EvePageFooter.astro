@@ -1,0 +1,20 @@
+---
+import PageFooter from "@cyberfinity/polymorph-components-astro/components/PageFooter.astro";
+
+export interface Props {
+  /**
+   * Custom copyright year for the footer.
+   *
+   * @default 2002
+   */
+  copyrightYear?: number | undefined;
+}
+
+const { copyrightYear = 2002 } = Astro.props;
+---
+
+<PageFooter>
+  © {copyrightYear}{" "}
+  <a href="https://cirrus.twiddles.com/">James Nash</a>. Event-Horizon is hosted
+  by <a href="https://www.cyberfinity.net/">Cyberfinity</a>.
+</PageFooter>

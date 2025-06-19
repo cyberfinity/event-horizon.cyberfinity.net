@@ -1,0 +1,91 @@
+@use './settings';
+
+body {
+    background-color: #000;
+    color: #ccc;
+
+    // Equivalent to <body>'s UA style margin: 8px, padding: 0
+    margin: 0;
+    padding: 0.5rem;
+
+    >header,
+    >main,
+    >footer {
+        margin-inline: auto;
+        max-width: settings.$max-content-width;
+        text-align: center;
+    }
+
+    >footer {
+        margin-block-start: 1rem;
+        margin-block-end: 0.5rem; // beause <body> has 0.5rem padding, so it adds up to 1rem
+        color: #999;
+        // Equivalent to <small>'s UA style
+        font-size: smaller;
+    }
+}
+
+blockquote {
+    margin-inline: 0;
+    font-style: italic;
+
+    &::before {
+        content: open-quote;
+    }
+
+    &::after {
+        content: close-quote;
+    }
+}
+
+:link,
+:visited {
+    color: #fff;
+}
+
+hr {
+    margin-inline: auto;
+    width: 50vw;
+    max-width: 100%;
+}
+
+.eve-left-paras {
+
+    text-align: left;
+
+}
+
+.eve-image-link {
+    width: fit-content;
+    display: block;
+    margin-inline: auto;
+
+    >img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.eve-link-list {
+    text-align: center;
+    padding-inline: 0;
+
+    >li {
+        list-style-type: none;
+    }
+
+    >li+li {
+        margin-block-start: 1em;
+    }
+}
+
+.eve-margin-block-start {
+    margin-block-start: calc(var(--eve-margin-multiple, 0) * 1lh + (var(--eve-margin-multiple, 0) + 1) * 1em);
+}
+
+.eve-pic {
+    display: block;
+    max-width: 100%;
+    margin-inline: auto;
+}

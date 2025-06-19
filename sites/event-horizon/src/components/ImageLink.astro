@@ -1,0 +1,15 @@
+---
+export interface Props {
+  href: URL | string;
+  src: string;
+  alt: string;
+  width?: number | string;
+  height?: number | string;
+}
+
+const { href, src, alt, width, height } = Astro.props;
+---
+
+<a class="eve-image-link" href={href}
+  ><img src={src} alt={alt} width={width} height={height} /></a
+>
