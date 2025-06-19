@@ -1,3 +1,5 @@
+@use './settings';
+
 body {
     background-color: #000;
     color: #ccc;
@@ -10,7 +12,7 @@ body {
     >main,
     >footer {
         margin-inline: auto;
-        max-width: 40rem;
+        max-width: settings.$max-content-width;
         text-align: center;
     }
 
@@ -41,6 +43,18 @@ blockquote {
     color: #fff;
 }
 
+hr {
+    margin-inline: auto;
+    width: 50vw;
+    max-width: 100%;
+}
+
+.eve-left-paras {
+
+    text-align: left;
+
+}
+
 .eve-image-link {
     width: fit-content;
     display: block;
@@ -54,6 +68,7 @@ blockquote {
 }
 
 .eve-link-list {
+    text-align: center;
     padding-inline: 0;
 
     >li {
@@ -65,17 +80,12 @@ blockquote {
     }
 }
 
-.eve-link-group {
-    &::after {
-        content: '';
-        display: block;
-        border: 1px inset #888;
-        margin-inline: auto;
-        width: 50vw;
-        max-width: 100%;
-    }
-}
-
 .eve-margin-block-start {
     margin-block-start: calc(var(--eve-margin-multiple, 0) * 1lh + (var(--eve-margin-multiple, 0) + 1) * 1em);
+}
+
+.eve-pic {
+    display: block;
+    max-width: 100%;
+    margin-inline: auto;
 }

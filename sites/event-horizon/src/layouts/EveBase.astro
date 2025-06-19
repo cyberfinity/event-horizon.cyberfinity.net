@@ -1,4 +1,5 @@
 ---
+import type { HTMLAttributes } from "astro/types";
 import HTML5 from "@cyberfinity/polymorph-components-astro/layouts/HTML5.astro";
 import PageHeader from "@cyberfinity/polymorph-components-astro/components/PageHeader.astro";
 import EvePageFooter from "../components/EvePageFooter.astro";
@@ -28,9 +29,22 @@ export interface Props {
    * Content for `<meta name="description">`
    */
   description?: string;
+
+  /**
+   * Additional props to spread on the `<main>` element.
+   */
+  mainProps?: HTMLAttributes<"main">;
+
+  /**
+   * Custom copyright year for the footer.
+   *
+   * @default 2002
+   */
+  copyrightYear?: number;
 }
 
-const { title, socialTitle, keywords, description } = Astro.props;
+const { title, socialTitle, keywords, description, mainProps, copyrightYear } =
+  Astro.props;
 ---
 
 <HTML5 title={title}>
@@ -47,8 +61,8 @@ const { title, socialTitle, keywords, description } = Astro.props;
   <PageHeader>
     <slot name="header-content" />
   </PageHeader>
-  <main>
+  <main {...mainProps}>
     <slot />
   </main>
-  <EvePageFooter />
+  <EvePageFooter copyrightYear={copyrightYear} />
 </HTML5>

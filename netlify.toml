@@ -1,9 +1,25 @@
 
 # Preserve some wonky, old URLs
 [[redirects]]
+  from = "/eve/friends.htm"
+  to = "/eve/friends.html"
+
+[[redirects]]
   from = "/eve/users.shtml"
-  to = "/eve/users.htm"
+  to = "/eve/users.html"
+
+[[redirects]]
+  from = "/eve/sites.htm"
+  to = "/eve/sites.html"
+
+[[redirects]]
+  from = "/eve/relics.htm"
+  to = "/eve/relics.html"
 
 [[redirects]]
   from = "/eve/stats.shtml"
-  to = "/eve/stats.htm"
+  to = "/eve/stats.html"
+  
+[[redirects]]
+  from = "/eve/wap.htm"
+  to = "/eve/wap.html"
