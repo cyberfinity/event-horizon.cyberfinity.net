@@ -1,0 +1,73 @@
+---
+import EveBase from "../../layouts/EveBase.astro";
+import ImageLink from "../../components/ImageLink.astro";
+---
+
+<EveBase
+  title="University Stuff"
+  description="Cirrus's University Stuff: Websites and photos related to my activities at the University of Warwick"
+  keywords="university, uni, warwick, photos, rootes, tesco, james nash, cirrus"
+>
+  <img
+    src="uni_stuff.png"
+    width="153"
+    height="76"
+    alt="Uni Stuff"
+    class="eve-pic"
+    slot="header-content"
+  />
+  <p>
+    Hi there! My name is <a href="https://cirrus.twiddles.com/">James Nash</a> and
+    here's a collection of sites that I have made that are related in some way to
+    my activities at Warwick University...
+  </p>
+
+  <ul
+    class="eve-link-list eve-margin-block-start"
+    style="--eve-margin-multiple: 1;"
+  >
+    <!--
+<a href="photos/"><img src="photos.png" width="213" height="83" alt="Photo Archive" border="0"></a>
+<br>
+All the photos I have from uni in no particular order! Maybe I'll make some kind of gallery for them one day but don't expect anything soon!
+
+<p>
+-->
+    <li>
+      <ImageLink
+        href="http://nimbus-protocol.sourceforge.net/"
+        src="./nimbus.png"
+        alt="Nimbus"
+        width={329}
+        height={81}
+      />
+      My 4th year (2004/2005) group project - A social discovery protocol
+    </li>
+
+    <li>
+      <ImageLink
+        href="./ganesha/"
+        src="./ganesha.png"
+        alt="Ganesha"
+        width={228}
+        height={135}
+      />
+      My third year (2003/04) project - A simple RDF/XML editor!
+    </li>
+    <!--
+<a href="spacemonkeys/"><img src="spacemonkeys.png" width="346" height="69" alt="SpaceMonkeys" border="0"></a>
+<br>
+My second year (2002/03) Software Engineering project website!
+
+<p>
+-->
+    <li>
+      <ImageLink href="./o2/" src="./o2.png" alt="O2" width={97} height={50} />
+      Website of my first year (2001/02) halls! O-Block 2nd floor of the legendary
+      Rootes Residences!
+    </li>
+  </ul>
+  <p class="eve-margin-block-start" style="--eve-margin-multiple: 1;">
+    <a href="../">Return to Event-Horizon</a>
+  </p>
+</EveBase>
