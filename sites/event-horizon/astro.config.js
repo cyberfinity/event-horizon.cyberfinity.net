@@ -8,6 +8,10 @@ export default defineConfig({
 
   outDir: eventHorizon.distDir,
 
+  build: {
+    format: "preserve",
+  },
+
   vite: {
     build: {
       emptyOutDir: false,
