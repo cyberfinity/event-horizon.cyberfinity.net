@@ -13,7 +13,7 @@ export interface Props extends Omit<EveBaseProps, "title"> {
    *
    * @default "./"
    */
-  headerLinkHref?: string | URL;
+  headerLinkHref?: string | URL | undefined;
 }
 
 const { titleSuffix, headerLinkHref = "./", ...eveBaseProps } = Astro.props;
@@ -24,7 +24,7 @@ const { titleSuffix, headerLinkHref = "./", ...eveBaseProps } = Astro.props;
     slot="header-content"
     href={headerLinkHref}
     alt="Event Horizon"
-    src="eve.jpg"
+    src="/eve/eve.jpg"
     width="278"
     height="82"
   />
