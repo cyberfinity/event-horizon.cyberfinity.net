@@ -1,0 +1,32 @@
+---
+import EveBase, { type Props as EveBaseProps } from "./EveBase.astro";
+import ImageLink from "../components/ImageLink.astro";
+
+export interface Props extends Omit<EveBaseProps, "title"> {
+  /**
+   * Page name to append to page's `<title>` text
+   */
+  titleSuffix: string;
+
+  /**
+   * The `href` URL for the "Event Horizon" link in the page header.
+   *
+   * @default "./"
+   */
+  headerLinkHref?: string | URL | undefined;
+}
+
+const { titleSuffix, headerLinkHref = "./", ...eveBaseProps } = Astro.props;
+---
+
+<EveBase title={` -= Event-Horizon =- / ${titleSuffix}`} {...eveBaseProps}>
+  <ImageLink
+    slot="header-content"
+    href={headerLinkHref}
+    alt="Event Horizon"
+    src="/eve/eve.jpg"
+    width="278"
+    height="82"
+  />
+  <slot />
+</EveBase>

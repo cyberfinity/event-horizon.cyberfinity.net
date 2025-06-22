@@ -1,0 +1,17 @@
+---
+import EvePage from "../layouts/EvePage.astro";
+---
+
+<EvePage titleSuffix="File not Found (404)" headerLinkHref={Astro.site}>
+  <p>
+    I'm sorry but the page or file you requested does not exist! (Error 404)
+  </p>
+  <p>
+    Probably the link you clicked was dodgy or perhaps you mistyped the URL.
+  </p>
+  <p>
+    You can get to all available pages from <a href={Astro.site}
+      >Event-Horizon's main page</a
+    >
+  </p>
+</EvePage>
