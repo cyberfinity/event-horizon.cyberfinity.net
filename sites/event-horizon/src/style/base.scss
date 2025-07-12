@@ -1,8 +1,8 @@
 @use './settings';
 
 body {
-    background-color: #000;
-    color: #ccc;
+    background-color: settings.$color-bg;
+    color: settings.$color-text;
 
     // Equivalent to <body>'s UA style margin: 8px, padding: 0
     margin: 0;
@@ -19,7 +19,7 @@ body {
     >footer {
         margin-block-start: 1rem;
         margin-block-end: 0.5rem; // beause <body> has 0.5rem padding, so it adds up to 1rem
-        color: #999;
+        color: settings.$color-text-subtle;
         // Equivalent to <small>'s UA style
         font-size: smaller;
     }
@@ -40,7 +40,7 @@ blockquote {
 
 :link,
 :visited {
-    color: #fff;
+    color: settings.$color-link;
 }
 
 hr {

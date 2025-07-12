@@ -13,12 +13,11 @@
   "author": "James Nash (https://cirrus.twiddles.com/)",
   "license": "UNLICENSED",
   "dependencies": {
-    "@cyberfinity/event-horizon-site-meta": "0.0.0"
+    "@cyberfinity/astro-helpers": "0.0.0",
+    "@cyberfinity/event-horizon-site-meta": "0.0.0",
+    "@cyberfinity/event-horizon-site": "0.0.0"
   },
   "nx": {
-    "projectType": "application",
-    "implicitDependencies": [
-      "@cyberfinity/event-horizon-site"
-    ]
+    "projectType": "application"
   }
 }

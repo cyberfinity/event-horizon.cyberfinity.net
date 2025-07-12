@@ -3,6 +3,7 @@ import type { HTMLAttributes } from "astro/types";
 import HTML5 from "@cyberfinity/polymorph-components-astro/layouts/HTML5.astro";
 import PageHeader from "@cyberfinity/polymorph-components-astro/components/PageHeader.astro";
 import EvePageFooter from "../components/EvePageFooter.astro";
+import { getSubSiteUrl } from "@cyberfinity/astro-helpers";
 
 // Global site styles
 import "../style/base.scss";
@@ -49,7 +50,7 @@ const { title, socialTitle, keywords, description, mainProps, copyrightYear } =
 
 <HTML5 title={title}>
   <Fragment slot="head-content">
-    <link rel="icon" href={new URL("favicon.ico", Astro.site)} />
+    <link rel="icon" href={getSubSiteUrl(Astro.url, "./favicon.ico")} />
     <meta
       name="keywords"
       content={Array.isArray(keywords) ? keywords.join(",") : keywords}

@@ -1,6 +1,7 @@
 ---
 import EveBase, { type Props as EveBaseProps } from "./EveBase.astro";
 import ImageLink from "../components/ImageLink.astro";
+import { getSubSiteUrl } from "@cyberfinity/astro-helpers";
 
 export interface Props extends Omit<EveBaseProps, "title"> {
   /**
@@ -24,7 +25,7 @@ const { titleSuffix, headerLinkHref = "./", ...eveBaseProps } = Astro.props;
     slot="header-content"
     href={headerLinkHref}
     alt="Event Horizon"
-    src="/eve/eve.jpg"
+    src={getSubSiteUrl(Astro.url, "./eve/eve.jpg").pathname}
     width="278"
     height="82"
   />

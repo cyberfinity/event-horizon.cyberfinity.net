@@ -1,8 +1,12 @@
 ---
 import EvePage from "../layouts/EvePage.astro";
+import { getSubSiteBaseUrl } from "@cyberfinity/astro-helpers";
 ---
 
-<EvePage titleSuffix="File not Found (404)" headerLinkHref={Astro.site}>
+<EvePage
+  titleSuffix="File not Found (404)"
+  headerLinkHref={getSubSiteBaseUrl(Astro.url)}
+>
   <p>
     I'm sorry but the page or file you requested does not exist! (Error 404)
   </p>
@@ -10,8 +14,8 @@ import EvePage from "../layouts/EvePage.astro";
     Probably the link you clicked was dodgy or perhaps you mistyped the URL.
   </p>
   <p>
-    You can get to all available pages from <a href={Astro.site}
-      >Event-Horizon's main page</a
+    You can get to all available pages from <a
+      href={getSubSiteBaseUrl(Astro.url)}>Event-Horizon's main page</a
     >
   </p>
 </EvePage>

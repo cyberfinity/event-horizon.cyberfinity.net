@@ -1,0 +1,24 @@
+{
+  "name": "@cyberfinity/astro-helpers",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "del-cli dist/*",
+    "build": "tsc"
+  },
+  "author": "James Nash (https://cirrus.twiddles.com/)",
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "astro": "^5.10.0"
+  },
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "nx": {
+    "projectType": "library"
+  }
+}
