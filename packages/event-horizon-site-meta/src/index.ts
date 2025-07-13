@@ -1,9 +1,13 @@
+import { env } from "node:process";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const siteDistRoot = fileURLToPath(new URL("../../../dist/", import.meta.url));
 
-export const site = "https://event-horizon.cyberfinity.net";
+export const site =
+  env["CONTEXT"] === "deploy-preview"
+    ? env["DEPLOY_PRIME_URL"]
+    : "https://event-horizon.cyberfinity.net";
 
 function makeCargoBayPath(siteDir: string): string {
   return `/cargo_bay/${siteDir}/`;
