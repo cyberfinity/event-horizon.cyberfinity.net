@@ -4,7 +4,7 @@ import { site, eventHorizon } from "@cyberfinity/event-horizon-site-meta";
 
 // https://astro.build/config
 export default defineConfig({
-  site,
+  site: site(),
 
   outDir: eventHorizon.distDir,
 

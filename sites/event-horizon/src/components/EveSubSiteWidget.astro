@@ -1,0 +1,39 @@
+---
+
+---
+
+<style is:global lang="scss">
+  @use "../style/settings";
+
+  .eve-sub-site-widget {
+    font-size: 1rem;
+    font-family: initial;
+    padding-block: 0.5rem;
+    color: settings.$color-text;
+    background-color: settings.$color-bg;
+    text-align: center;
+
+    :link,
+    :visited {
+      color: settings.$color-link;
+    }
+
+    > p {
+      margin-block: 0;
+      margin-inline: auto;
+      padding-inline: 0.5rem;
+      max-width: settings.$max-content-width;
+    }
+
+    > p + p {
+      margin-block-start: 0.5rem;
+    }
+  }
+</style>
+<aside class="eve-sub-site-widget">
+  <p>This is cruising aboard the <a href="/">Event-Horizon</a>.</p>
+  <p>
+    <a href="/cargo_bay/">Access the cargo bay</a> to see other websites that have
+    been salvaged.
+  </p>
+</aside>

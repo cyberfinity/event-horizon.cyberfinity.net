@@ -12,7 +12,11 @@
   },
   "author": "James Nash (https://cirrus.twiddles.com/)",
   "license": "UNLICENSED",
+  "exports": {
+    "./components/EveSubSiteWidget.astro": "./src/components/EveSubSiteWidget.astro"
+  },
   "dependencies": {
+    "@cyberfinity/astro-helpers": "0.0.0",
     "@cyberfinity/event-horizon-site-meta": "0.0.0"
   },
   "nx": {
