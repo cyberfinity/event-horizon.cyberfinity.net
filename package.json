@@ -17,7 +17,7 @@
     "@cyberfinity/polymorph-components-astro": "^0.2.1"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.4",
+    "@astrojs/check": "^0.9.6",
     "astro": "^5.15.2",
     "del": "^8.0.0",
     "del-cli": "^7.0.0",
