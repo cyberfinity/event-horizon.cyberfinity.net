@@ -10,9 +10,9 @@
   "author": "James Nash (https://cirrus.twiddles.com/)",
   "license": "UNLICENSED",
   "exports": {
-    ".": {
-      "default": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+    ".": "./js/index.js",
+    "./types.js": {
+      "types": "./dist/types.d.ts"
     }
   },
   "nx": {

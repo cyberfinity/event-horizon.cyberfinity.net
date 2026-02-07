@@ -10,7 +10,7 @@
   "author": "James Nash (https://cirrus.twiddles.com/)",
   "license": "UNLICENSED",
   "peerDependencies": {
-    "astro": "^5.10.0"
+    "astro": "^5.17.1"
   },
   "exports": {
     ".": {
