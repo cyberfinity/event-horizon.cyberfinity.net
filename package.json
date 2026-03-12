@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.6",
-    "astro": "^5.17.1",
+    "astro": "^6.0.4",
     "del": "^8.0.1",
     "del-cli": "^7.0.0",
     "nx": "^22.4.5",
